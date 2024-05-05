@@ -1,0 +1,6 @@
+promptfoo.py
+setup.py
+promptfoo.egg-info/PKG-INFO
+promptfoo.egg-info/SOURCES.txt
+promptfoo.egg-info/dependency_links.txt
+promptfoo.egg-info/top_level.txt

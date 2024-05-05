@@ -1,0 +1,243 @@
+[
+  {
+    "pass": true,
+    "score": 0.9726477246501352,
+    "reason": "",
+    "metric": {
+      "model": "mistral-7b-instruct-v0.2.Q4_K_M",
+      "name": "cosineSimilarity",
+      "data": {
+        "score": 0.9726477246501352,
+        "pricing": {}
+      },
+      "testContext": {
+        "prompt": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+        "vars": {
+          "ids": {
+            "test": "1",
+            "question": "1",
+            "answer": "1"
+          },
+          "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+          "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+          "quality": {
+            "specificity": 0.8,
+            "relevance": 0.8,
+            "answer_correctness": 1
+          },
+          "citation": {
+            "document": "119_ZuSMa_Senat_18012022.pdf",
+            "page": [
+              3,
+              4
+            ]
+          }
+        },
+        "test": {
+          "vars": {
+            "ids": {
+              "test": "1",
+              "question": "1",
+              "answer": "1"
+            },
+            "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+            "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+            "quality": {
+              "specificity": 0.8,
+              "relevance": 0.8,
+              "answer_correctness": 1
+            },
+            "citation": {
+              "document": "119_ZuSMa_Senat_18012022.pdf",
+              "page": [
+                3,
+                4
+              ]
+            }
+          },
+          "assert": [
+            {
+              "type": "python",
+              "value": "file://metrics/metric_cosineSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_jaccardSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_chatGPTScore.py"
+            }
+          ],
+          "options": {}
+        }
+      }
+    },
+    "assertion": {
+      "type": "python",
+      "value": "file://metrics/metric_cosineSimilarity.py"
+    }
+  },
+  {
+    "pass": true,
+    "score": 0.6111111111111112,
+    "reason": "",
+    "metric": {
+      "model": "mistral-7b-instruct-v0.2.Q4_K_M",
+      "name": "jaccardSimilarity",
+      "data": {
+        "score": 0.6111111111111112,
+        "pricing": {}
+      },
+      "testContext": {
+        "prompt": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+        "vars": {
+          "ids": {
+            "test": "1",
+            "question": "1",
+            "answer": "1"
+          },
+          "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+          "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+          "quality": {
+            "specificity": 0.8,
+            "relevance": 0.8,
+            "answer_correctness": 1
+          },
+          "citation": {
+            "document": "119_ZuSMa_Senat_18012022.pdf",
+            "page": [
+              3,
+              4
+            ]
+          }
+        },
+        "test": {
+          "vars": {
+            "ids": {
+              "test": "1",
+              "question": "1",
+              "answer": "1"
+            },
+            "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+            "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+            "quality": {
+              "specificity": 0.8,
+              "relevance": 0.8,
+              "answer_correctness": 1
+            },
+            "citation": {
+              "document": "119_ZuSMa_Senat_18012022.pdf",
+              "page": [
+                3,
+                4
+              ]
+            }
+          },
+          "assert": [
+            {
+              "type": "python",
+              "value": "file://metrics/metric_cosineSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_jaccardSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_chatGPTScore.py"
+            }
+          ],
+          "options": {}
+        }
+      }
+    },
+    "assertion": {
+      "type": "python",
+      "value": "file://metrics/metric_jaccardSimilarity.py"
+    }
+  },
+  {
+    "pass": true,
+    "score": 1,
+    "reason": "",
+    "metric": {
+      "model": "mistral-7b-instruct-v0.2.Q4_K_M",
+      "name": "chatGPTScore",
+      "data": {
+        "score": 1,
+        "pricing": {
+          "price_prompt_tokens": "0.0002600000",
+          "price_completion_tokens": "0.0000045000",
+          "price_str": "0.0002645000"
+        }
+      },
+      "testContext": {
+        "prompt": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+        "vars": {
+          "ids": {
+            "test": "1",
+            "question": "1",
+            "answer": "1"
+          },
+          "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+          "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+          "quality": {
+            "specificity": 0.8,
+            "relevance": 0.8,
+            "answer_correctness": 1
+          },
+          "citation": {
+            "document": "119_ZuSMa_Senat_18012022.pdf",
+            "page": [
+              3,
+              4
+            ]
+          }
+        },
+        "test": {
+          "vars": {
+            "ids": {
+              "test": "1",
+              "question": "1",
+              "answer": "1"
+            },
+            "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+            "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+            "quality": {
+              "specificity": 0.8,
+              "relevance": 0.8,
+              "answer_correctness": 1
+            },
+            "citation": {
+              "document": "119_ZuSMa_Senat_18012022.pdf",
+              "page": [
+                3,
+                4
+              ]
+            }
+          },
+          "assert": [
+            {
+              "type": "python",
+              "value": "file://metrics/metric_cosineSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_jaccardSimilarity.py"
+            },
+            {
+              "type": "python",
+              "value": "file://metrics/metric_chatGPTScore.py"
+            }
+          ],
+          "options": {}
+        }
+      }
+    },
+    "assertion": {
+      "type": "python",
+      "value": "file://metrics/metric_chatGPTScore.py"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "model": "mistral-7b-instruct-v0.2.Q4_K_M",
+    "output": " (Translation: Which documents can be accepted as proof of German language skills?)\n\nAnswer: Die folgenden Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT). (Translation: The following documents can be accepted as proof of German language skills: (1) Certification of a language examination for a Bachelor's degree by submitting the access authorization of the college of studies at the University",
+    "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT).",
+    "perplexity": 1.0653073614871005,
+    "timings": {
+      "load_time": {
+        "time": 1381.2
+      },
+      "sample_time": {
+        "time": 81.14,
+        "runs": 81,
+        "ms_per_token": 0.32,
+        "tokens_per_second": 3155.2
+      },
+      "prompt_eval_time": {
+        "time": 1380.92,
+        "tokens": 1380,
+        "ms_per_token": 5.46,
+        "tokens_per_second": 183.21
+      },
+      "eval_time": {
+        "time": 14015.64,
+        "runs": 14015,
+        "ms_per_token": 54.96,
+        "tokens_per_second": 18.19
+      },
+      "total_time": {
+        "time": 16716.99,
+        "tokens": 16716
+      }
+    },
+    "token_usage": {
+      "prompt_tokens": 253,
+      "completion_tokens": 256,
+      "total_tokens": 509
+    },
+    "finish_reason": "length",
+    "question": "Welche Dokumente k\u00f6nnen als Nachweis f\u00fcr deutsche Sprachkenntnisse akzeptiert werden?",
+    "latency_ms": 32778
+  }
+]
