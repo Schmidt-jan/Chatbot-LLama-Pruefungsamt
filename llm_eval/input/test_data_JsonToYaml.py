@@ -18,6 +18,7 @@ def convert_json_to_yaml(json_file, yaml_file):
     answer: "{answer['text']}"
     quality: {{"specificity": {question['quality']['specificity']}, "relevance": {question['quality']['relevance']}, "answer_correctness": {answer['correctness']}}}
     citation: {{ "document": "{answer['cite']['document']}", "page": {answer['cite']['page']}}}
+    keywords: {{"list": {answer['keywords']}}}
   assert:"""
 
                 for metric in data['metrics']:

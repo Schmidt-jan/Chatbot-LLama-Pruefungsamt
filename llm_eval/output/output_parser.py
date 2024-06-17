@@ -21,9 +21,9 @@ def extract_generation_results(json_data):
                 }})
     return generation_results 
 
-input_json_file_path = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output.json'
-output_json_file_path_componentResults = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output_componentResults.json'
-output_json_file_path_generation_results = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output_generation_results.json'
+input_json_file_path = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output2.json'
+output_json_file_path_componentResults = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output_componentResults2.json'
+output_json_file_path_generation_results = '/home/tpllmws23/Chatbot-LLama-Pruefungsamt/llm_eval/output/output_generation_results2.json'
 
 with open(input_json_file_path, "r", encoding="utf-8") as file:
     json_data = json.load(file)

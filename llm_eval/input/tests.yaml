@@ -1,11 +1,11 @@
 
 - vars:
-    ids: {"test": 1, "question": 1, "answer": 1}
+    ids: {"test": "1", "question": "1", "answer": "1"}
     question: "Welche Dokumente können als Nachweis für deutsche Sprachkenntnisse akzeptiert werden?"
     answer: "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
-    keywords: ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']
     quality: {"specificity": 0.8, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -21,14 +21,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 1, "question": 2, "answer": 1}
+    ids: {"test": "1", "question": "2", "answer": "1"}
     question: "Wie wird geprüft, ob jemand Deutsch kann?"
     answer: "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
-    keywords: ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']
     quality: {"specificity": 0.8, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -44,14 +46,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 1, "question": 3, "answer": 1}
+    ids: {"test": "1", "question": "3", "answer": "1"}
     question: "Welche Dokumente braucht man, um zu zeigen, dass man Deutsch kann?"
     answer: "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
-    keywords: ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']
     quality: {"specificity": 0.8, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Zugangsberechtigung des Studienkollegs', 'TestDaF', 'TDN 4', 'DSH-2', 'Telc Deutsch C1']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -67,14 +71,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 2, "question": 1, "answer": 1}
+    ids: {"test": "2", "question": "1", "answer": "1"}
     question: "Gibt es Ausnahmen, bei denen Bewerberinnen und Bewerber auf den Nachweis einer deutschen Sprachprüfung verzichten können?"
     answer: "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
-    keywords: ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']
     quality: {"specificity": 0.4, "relevance": 0.85, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -90,14 +96,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 2, "question": 2, "answer": 1}
+    ids: {"test": "2", "question": "2", "answer": "1"}
     question: "Gibt's Ausnahmen für Deutschprüfungen?"
     answer: "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
-    keywords: ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']
     quality: {"specificity": 0.35, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -113,14 +121,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 2, "question": 3, "answer": 1}
+    ids: {"test": "2", "question": "3", "answer": "1"}
     question: "Könnt ich die Prüfung für Deutsch auch irgendwie skippen?"
     answer: "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
-    keywords: ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']
     quality: {"specificity": 0.3, "relevance": 0.65, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['begründeten Einzelfall', 'deutsche Staatsangehörigkeit']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -136,14 +146,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 3, "question": 1, "answer": 1}
+    ids: {"test": "3", "question": "1", "answer": "1"}
     question: "Bis zu welchem Zeitpunkt können Sprachnachweise für den gewählten Studiengang nachgereicht werden, wenn sie bis zum Bewerbungsschluss nicht vorgelegt werden können?"
     answer: "Sprachnachweise für den gewählten Studiengang, die bis zum Bewerbungsschluss nicht vorgelegt werden können, können bis zum Vorlesungsbeginn des Semesters gemäß dem Terminplan der Hochschule Konstanz, für das der Antrag auf Zulassung gestellt wurde, nachgereicht werden. Die Zulassung erfolgt in diesem Fall gemäß § 6 Abs. 5 unter Vorbehalt."
-    keywords: ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']
     quality: {"specificity": 0.55, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -159,14 +171,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 3, "question": 2, "answer": 1}
+    ids: {"test": "3", "question": "2", "answer": "1"}
     question: "Wann kann man seine Deutschprüfung nachreichen, wenn man sie beim Bewerbungsschluss nicht hat?"
     answer: "Sprachnachweise für den gewählten Studiengang, die bis zum Bewerbungsschluss nicht vorgelegt werden können, können bis zum Vorlesungsbeginn des Semesters gemäß dem Terminplan der Hochschule Konstanz, für das der Antrag auf Zulassung gestellt wurde, nachgereicht werden. Die Zulassung erfolgt in diesem Fall gemäß § 6 Abs. 5 unter Vorbehalt."
-    keywords: ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']
     quality: {"specificity": 0.65, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -182,14 +196,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 3, "question": 3, "answer": 1}
+    ids: {"test": "3", "question": "3", "answer": "1"}
     question: "Bis wann muss ich den Deutschtest nachreichen, wenn ich ihn beim Anfang nicht hab?"
     answer: "Sprachnachweise für den gewählten Studiengang, die bis zum Bewerbungsschluss nicht vorgelegt werden können, können bis zum Vorlesungsbeginn des Semesters gemäß dem Terminplan der Hochschule Konstanz, für das der Antrag auf Zulassung gestellt wurde, nachgereicht werden. Die Zulassung erfolgt in diesem Fall gemäß § 6 Abs. 5 unter Vorbehalt."
-    keywords: ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']
     quality: {"specificity": 0.75, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [5]}
+    keywords: {"list": ['Bewerbungsschluss', 'Antrag auf Zulassung', '§ 6 Abs. 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -205,14 +221,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 4, "question": 1, "answer": 1}
+    ids: {"test": "4", "question": "1", "answer": "1"}
     question: "Bis wann müssen die Anträge auf Zulassung für das Sommersemester und das Wintersemester bei der Hochschule Konstanz eingereicht werden? "
     answer: "Die Anträge auf Zulassung für das Sommersemester müssen bis zum 1. Dezember des Vorjahres eingereicht werden, während die Anträge für das Wintersemester bis zum 1. Juni des Jahres bei der Hochschule Konstanz eingegangen sein müssen."
-    keywords: ['1. Dezember des Vorjahres', '1. Juni des Jahres']
     quality: {"specificity": 0.8, "relevance": 0.85, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3]}
+    keywords: {"list": ['1. Dezember des Vorjahres', '1. Juni des Jahres']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -228,14 +246,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 4, "question": 2, "answer": 1}
+    ids: {"test": "4", "question": "2", "answer": "1"}
     question: "Bis wann muss man die Anträge fürs Sommersemester und Wintersemester abgeben?"
     answer: "Die Anträge auf Zulassung für das Sommersemester müssen bis zum 1. Dezember des Vorjahres eingereicht werden, während die Anträge für das Wintersemester bis zum 1. Juni des Jahres bei der Hochschule Konstanz eingegangen sein müssen."
-    keywords: ['1. Dezember des Vorjahres', '1. Juni des Jahres']
     quality: {"specificity": 0.75, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3]}
+    keywords: {"list": ['1. Dezember des Vorjahres', '1. Juni des Jahres']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -251,14 +271,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 4, "question": 3, "answer": 1}
+    ids: {"test": "4", "question": "3", "answer": "1"}
     question: "Bis wann soll ich den Antrag fürs Sommersemester und Wintersemester abgeben?"
     answer: "Die Anträge auf Zulassung für das Sommersemester müssen bis zum 1. Dezember des Vorjahres eingereicht werden, während die Anträge für das Wintersemester bis zum 1. Juni des Jahres bei der Hochschule Konstanz eingegangen sein müssen."
-    keywords: ['1. Dezember des Vorjahres', '1. Juni des Jahres']
     quality: {"specificity": 0.7, "relevance": 0.75, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3]}
+    keywords: {"list": ['1. Dezember des Vorjahres', '1. Juni des Jahres']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -274,14 +296,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 5, "question": 1, "answer": 1}
+    ids: {"test": "5", "question": "1", "answer": "1"}
     question: "Welche Unterlagen müssen dem Antrag auf Zulassung beigefügt werden?"
     answer: "Dem Antrag auf Zulassung müssen folgende Unterlagen beigefügt werden: (1) Nachweis über einen Hochschulabschluss oder einen gleichwertigen Abschluss, (2) Zeugnisse oder Urkunden zum Nachweis der Zugangsvoraussetzungen und Auswahlkriterien für den gewählten Studiengang, (3) Bescheinigung über die Feststellung der Gleichwertigkeit der ausländischen Vorbildung (falls zutreffend), (4) Lebenslauf, (5) Begründung und Nachweise für eine Zulassung im Rahmen der Auswahl nach Härtegesichtspunkten, (6) Erklärung und Nachweis über die Erlöschung des Prüfungsanspruchs an einer Hochschule derselben Hochschulart (falls zutreffend), und (7) weitere Nachweise gemäß den Anforderungen der Hochschule."
-    keywords: ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']
     quality: {"specificity": 0.95, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -297,14 +321,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 5, "question": 2, "answer": 1}
+    ids: {"test": "5", "question": "2", "answer": "1"}
     question: "Welche Papiere muss ich meinem Zulassungsantrag beifügen?"
     answer: "Dem Antrag auf Zulassung müssen folgende Unterlagen beigefügt werden: (1) Nachweis über einen Hochschulabschluss oder einen gleichwertigen Abschluss, (2) Zeugnisse oder Urkunden zum Nachweis der Zugangsvoraussetzungen und Auswahlkriterien für den gewählten Studiengang, (3) Bescheinigung über die Feststellung der Gleichwertigkeit der ausländischen Vorbildung (falls zutreffend), (4) Lebenslauf, (5) Begründung und Nachweise für eine Zulassung im Rahmen der Auswahl nach Härtegesichtspunkten, (6) Erklärung und Nachweis über die Erlöschung des Prüfungsanspruchs an einer Hochschule derselben Hochschulart (falls zutreffend), und (7) weitere Nachweise gemäß den Anforderungen der Hochschule."
-    keywords: ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']
     quality: {"specificity": 0.8, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -320,14 +346,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 5, "question": 3, "answer": 1}
+    ids: {"test": "5", "question": "3", "answer": "1"}
     question: "Welche Papiere muss ich mit dem Antrag mitgeben?"
     answer: "Dem Antrag auf Zulassung müssen folgende Unterlagen beigefügt werden: (1) Nachweis über einen Hochschulabschluss oder einen gleichwertigen Abschluss, (2) Zeugnisse oder Urkunden zum Nachweis der Zugangsvoraussetzungen und Auswahlkriterien für den gewählten Studiengang, (3) Bescheinigung über die Feststellung der Gleichwertigkeit der ausländischen Vorbildung (falls zutreffend), (4) Lebenslauf, (5) Begründung und Nachweise für eine Zulassung im Rahmen der Auswahl nach Härtegesichtspunkten, (6) Erklärung und Nachweis über die Erlöschung des Prüfungsanspruchs an einer Hochschule derselben Hochschulart (falls zutreffend), und (7) weitere Nachweise gemäß den Anforderungen der Hochschule."
-    keywords: ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']
     quality: {"specificity": 0.75, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [3, 4]}
+    keywords: {"list": ['Nachweis über einen Hochschulabschluss', 'Zeugnisse oder Urkunden', 'Gleichwertigkeit der ausländischen Vorbildung', 'Lebenslauf', 'Nachweise']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -343,14 +371,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 6, "question": 1, "answer": 1}
+    ids: {"test": "6", "question": "1", "answer": "1"}
     question: "Wie erfolgt die Teilnahme am Auswahlverfahren für die Zulassung zu einem Masterstudiengang?"
     answer: "Die Bewerberinnen und Bewerber nehmen am Auswahlverfahren mit einer Durchschnittsnote teil, die auf Grund der Noten der bisher erbrachten Prüfungsleistungen unter Berücksichtigung der für die Abschlussnote vorgesehenen Gewichtungen ermittelt wird. Das Ergebnis des Abschlusses bleibt nach § 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet."
-    keywords: ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']
     quality: {"specificity": 1.0, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [4]}
+    keywords: {"list": ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -366,14 +396,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 6, "question": 2, "answer": 1}
+    ids: {"test": "6", "question": "2", "answer": "1"}
     question: "Wie kann man beim Masterstudium mitmachen?"
     answer: "Die Bewerberinnen und Bewerber nehmen am Auswahlverfahren mit einer Durchschnittsnote teil, die auf Grund der Noten der bisher erbrachten Prüfungsleistungen unter Berücksichtigung der für die Abschlussnote vorgesehenen Gewichtungen ermittelt wird. Das Ergebnis des Abschlusses bleibt nach § 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet."
-    keywords: ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [4]}
+    keywords: {"list": ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -389,14 +421,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 6, "question": 3, "answer": 1}
+    ids: {"test": "6", "question": "3", "answer": "1"}
     question: "Wie kann man sich für'n Master bewerben?"
     answer: "Die Bewerberinnen und Bewerber nehmen am Auswahlverfahren mit einer Durchschnittsnote teil, die auf Grund der Noten der bisher erbrachten Prüfungsleistungen unter Berücksichtigung der für die Abschlussnote vorgesehenen Gewichtungen ermittelt wird. Das Ergebnis des Abschlusses bleibt nach § 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet."
-    keywords: ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']
     quality: {"specificity": 0.5, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [4]}
+    keywords: {"list": ['Durchschnittsnote', '§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr.']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -412,14 +446,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 7, "question": 1, "answer": 1}
+    ids: {"test": "7", "question": "1", "answer": "1"}
     question: "Wer wird vom Vergabeverfahren ausgeschlossen?"
     answer: "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."
-    keywords: ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']
     quality: {"specificity": 1.0, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -435,14 +471,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 7, "question": 2, "answer": 1}
+    ids: {"test": "7", "question": "2", "answer": "1"}
     question: "Wer fliegt beim Bewerbungsprozess raus?"
     answer: "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."
-    keywords: ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -458,14 +496,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 7, "question": 3, "answer": 1}
+    ids: {"test": "7", "question": "3", "answer": "1"}
     question: "Wer wird nicht beim Bewerben zugelassen?"
     answer: "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."
-    keywords: ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']
     quality: {"specificity": 1.0, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['nicht form- oder fristgemäß gestellt', 'Besonderer Teil', '§ 12 - 26', 'eingeschrieben']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -481,14 +521,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 8, "question": 1, "answer": 1}
+    ids: {"test": "8", "question": "1", "answer": "1"}
     question: "Was passiert nach Abschluss des Auswahlverfahrens?"
     answer: "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
-    keywords: ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']
     quality: {"specificity": 1.0, "relevance": 1.0, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -504,14 +546,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 8, "question": 2, "answer": 1}
+    ids: {"test": "8", "question": "2", "answer": "1"}
     question: "Was passiert nachdem die Auswahl vorbei ist?"
     answer: "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
-    keywords: ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -527,14 +571,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 8, "question": 3, "answer": 1}
+    ids: {"test": "8", "question": "3", "answer": "1"}
     question: "Was kommt nach dem Bewerbungsauswahlprozess?"
     answer: "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
-    keywords: ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['Zulassungs- und Ablehnungsbescheide', 'postalisch', 'Frist zur Annahme']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -550,14 +596,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 9, "question": 1, "answer": 1}
+    ids: {"test": "9", "question": "1", "answer": "1"}
     question: "Was geschieht, wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird? "
     answer: "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
-    keywords: ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -573,14 +621,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 9, "question": 2, "answer": 1}
+    ids: {"test": "9", "question": "2", "answer": "1"}
     question: "Was ist, wenn man die Frist für die Studienplatzannahme verpasst?"
     answer: "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
-    keywords: ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -596,14 +646,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 9, "question": 3, "answer": 1}
+    ids: {"test": "9", "question": "3", "answer": "1"}
     question: "Was passiert, wenn ich den Studienplatz nicht rechtzeitig annehme?"
     answer: "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
-    keywords: ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [6]}
+    keywords: {"list": ['keine Nachfrist', 'erlischt die Zulassung', 'Immatrikulation nicht mehr möglich']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -619,14 +671,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 10, "question": 1, "answer": 1}
+    ids: {"test": "10", "question": "1", "answer": "1"}
     question: "Wer nimmt am Auswahlverfahren teil?"
     answer: "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
-    keywords: ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -642,14 +696,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 10, "question": 2, "answer": 1}
+    ids: {"test": "10", "question": "2", "answer": "1"}
     question: "Wer darf am Auswahlprozess teilnehmen?"
     answer: "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
-    keywords: ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -665,14 +721,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 10, "question": 3, "answer": 1}
+    ids: {"test": "10", "question": "3", "answer": "1"}
     question: "Wer darf überhaupt beim Bewerbungsauswahlprozess mitmachen?"
     answer: "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
-    keywords: ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['frist- und formgerecht', 'Zugangsvoraussetzungen', '§ 59 Absatz 1 LHG', '§ 5']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -688,14 +746,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 11, "question": 1, "answer": 1}
+    ids: {"test": "11", "question": "1", "answer": "1"}
     question: "Was passiert, wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der verfügbaren Studienplätze übersteigt?"
     answer: "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
-    keywords: ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -711,14 +771,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 11, "question": 2, "answer": 1}
+    ids: {"test": "11", "question": "2", "answer": "1"}
     question: "Was passiert, wenn es mehr Bewerbungen als Studienplätze gibt?"
     answer: "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
-    keywords: ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -734,14 +796,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 11, "question": 3, "answer": 1}
+    ids: {"test": "11", "question": "3", "answer": "1"}
     question: "Was ist, wenn's mehr Bewerber als Plätze gibt?"
     answer: "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
-    keywords: ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['geeigneten Bewerbungen', 'Gesamtzahl der zur Verfügung stehenden Studienplätze', 'Rangliste', '§ 10']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -757,14 +821,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 12, "question": 1, "answer": 1}
+    ids: {"test": "12", "question": "1", "answer": "1"}
     question: "Wie wird die Auswahlkommission zusammengesetzt?"
     answer: "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
-    keywords: ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -780,14 +846,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 12, "question": 2, "answer": 1}
+    ids: {"test": "12", "question": "2", "answer": "1"}
     question: "Wer entscheidet darüber, wer in die Auswahlkommission aufgenommen wird?"
     answer: "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
-    keywords: ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -803,14 +871,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 12, "question": 3, "answer": 1}
+    ids: {"test": "12", "question": "3", "answer": "1"}
     question: "Wer trifft die Auswahl der Mitglieder für die Auswahlkommission?"
     answer: "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
-    keywords: ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -826,14 +896,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 12, "question": 4, "answer": 1}
+    ids: {"test": "12", "question": "4", "answer": "1"}
     question: "Welche Kriterien werden bei der Auswahl von Mitgliedern für die Auswahlkommission berücksichtigt?"
     answer: "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
-    keywords: ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']
     quality: {"specificity": 0.5, "relevance": 0.6, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -849,14 +921,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 12, "question": 5, "answer": 1}
+    ids: {"test": "12", "question": "5", "answer": "1"}
     question: "Warum ist die Zusammensetzung der Auswahlkommission wichtig für den Studienzugang?"
     answer: "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
-    keywords: ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']
     quality: {"specificity": 0.3, "relevance": 0.4, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7]}
+    keywords: {"list": ['Fakultätsrat', 'mindestens zwei Mitgliedern', 'Professorinnen und Professoren', 'stellvertretende Mitglieder']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -872,14 +946,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 13, "question": 1, "answer": 1}
+    ids: {"test": "13", "question": "1", "answer": "1"}
     question: "Welche Auswahlkriterien werden neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses für die Bildung der Ranglisten berücksichtigt?"
     answer: "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
-    keywords: ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7, 8]}
+    keywords: {"list": ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -895,14 +971,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 13, "question": 2, "answer": 1}
+    ids: {"test": "13", "question": "2", "answer": "1"}
     question: "Was muss ich neben meinen Noten noch für den Masterstudienplatz einreichen?"
     answer: "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
-    keywords: ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7, 8]}
+    keywords: {"list": ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -918,14 +996,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 13, "question": 3, "answer": 1}
+    ids: {"test": "13", "question": "3", "answer": "1"}
     question: "Was muss ich noch einreichen außer meinen Noten für den Masterplatz?"
     answer: "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
-    keywords: ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7, 8]}
+    keywords: {"list": ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -941,14 +1021,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 13, "question": 4, "answer": 1}
+    ids: {"test": "13", "question": "4", "answer": "1"}
     question: "Warum sind Zusatzkriterien neben den Noten wichtig für die Masterstudiengangszulassung?"
     answer: "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
-    keywords: ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']
     quality: {"specificity": 0.5, "relevance": 0.6, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7, 8]}
+    keywords: {"list": ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -964,14 +1046,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 13, "question": 5, "answer": 1}
+    ids: {"test": "13", "question": "5", "answer": "1"}
     question: "Was sind die Vorteile eines fachspezifischen Studieneignungstests für die Masterstudiengangszulassung?"
     answer: "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
-    keywords: ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']
     quality: {"specificity": 0.3, "relevance": 0.4, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [7, 8]}
+    keywords: {"list": ['fachlich einschlägigen Hochschulabschlusses', 'Englischkenntnisse', 'Berufstätigkeit', 'fachspezifischen Studieneignungstests', 'Motivationsschreiben', 'schriftliche Abhandlung']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -987,14 +1071,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 14, "question": 1, "answer": 1}
+    ids: {"test": "14", "question": "1", "answer": "1"}
     question: "Welche Kriterien werden im Auswahlgespräch bewertet?"
     answer: "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."
-    keywords: ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [19, 20]}
+    keywords: {"list": ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1010,14 +1096,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 14, "question": 2, "answer": 1}
+    ids: {"test": "14", "question": "2", "answer": "1"}
     question: "Wie sieht ein Auswahlgespräch aus?"
     answer: "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."
-    keywords: ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [19, 20]}
+    keywords: {"list": ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1033,14 +1121,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 14, "question": 3, "answer": 1}
+    ids: {"test": "14", "question": "3", "answer": "1"}
     question: "Was ist ein Auswahlgespräch und wie läuft es ab?"
     answer: "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."
-    keywords: ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [19, 20]}
+    keywords: {"list": ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1056,14 +1146,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 14, "question": 4, "answer": 1}
+    ids: {"test": "14", "question": "4", "answer": "1"}
     question: "Warum sind Auswahlgespräche für die Studienplatzvergabe wichtig?"
     answer: "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."
-    keywords: ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']
     quality: {"specificity": 0.5, "relevance": 0.6, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [19, 20]}
+    keywords: {"list": ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1079,14 +1171,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 14, "question": 5, "answer": 1}
+    ids: {"test": "14", "question": "5", "answer": "1"}
     question: "Was ist der Unterschied zwischen einem Auswahlgespräch und einer schriftlichen Prüfung?"
     answer: "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."
-    keywords: ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']
     quality: {"specificity": 0.3, "relevance": 0.4, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [19, 20]}
+    keywords: {"list": ['Eignung für den gewählten Studiengang', 'Motivation', 'Kommunikative/soziale Kompetenzen', 'technisches Verständnis', 'Deckungsgrad', 'Persönlicher Eindruck']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1102,14 +1196,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 15, "question": 1, "answer": 1}
+    ids: {"test": "15", "question": "1", "answer": "1"}
     question: "Wie wird die Teilnahme am Auswahlgespräch organisiert?"
     answer: "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben."
-    keywords: ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']
     quality: {"specificity": 0.8, "relevance": 0.9, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [8]}
+    keywords: {"list": ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1125,14 +1221,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 15, "question": 2, "answer": 1}
+    ids: {"test": "15", "question": "2", "answer": "1"}
     question: "Wie organisiert man das Auswahlgespräch?"
     answer: "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben."
-    keywords: ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']
     quality: {"specificity": 0.7, "relevance": 0.8, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [8]}
+    keywords: {"list": ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1148,14 +1246,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 15, "question": 3, "answer": 1}
+    ids: {"test": "15", "question": "3", "answer": "1"}
     question: "Wie wird das Auswahlgespräch geplant?"
     answer: "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben."
-    keywords: ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']
     quality: {"specificity": 0.6, "relevance": 0.7, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [8]}
+    keywords: {"list": ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1171,14 +1271,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 15, "question": 4, "answer": 1}
+    ids: {"test": "15", "question": "4", "answer": "1"}
     question: "Was ist der Zweck eines Auswahlgesprächs?"
     answer: "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben."
-    keywords: ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']
     quality: {"specificity": 0.5, "relevance": 0.6, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [8]}
+    keywords: {"list": ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1194,14 +1296,16 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
-    ids: {"test": 15, "question": 5, "answer": 1}
+    ids: {"test": "15", "question": "5", "answer": "1"}
     question: "Warum sind Auswahlgespräche wichtig für die Studienplatzvergabe?"
     answer: "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben."
-    keywords: ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']
     quality: {"specificity": 0.3, "relevance": 0.4, "answer_correctness": 1.0}
     citation: { "document": "119_ZuSMa_Senat_18012022.pdf", "page": [8]}
+    keywords: {"list": ['Vorauswahlkriterien', '15-minütigen Auswahlgespräch', 'Modalitäten', 'elektronischer Kommunikation', 'postalischer Kommunikation']}
   assert:
     - type: "python"
       value: "file://metrics/metric_cosineSimilarity.py" 
@@ -1217,3 +1321,5 @@
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
       value: "file://metrics/metric_chatGPTScore.py" 
+    - type: "python"
+      value: "file://metrics/metric_keywordScore.py" 

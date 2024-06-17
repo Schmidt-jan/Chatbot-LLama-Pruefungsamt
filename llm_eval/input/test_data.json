@@ -6,7 +6,8 @@
         "metrics/metric_rouge2.py",
         "metrics/metric_rougeL.py",
         "metrics/metric_editDistance.py",
-        "metrics/metric_chatGPTScore.py"
+        "metrics/metric_chatGPTScore.py",
+        "metrics/metric_keywordScore.py"
     ],
     "tests": [
         {

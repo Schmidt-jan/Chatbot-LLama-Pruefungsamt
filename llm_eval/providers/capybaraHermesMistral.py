@@ -1,6 +1,6 @@
 import json
-from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model
-from helper.call_llm import call_llm
+from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
+from helper.call_llm import USE_DB, call_llm
 
 from langchain.prompts import ChatPromptTemplate
 
@@ -18,9 +18,20 @@ Question: {question}"""
 
 prompt = ChatPromptTemplate.from_template(template)
 
-llm, db = load_llm_rag_model(RagConfig(model=SupportedModels.Mistral, db_embedding_model=DbSupportedEmbeddingModels.Paraphrase_multilingual_MiniLM_L12_v2, use_streaming=False))
+config = RagConfig(
+        n_ctx=4096,
+        model=SupportedModels.capybaraHermesMistral,
+        db_embedding_model=DbSupportedEmbeddingModels.Paraphrase_multilingual_MiniLM_L12_v2,
+        db_chunk_size=DbSupportedChunkSizes.Chunk_1024,
+        db_chunk_overlap=DbSupportedChunkOverlap.Overlap_128,
+        version="v3",
+        distance="l2",
+        use_streaming=False,
+    )
 
-retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 5})
+llm, db = load_llm_rag_model(config)
+
+retriever = db.as_retriever(k = 3)
 
 
 def format_docs(docs):
@@ -30,6 +41,26 @@ def format_docs(docs):
         context += "Source: \n" + str(doc.metadata['file_path']) + "\n\n\n"
     return context
 
+def simple_rag_chain(question: str, answer:str, use_db = USE_DB.TRUE):
+
+    final_prompt = ""
+
+    docs = []
+    if(use_db):
+        docs = retriever.get_relevant_documents(question)
+        formatted_docs = format_docs(docs)
+        final_prompt = prompt.format(context=formatted_docs, question= question)
+    else:
+        final_prompt = prompt.format(context=answer, question= question)
+
+    return docs, llm.invoke(final_prompt)
+
+def call_api(prompt, options, context):
+
+    return call_llm('capybarahermes-2.5-mistral-7b.Q8_0', simple_rag_chain, prompt, options, context)
+
+
+"""
 def simple_rag_chain(question: str, answer:str):
     #docs = retriever.get_relevant_documents(question)
     #formatted_docs = format_docs(docs)
@@ -39,7 +70,4 @@ def simple_rag_chain(question: str, answer:str):
     print(final_prompt)
 
     return llm.invoke(final_prompt)
-
-def call_api(prompt, options, context):
-
-    return call_llm('capybarahermes-2.5-mistral-7b.Q8_0', simple_rag_chain, prompt, options, context)
+"""

@@ -13,13 +13,15 @@ from langchain_community.embeddings.sentence_transformer import SentenceTransfor
 
 LLM_DIR = "/home/tpllmws23/llms"
 DB_DIR = "/home/tpllmws23/Chatbot-LLama-Pruefungsamt/Chatbot-Jan/databases"
-
+#pip install ~/Chatbot-LLama-Pruefungsamt/libs/custom_rag_loader/
 class SupportedModels(Enum):
     Mistral = "mistralai/Mistral-7B-Instruct-v0.1"
-    Llama2 = "meta-llama/Llama-2-13b-chat-hf"
-    Vicuna = "lmsys/vicuna-13b-v1.5"
     Mixtral_Q3 ="mistralai/Mixtral-8x7B-Instruct-v0.1"
     Llama3 = "meta-llama/Meta-Llama-3-8B-Instruct.Q8_0"
+    capybaraHermesMistral = "capybarahermes/CapybaraHermes-2.5-Mistral-7B.Q8_0"
+    discolm_ger = "discolm/Discolm-German-7B-v1.Q8_0"
+    Mistral_Finetune_Q8 = "mistralai/Mistral-7B-v0.3"
+    Mistral_Finetune_Q4 = "mistralai/Mistral-7B-v0.3"
     
 class DbSupportedEmbeddingModels(Enum):
     All_MiniLM_L6_v2 = "sentence-transformers/all-MiniLM-L6-v2"
@@ -39,6 +41,8 @@ class DbSupportedChunkSizes(Enum):
     Chunk_512 = 512
     Chunk_1024 = 1024
     Chunk_2048 = 2048
+    Chunk_3000 = 3000
+    Chunk_4096 = 4096
 
 class DbSupportedChunkOverlap(Enum):
     Overlap_0 = 0
@@ -94,11 +98,11 @@ class RagConfig:
         if model_name == SupportedModels.Mistral:
             relative_model_path = "mistral-7b-instruct-v0.2.Q4_K_M.gguf"
 
-        elif model_name == SupportedModels.Llama2:
-            relative_model_path = "llama-2-13b-chat.Q4_K_M.gguf"
+        elif model_name == SupportedModels.capybaraHermesMistral:
+            relative_model_path = "capybarahermes-2.5-mistral-7b.Q8_0.gguf"
 
-        elif model_name == SupportedModels.Vicuna:
-            relative_model_path = "vicuna-13b-v1.5.Q4_K_M.gguf"
+        elif model_name == SupportedModels.discolm_ger:
+            relative_model_path = "discolm_german_7b_v1.Q8_0.gguf"
 
         elif model_name == SupportedModels.Mixtral_Q3:
             relative_model_path = "mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf"
@@ -106,13 +110,36 @@ class RagConfig:
         elif model_name == SupportedModels.Llama3:
             relative_model_path = "Meta-Llama-3-8B-Instruct.Q8_0.gguf"
 
+        elif model_name == SupportedModels.Mistral_Finetune_Q4:
+            relative_model_path = "mistral-rag-instruct.Q4_K_M.gguf"
+
+        elif model_name == SupportedModels.Mistral_Finetune_Q8:
+            relative_model_path = "mistral-rag-instruct.Q8_0.gguf"
+
         if version == "v2":
             if db_chunk_size == DbSupportedChunkSizes.Chunk_1024 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_128:
                 raise ValueError("Only Chunk_1024 and Overlap_128 are supported in v2")
             if db_chunk_size == DbSupportedChunkSizes.Chunk_2048 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_256:
                 raise ValueError("Only Overlap_256 is supported with Chunk_2048 in v2")
+            if db_chunk_size == DbSupportedChunkSizes.Chunk_3000 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_256:
+                raise ValueError("Only Overlap_256 is supported with Chunk_3000 in v2")
             if distance != "l2" and distance != "cosine":
                 raise ValueError("Only l2 and cosine distance are supported in v2")
+            
+        if version == "v3":
+            if db_chunk_size == DbSupportedChunkSizes.Chunk_1024 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_128:
+                raise ValueError("Only Chunk_1024 and Overlap_128 are supported in v3")
+            if db_chunk_size == DbSupportedChunkSizes.Chunk_2048 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_256:
+                raise ValueError("Only Overlap_256 is supported with Chunk_2048 in v3")
+            if db_chunk_size == DbSupportedChunkSizes.Chunk_4096 and db_chunk_overlap != DbSupportedChunkOverlap.Overlap_256:
+                raise ValueError("Only Overlap_256 is supported with Chunk_4096 in v3")
+            if distance != "l2" and distance != "cosine":
+                raise ValueError("Only l2 and cosine distance are supported in v3")
+            
+            file = f"{db_embedding_model.value}_{db_chunk_size.value}_{db_chunk_overlap.value}_{distance}"
+            db_path = os.path.join(DB_DIR, version, file)
+            model_path = os.path.join(LLM_DIR, relative_model_path)
+            return model_path, db_path
 
         short_model_name = db_embedding_model.value.split("/")[-1]
         file = f"{short_model_name}_{db_chunk_size.value}_{db_chunk_overlap.value}_{distance}"

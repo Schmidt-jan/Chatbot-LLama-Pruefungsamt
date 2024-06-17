@@ -118,6 +118,7 @@ class Metrics:
         """
         Berechnet den Prozentsatz, wie viele Schlüsselwörter im Text enthalten sind.
         """
+        print(keywords)
         text = text.lower()
         keywords = [keyword.lower() for keyword in keywords]
         keyword_count = sum(keyword in text for keyword in keywords)
