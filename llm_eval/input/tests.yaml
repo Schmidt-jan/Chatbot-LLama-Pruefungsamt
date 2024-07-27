@@ -20,8 +20,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -44,8 +42,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -70,8 +66,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -94,8 +88,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -120,8 +112,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -144,8 +134,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -170,8 +158,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -194,8 +180,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -220,8 +204,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -244,8 +226,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -270,8 +250,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -294,8 +272,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -320,8 +296,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -344,8 +318,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -370,8 +342,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -394,8 +364,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -420,8 +388,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -444,8 +410,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -470,8 +434,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -494,8 +456,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -520,8 +480,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -544,8 +502,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -570,8 +526,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -594,8 +548,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -620,8 +572,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -644,8 +594,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -670,8 +618,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -694,8 +640,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -720,8 +664,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -744,8 +686,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -770,8 +710,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -794,8 +732,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -820,8 +756,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -844,8 +778,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -870,8 +802,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -894,8 +824,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -920,8 +848,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -944,8 +870,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -970,8 +894,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -994,8 +916,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1020,8 +940,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1044,8 +962,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1070,8 +986,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1094,8 +1008,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1120,8 +1032,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1144,8 +1054,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1170,8 +1078,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1194,8 +1100,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1220,8 +1124,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1244,8 +1146,6 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
@@ -1270,8 +1170,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1295,8 +1193,6 @@
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
     - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
-    - type: "python"
       value: "file://metrics/metric_keywordScore.py" 
 
 - vars:
@@ -1319,7 +1215,5 @@
       value: "file://metrics/metric_rougeL.py" 
     - type: "python"
       value: "file://metrics/metric_editDistance.py" 
-    - type: "python"
-      value: "file://metrics/metric_chatGPTScore.py" 
     - type: "python"
       value: "file://metrics/metric_keywordScore.py" 

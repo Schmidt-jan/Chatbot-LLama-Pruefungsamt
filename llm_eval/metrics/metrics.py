@@ -8,7 +8,7 @@ from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 from nltk.metrics.distance import edit_distance
 
-nltk.download('stopwords')
+#nltk.download('stopwords')
 
 class Metrics:
     @staticmethod

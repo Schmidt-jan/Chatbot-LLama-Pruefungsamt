@@ -1,3 +1,4 @@
+
 prompts: 
   - "{{question}}"
 
@@ -9,13 +10,10 @@ providers:
   - python:providers/mistral-finetune-q4.py
   - python:providers/mistral-finetune-q8.py
 
-
 tests:
   - input/tests.yaml
 
-outputPath: 'output/output3.json'
-
-
+#outputPath: 'output/promptfoo/output_xy.json'
 # screen -S promptfoo
 #promptfoo eval -j 1 --verbose --no-cache
 # detach: CTRL+A D
