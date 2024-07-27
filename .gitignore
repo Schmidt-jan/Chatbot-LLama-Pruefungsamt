@@ -7,3 +7,8 @@
 # promptfoo pycache
 
 __pycache__
+
+
+# automated promptfoo output
+
+output*
