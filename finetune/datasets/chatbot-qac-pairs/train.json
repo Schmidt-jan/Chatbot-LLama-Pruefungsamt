@@ -1,0 +1,962 @@
+[
+  {
+    "question": "Who is the coordinator for the 'Agile Vorgehensmodelle' module?",
+    "answer": "Prof. Dr. R. Schimkat",
+    "context": "Modul-Koordination\nProf. Dr. R. Schimkat\n"
+  },
+  {
+    "question": "Welche Lehr- und Lernformen gibt es im Modul Internet of Things?",
+    "answer": "Vorlesung (V) und \u00dcbung (L\u00dc).",
+    "context": "Lehr- und Lernformen\n V, L\u00dc"
+  },
+  {
+    "question": "Wer ist f\u00fcr die Anerkennung von Studienleistungen nach einem Studiengangswechsel zust\u00e4ndig?",
+    "answer": "Der Leiter/die Leiterin Ihres neuen Studiengangs.",
+    "context": "Wenn Sie den Studiengang gewechselt haben, ist der/die Leiter/in Ihres neuen Studiengangs f\u00fcr die Anerkennung zust\u00e4ndig."
+  },
+  {
+    "question": "M\u00fcssen Sie an allen benoteten Pr\u00fcfungen des Assessmentsemesters teilnehmen?",
+    "answer": "Ja, Sie m\u00fcssen an allen benoteten Pr\u00fcfungen teilnehmen, die in Ihrer Studien- und Pr\u00fcfungsordnung vorgesehen sind.",
+    "context": "Ja, Sie m\u00fcssen in Ihrem ersten Semester an allen benoteten Pr\u00fcfungen, die in Ihrer Studien- und Pr\u00fcfungsordnung vorgesehen sind, teilnehmen."
+  },
+  {
+    "question": "Who is the module coordinator for 'IT-Consulting'?",
+    "answer": "Prof. Dr. C. Rentrop",
+    "context": "Modul-Koordination\nProf. Dr. C. Rentrop"
+  },
+  {
+    "question": "Who decides on the acceptance of the mentioned requirements and selection criteria?",
+    "answer": "The selection committee of the respective master's program",
+    "context": "Die Entscheidung \u00fcber das Vorliegen der genannten Voraussetzungen trifft die Auswahlkommission des jeweiligen Masterstudiengangs."
+  },
+  {
+    "question": "How many partner universities does Hochschule Konstanz have?",
+    "answer": "More than 70 worldwide",
+    "context": "Partnerschaften mit weltweit mehr als 70 Hochschulen laden zum internationalen Austausch ein."
+  },
+  {
+    "question": "What kind of project work is required in the Data Science module?",
+    "answer": "Teams are required to conduct laboratory exercises to strengthen teamwork skills.",
+    "context": "Personale Kompetenzen\nMit der Durchf\u00fchrung der Labor\u00fcbungen wird auch die F\u00e4higkeit zum Teamwork in kleinen Gruppen gest\u00e4rkt."
+  },
+  {
+    "question": "Welche Zugangsvoraussetzungen gibt es f\u00fcr den Masterstudiengang Umwelt- und Verfahrenstechnik (UVT) an der Hochschule Konstanz?",
+    "answer": "Zugangsvoraussetzung f\u00fcr den Masterstudiengang Umwelt- und Verfahrenstechnik ist ein mit der Note 2,9 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium in einem Studiengang der Fachrichtungen Umwelt- und Verfahrenstechnik, Physikalische Technik, Chemie/Biologische Chemie oder einer verwandten Fachrichtung.",
+    "context": "Seite 25 von 43"
+  },
+  {
+    "question": "What are the lecture SWS for 'IT-Consulting'? And the corresponding ECTS?",
+    "answer": "2 SWS, 3 ECTS",
+    "context": "Lehrende\nProf. Dr. C. Rentrop /\nC. Riedinger\nArt\nV\n2\nECTS\n3"
+  },
+  {
+    "question": "When are the exams for the 'Assessmentsemester' typically held?",
+    "answer": "Exams are held immediately after the end of the lecture period, in the 1st examination period.",
+    "context": "Wann finden die Klausurpr\u00fcfungen zum Assessmentsemester\nstatt?\nKlausuren werden stets unmittelbar nach Ende der\nVorlesungszeit, im so genannten 1. Pr\u00fcfungszeitraum,\ngeschrieben."
+  },
+  {
+    "question": "Wie ist die Anmeldung durchzuf\u00fchren?",
+    "answer": "Die Pr\u00fcfungsanmeldung ist online im Pr\u00fcfungsportal vorzunehmen. Lediglich f\u00fcr Pr\u00fcfungen zu Zusatzf\u00e4chern m\u00fcssen Sie das Formular zur Pr\u00fcfungsanmeldung in Papierform verwenden.",
+    "context": "Wie ist die Anmeldung durchzuf\u00fchren? Die Pr\u00fcfungsanmeldung ist online im Pr\u00fcfungsportal vorzunehmen. Lediglich f\u00fcr Pr\u00fcfungen zu Zusatzf\u00e4chern m\u00fcssen Sie das Formular zur Pr\u00fcfungsanmeldung (Rubrik \"Allgemeine Infos zum Ablauf der Pr\u00fcfungsanmeldung\") in Papierform verwenden. (Zusatzf\u00e4cher sind solche, f\u00fcr die keine ECTS-Punkte angerechnet werden, die Sie sich aber in Ihrem Abschlusszeugnis zus\u00e4tzlich auff\u00fchren lassen k\u00f6nnen.)"
+  },
+  {
+    "question": "What ongoing documentation must the applicant present if their study qualification is obtained abroad?",
+    "answer": "Certification of the equivalence of the qualification with an indication of the average grade by Studienkolleg Konstanz",
+    "context": "Bei einer ausl\u00e4ndischen Vorbildung die Bescheinigung \u00fcber die Feststellung der Gleichwertigkeit der Vorbildung mit Angabe der Durchschnittsnote durch das Studienkolleg Konstanz"
+  },
+  {
+    "question": "Was sind die Zugangsvoraussetzungen f\u00fcr den Masterstudiengang Informatik (MSI) an der Hochschule Konstanz?",
+    "answer": "Die Zugangsvoraussetzung f\u00fcr den Masterstudiengang Informatik ist ein mit mindestens der Note 2,4 abgeschlossenes Hochschulstudium der Informatik, Wirtschaftsinformatik, Automobilinformationstechnik, Gesundheitsinformatik oder einer verwandten Fachrichtung. Bei einer verwandten Fachrichtung m\u00fcssen mindestens 60 ECTS-Punkte in F\u00e4chern der Informatik nachgewiesen werden. Mit dem Antrag auf Zulassung zum Studium muss eine der drei Studienrichtungen verbindlich gew\u00e4hlt werden: Autonome Systeme (MSI-AS), IT-Management (MSI-ITM) oder Software-Engineering (MSI-SE).",
+    "context": "Seite 21 von 43"
+  },
+  {
+    "question": "What is the focus of the 'Theoretische Grundlagen f\u00fcr das IT-Management' module?",
+    "answer": "Understanding theoretical foundations of the IT-Management specialization including organization theory, behavioral economics, intelligent systems, formal modeling, and metrics and key figures.",
+    "context": "Theoretische Grundlagen\nf\u00fcr das IT-Management\nProf. Dr. C. Rentrop /\nProf. Dr. S. Sohn /\nProf. Dr. M. Mevius\nV\n2\n3\no\n- Organisationstheorie\n- Behavioral Economics und Implikationen f\u00fcr die\nWirtschaftsinformatik\n- Intelligente Systeme\n- Formale Modellierung und Optimierung von Prozessen mit\n(h\u00f6heren) Petri-Netzen\n- Metriken und Kennzahlen"
+  },
+  {
+    "question": "What are some of the elective modules in the study direction MSI-AS?",
+    "answer": "Autonomous Robots, Computational Geometry, Computer Vision, Data Analysis, Deep Learning, Geometric Modeling, Machine Learning, Mobile Computing, Quantum Computing, Real-Time Operating Systems, Security Engineering, Networking Autonomous Systems",
+    "context": "Studienrichtung MSI-AS (5 aus 12)\nAutonome Roboter | Computational Geometry |\nComputer Vision | Data Analysis | Deep Learning |\nGeometric Modeling | Maschinelles Lernen | Mobile\nComputing | Quantum Computing | Real-Time\nOperating Systems | Security Engineering |\nVernetzung autonomer Systeme"
+  },
+  {
+    "question": "What are the languages of instruction for the Deep Learning module?",
+    "answer": "Deutsch",
+    "context": "Sprache\nDeutsch\nZuletzt aktualisiert\n06.10.2021"
+  },
+  {
+    "question": "What elective modules can students choose from in the Autonome Systeme study direction?",
+    "answer": "Example elective modules include Autonome Roboter, Computational Geometry, Computer Vision, Deep Learning, Geometric Modeling, Maschinelles Lernen, Mobile Computing, Quantum Computing, Real-Time Operating Systems, Vernetzung autonomer Systeme.",
+    "context": "Beispiele aus dem Wahlpflichtkatalog: Autonome Roboter, Computational Geometry, Computer Vision, Deep Learning, Geometric Modeling, Maschinelles Lernen, Mobile Computing, Quantum Computing, Real-Time Operating Systems, Vernetzung autonomer Systeme"
+  },
+  {
+    "question": "What are the three study directions available in the Master of Science Informatik program?",
+    "answer": "The three study directions available are Autonome Systeme, IT-Management, and Software Engineering.",
+    "context": "Informatik (M.Sc.) Studienrichtungen: Autonome Systeme, IT-Management, Software Engineering"
+  },
+  {
+    "question": "What is the focus of the Software Engineering study direction?",
+    "answer": "The focus is on developing high-quality software and databases, especially for mobile or highly scalable systems, involving model-driven software development, reactive programming, agile and mobile development, cloud solutions, IT security, databases, and information management.",
+    "context": "Software Engineering Die Erstellung qualitativ hochwertiger Software und Datenbanken \u2013 insbesondere vor dem Hintergrund mobiler oder hoch skalierender Systeme \u2013 ist ein wichtiges Arbeitsfeld in der IT."
+  },
+  {
+    "question": "What is the minimum prerequisite grade needed for the Master in Communication Design?",
+    "answer": "2.9 or better",
+    "context": "Zugangsvoraussetzung f\u00fcr den Masterstudiengang Kommunikationsdesign ist ein mit der Note 2,9 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium gem\u00e4\u00df \u00a7 5 Abs. 1 Nr. 1 in einem Studiengang der Fachrichtung Kommunikationsdesign oder einer verwandten Fachrichtung."
+  },
+  {
+    "question": "What is the working language for the Seminar module at Hochschule Konstanz?",
+    "answer": "Deutsch",
+    "context": "Sprache\nDeutsch"
+  },
+  {
+    "question": "What competencies are developed in the Autonome Roboter module?",
+    "answer": "Students learn various methods for autonomous navigation of mobile robots, including Kalman-Filter, Graph-SLAM, and dynamikbasierte Verfahren.",
+    "context": "Lernziele des Moduls\n- Verschiedene, grundlegende Verfahren zur autonomen Navigation mobiler Roboter verstehen, einsetzen und weiterentwickeln k\u00f6nnen."
+  },
+  {
+    "question": "How many ECTS points are required for the undergraduate degree to qualify for the Master's in Architecture?",
+    "answer": "180 ECTS points",
+    "context": "muss f\u00fcr den Abschluss des grundst\u00e4ndigen Hochschulstudiums ein Umfang von 180 ECTS-Punkten nachgewiesen werden."
+  },
+  {
+    "question": "What are the specific admission requirements for the Master\u2019s program in International Project Engineering (IPE) according to \u00a7 26?",
+    "answer": "The admission requirements include a Bachelor's degree with at least a grade 2.5 in relevant fields, successful completion of modules in economics, law, and project management totaling at least 20 ECTS points, successful completion of modules in environmental engineering, environmental sciences, process engineering, electrical and information technology, mechatronics, and plant engineering totaling at least 30 ECTS points, and very good English skills equivalent to level B2.",
+    "context": "Hochschule Konstanz, Technic, Economy and Design, Page 41 of 43, \u00a7 26 International Project Engineering (IPE) (1) Specific admission requirements according to \u00a7 5 Abs. 1."
+  },
+  {
+    "question": "Who is the coordinator for the 'Security Engineering' module?",
+    "answer": "Prof. Dr. H. Langweg",
+    "context": "Modul-Koordination\nProf. Dr. H. Langweg\n"
+  },
+  {
+    "question": "Welche Sprachen k\u00f6nnen in Lehrveranstaltungen und Pr\u00fcfungen (Modul- bzw. Modulteilpr\u00fcfungen, Masterarbeit, M\u00fcndliche Masterpr\u00fcfung) verwendet werden?",
+    "answer": "Lehrveranstaltungen und Pr\u00fcfungen k\u00f6nnen ganz oder teilweise in einer Fremdsprache abgehalten werden.",
+    "context": "Paragraph \u00a7 5: Lehr- und Pr\u00fcfungssprachen"
+  },
+  {
+    "question": "What are the goals of the 'Natural Language Processing' module?",
+    "answer": "Students will gain a fundamental understanding of NLP, apply NLP methods on practical use cases, understand the mathematical concepts behind NLP methods, become familiar with technologies used in productive NLP systems, and build NLP processing pipelines using advanced Python concepts and libraries.",
+    "context": "Lernziele des Moduls\nFachliche Kompetenzen\nStudents will\n- gain a fundamental understanding of NLP and text processing,\n- apply NLP methods on practical use cases,\n- understand the mathematical concepts behind NLP methods,\n- become familiar with technologies used in productive NLP systems,\n- build NLP processing pipelines using advanced Python concepts and libraries."
+  },
+  {
+    "question": "What is the workload for the 'Reactive Systems' module?",
+    "answer": "150 h",
+    "context": "Arbeitsaufwand\n150 h\n"
+  },
+  {
+    "question": "What is the structure of the Master\u2019s program in Computer Science (MSI) at Hochschule Konstanz?",
+    "answer": "The Master's program in Computer Science is a more application-oriented, consecutive full-time program lasting three semesters. It includes both theoretical and application-related knowledge of computer science, key qualifications, and can start in either the summer or winter semester. The third semester includes the master's thesis and oral master's examination.",
+    "context": "SPO No. 5 | Version according to Official Journal No. 125 | Senate December 13, 2022, Page 1 of 8, \u00a7 37 Computer Science (MSI)."
+  },
+  {
+    "question": "What should an application for admission target?",
+    "answer": "A specific course of study and a specific semester",
+    "context": "Der Antrag auf Zulassung muss sich auf einen bestimmten Studiengang und ein bestimmtes Fachsemester richten."
+  },
+  {
+    "question": "Who is the coordinator for the Data Science module at Hochschule Konstanz?",
+    "answer": "Prof. Dr. O. D\u00fcrr",
+    "context": "Modul-Koordination\nProf. Dr. O. D\u00fcrr"
+  },
+  {
+    "question": "What is the language of instruction for the 'Cloud Application Development' module?",
+    "answer": "German/English",
+    "context": "Sprache\nDeutsch/Englisch\n"
+  },
+  {
+    "question": "What is the deadline for submitting an application for the winter semester?",
+    "answer": "1. Juni des Jahres",
+    "context": "Der Antrag auf Zulassung f\u00fcr das erste Fachsemester muss 2. f\u00fcr das Wintersemester bis zum 1. Juni des Jahres"
+  },
+  {
+    "question": "Welche Sonderregelung gibt es f\u00fcr Wiederholungspr\u00fcfungen des Assessmentsemesters?",
+    "answer": "Auf schriftlichen Antrag hin ist ein R\u00fccktritt von bis zu zwei Wiederholungsklausuren des Assessmentsemesters m\u00f6glich. Voraussetzung hierf\u00fcr ist ein nichtbestandener Erstversuch sowie die Durchf\u00fchrung einer Beratung durch den Leiter Ihres Studiengangs oder den/die f\u00fcr Sie zust\u00e4ndige/n Vorsitzende/n des Pr\u00fcfungsausschusses.",
+    "context": "Welche Sonderregelung gibt es f\u00fcr Wiederholungspr\u00fcfungen des Assessmentsemesters? Auf schriftlichen Antrag hin ist ein R\u00fccktritt von bis zu zwei Wiederholungsklausuren des Assessmentsemesters m\u00f6glich. Voraussetzung hierf\u00fcr ist ein nichtbestandener Erstversuch sowie die Durchf\u00fchrung einer Beratung durch den Leiter Ihres Studiengangs oder den/die f\u00fcr Sie zust\u00e4ndige/n Vorsitzende/n des Pr\u00fcfungsausschusses. Der/Die Letztgenannte entscheidet auch \u00fcber die Genehmigung Ihres Antrags. Hintergrund dieser Sonderregelung: Wenn Sie am Ende eines Wintersemesters eine Klausur des ersten Semesters angetreten, aber nicht bestanden haben, dann bleibt Ihnen nur wenig Zeit zur Vorbereitung auf die Wiederholungsklausur, denn diese findet schon im zweiten Pr\u00fcfungszeitraum, also zu Beginn des Folgesemesters, statt. Daher ist es manchmal ratsam, eine oder zwei solcher Wiederholungsklausuren auf das Ende des Sommersemesters zu verschieben."
+  },
+  {
+    "question": "Wie kann man die Bearbeitungszeit der Bachelorarbeit verl\u00e4ngern lassen?",
+    "answer": "In Ausnahmef\u00e4llen kann die ursprunglich auf 3 Monate begrenzte Bearbeitungszeit auf Antrag einmalig verl\u00e4ngert werden, aber h\u00f6chstens um 1 Monat. Die Gr\u00fcnde m\u00fcssen nicht von Ihnen zu vertreten sein (z. B. Krankheit, zeitliche Verz\u00f6gerungen bei R\u00fcckl\u00e4ufen zu Umfragen).",
+    "context": "In Ausnahmef\u00e4llen kann die urspr\u00fcnglich auf 3 Monate begrenzte Bearbeitungszeit auf Antrag einmalig verl\u00e4ngert werden, aber h\u00f6chstens um 1 Monat. In diesem (formlosen) Antrag m\u00fcssen Gr\u00fcnde vorgebracht und nachgewiesen werden, die von Ihnen nicht zu vertreten sind. Dazu z\u00e4hlen - neben Krankheit - z. B. zeitliche Verz\u00f6gerungen bei R\u00fcckl\u00e4ufen zu Umfragen oder bei der Lieferung von Hard- oder Software, die f\u00fcr die Bachelorarbeit ben\u00f6tigt wird."
+  },
+  {
+    "question": "Kann ich das Praxissemester verschieben?",
+    "answer": "Ja, Sie k\u00f6nnen einen Antrag auf Verschiebung des Praktischen Studiensemesters stellen. Auf dem gleichnamigen Formular m\u00fcssen Sie dabei gute Gr\u00fcnde f\u00fcr die gew\u00fcnschte Verschiebung angeben.",
+    "context": "Kann ich das Praxissemester verschieben? Sie k\u00f6nnen einen Antrag auf Verschiebung des Praktischen Studiensemesters (s. Webseite des Praktischen Studiensemesters) stellen. Auf dem gleichnamigen Formular m\u00fcssen Sie dabei gute Gr\u00fcnde f\u00fcr die gew\u00fcnschte Verschiebung angeben. Wenn Sie keinen Praxisplatz gefunden haben, sollten Sie glaubhaft machen, dass Sie sich durch etliche Bewerbungsschreiben intensiv, aber vergeblich darum bem\u00fcht hatten."
+  },
+  {
+    "question": "Welches Hauptziel verfolgt das Modul 'Optik und bildgebende optische Systeme' bez\u00fcglich der fachlichen Kompetenzen?",
+    "answer": "Studierende sollen den Umgang mit optischen Systemen lernen, Kameras quantitativ charakterisieren k\u00f6nnen und grundlegende Aufgaben der Bildverarbeitung in Python programmieren k\u00f6nnen.",
+    "context": "Fachliche Kompetenzen\n- Die Studierenden kennen die Grundbegriffe der Optik; sie k\u00f6nnen einfache optische Systeme\nkonstruktiv und rechnerisch bewerten."
+  },
+  {
+    "question": "Wo finde ich Informationen zur Organisation und zu den Inhalten des Praktischen Studiensemesters?",
+    "answer": "Informationen zur Organisation und zu den Inhalten des Praktischen Studiensemesters finden Sie im Web unter \"Praktisches Studiensemester\". Dort finden Sie unter anderem auch Richtlinien, die f\u00fcr die Betreuer im Unternehmen wichtig sind, sowie Hinweise zu Aufbau und Gestaltung des Berichts, den Sie im Anschluss an das Praxissemester erstellen m\u00fcssen.",
+    "context": "Wo finde ich Informationen zur Organisation und zu den Inhalten des Praktischen Studiensemesters? Informationen zur Organisation und zu den Inhalten des Praktischen Studiensemesters finden Sie im Web unter \"Praktisches Studiensemester\". Dort finden Sie unter anderem auch Richtlinien, die f\u00fcr die Betreuer im Unternehmen wichtig sind, sowie Hinweise zu Aufbau und Gestaltung des Berichts, den Sie im Anschluss an das Praxissemester erstellen m\u00fcssen."
+  },
+  {
+    "question": "What happens if a complete course certificate is not available at the time of admission application?",
+    "answer": "Application can be made based on current academic performance with the expectation that the final requirements will be met before the program starts",
+    "context": "Die Zulassung kann ohne Kopie eines Abschlusszeugnisses des Hochschulabschlusses beantragen, wenn der Abschluss wegen Fehlens einzelner Pr\u00fcfungsleistungen noch nicht vorliegt."
+  },
+  {
+    "question": "Welche Zugangsvoraussetzungen gibt es f\u00fcr den Masterstudiengang Automotive Systems Engineering (ASE) an der Hochschule Konstanz?",
+    "answer": "Zugangsvoraussetzungen f\u00fcr den Masterstudiengang Automotive Systems Engineering sind ein mit der Note 2,9 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium in einem Studiengang der Fachrichtungen Maschinenbau, Fahrzeugtechnik, Elektrotechnik oder einer verwandten Fachrichtung sowie Englischkenntnisse, \u00e4quivalent zu Niveau-Stufe B1 des Europ\u00e4ischen Referenzrahmens f\u00fcr das Lernen und Lehren von Fremdsprachen.",
+    "context": "Seite 23 von 43"
+  },
+  {
+    "question": "How many ECTS points is the Machine Learning module worth?",
+    "answer": "5",
+    "context": "Modul AS05\nMaschinelles Lernen\nModul-Koordination\nStart\nModul-K\u00fcrzel/-Nr.\nECTS-Punkte\nArbeitsaufwand\nProf. Dr. M. Franz\nWS\nML/AS05\n5\n150 h"
+  },
+  {
+    "question": "Kann ich mir auch eine nicht benotete Pr\u00fcfung (z. B. des Studium Generale) als Wahlpflichtfach anerkennen lassen?",
+    "answer": "Nein, es werden nur Veranstaltungen, f\u00fcr die ein benoteter Leistungsnachweis erbracht wurde, anerkannt.",
+    "context": "Kann ich mir auch eine nicht benotete Pr\u00fcfung (z. B. des Studium Generale) als Wahlpflichtfach anerkennen lassen? Nein, es werden nur Veranstaltungen, f\u00fcr die ein benoteter Leistungsnachweis erbracht wurde, anerkannt."
+  },
+  {
+    "question": "What is the duration of the Real-Time Operating Systems module?",
+    "answer": "1 Semester",
+    "context": "Modul AS07\nReal-Time Operating Systems\nDauer\nSWS\nKontaktzeit\nSelbststudium\n1 Semester\n3\n45 h\n105 h"
+  },
+  {
+    "question": "An wen k\u00f6nnen Sie sich bei weiteren Fragen zu Pr\u00fcfungsangelegenheiten wenden?",
+    "answer": "An die Vorsitzenden der Pr\u00fcfungsaussch\u00fcsse.",
+    "context": "An wen kann ich mich wenden, wenn ich weitere Fragen zu Pr\u00fcfungsangelegenheiten habe? Daf\u00fcr sind wir da \u2013 die Vorsitzenden der Pr\u00fcfungsaussch\u00fcsse."
+  },
+  {
+    "question": "Wie viele ECTS-Punkte erh\u00e4lt man f\u00fcr die Masterarbeit im Modul 12?",
+    "answer": "Man erh\u00e4lt 27 ECTS-Punkte f\u00fcr die Masterarbeit.",
+    "context": "Modul-K\u00fcrzel/-Nr.\nECTS-Punkte\nMAAR\n27"
+  },
+  {
+    "question": "Welcher Professor koordiniert das Modul ITM03?",
+    "answer": "Prof. Dr. R. Martin",
+    "context": "Modul-Koordination\nProf. Dr. R. Martin"
+  },
+  {
+    "question": "Was lernen die Studierenden im Modul Strategic IT-Management 1?",
+    "answer": "Die Studierenden lernen die Aufgaben und Funktionsweisen des F\u00fchrungssystems der IT kennen und wenden diese an Praxisbeispielen an.",
+    "context": "Lernziele des Modules\nIm Rahmen dieses Moduls lernen die Studierenden die Aufgaben und Funktionsweisen des F\u00fchrungssystems der IT kennen. Anhand von Praxisvortr\u00e4gen und kleinen Fallstudien und Workshops werden diese auch an Beispielf\u00e4llen angewendet und damit der Transfer in die Praxis ge\u00fcbt."
+  },
+  {
+    "question": "What is the address of Hochschule Konstanz?",
+    "answer": "Alfred-Wachtel-Stra\u00dfe 8, D-78462 Konstanz",
+    "context": "Hochschule Konstanz\nTechnik, Wirtschaft und Gestaltung\nAlfred-Wachtel-Stra\u00dfe 8 \nD-78462 Konstanz"
+  },
+  {
+    "question": "Gibt es terminierte Modul- oder Modulteilpr\u00fcfungen?",
+    "answer": "Es gibt keine terminierten Modul- oder Modulteilpr\u00fcfung.",
+    "context": "Paragraph 10: Terminierte Modul- und Modulteilpr\u00fcfungen"
+  },
+  {
+    "question": "Welche technischen Anforderungen m\u00fcssen erf\u00fcllt sein, um an einer Online-Pr\u00fcfung teilzunehmen?",
+    "answer": "Die Studierenden m\u00fcssen sicherstellen, dass die technischen Anforderungen an die elektronischen Informations- und Kommunikationssysteme erf\u00fcllt sind und dass nur von der Hochschule oder in ihrem Auftrag betriebene Systeme genutzt werden.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 14a Online-Pr\u00fcfungen"
+  },
+  {
+    "question": "Was passiert, wenn die zu pr\u00fcfende Person eine T\u00e4uschung bei einer Pr\u00fcfung versucht?",
+    "answer": "Wenn die zu pr\u00fcfende Person versucht, das Ergebnis der Pr\u00fcfung durch T\u00e4uschung oder Benutzung nicht zugelassener Hilfsmittel zu beeinflussen, wird die betreffende Pr\u00fcfung durch den Pr\u00fcfer mit 'nicht ausreichend' bewertet. Im schwerwiegenden Fall kann der Pr\u00fcfungsausschuss die zu pr\u00fcfende Person von weiteren Pr\u00fcfungen ausschlie\u00dfen.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 20 T\u00e4uschung und Ordnungsversto\u00df"
+  },
+  {
+    "question": "Wie wird die Teilnote 2 f\u00fcr die Auswahlentscheidung im Masterstudiengang Umwelt- und Verfahrenstechnik (UVT) gebildet?",
+    "answer": "Berufst\u00e4tigkeit und Weiterbildungen, die durch Arbeitszeugnisse und Weiterbildungszertifikate nachgewiesen werden, werden gem\u00e4\u00df einer Skala bewertet: Weiterbildung(en) um den Wert 0,1, Berufst\u00e4tigkeit ab einem Jahr um den Wert 0,1, Berufst\u00e4tigkeit ab zwei Jahren um den Wert 0,2 und Berufst\u00e4tigkeit ab drei Jahren um den Wert 0,3. Der entsprechende Wert bzw. die kumulierte Gesamtzahl bildet die Teilnote 2.",
+    "context": "Seite 25 von 43"
+  },
+  {
+    "question": "What is included in Part 1 of the document?",
+    "answer": "Anwendungsbereich",
+    "context": "Teil 1 \u2013 Anwendungsbereich ................................................................................................. 2 \u00a7 1 Anwendungsbereich"
+  },
+  {
+    "question": "What are the three main criteria evaluated during the selection interview for the Master's in Architecture?",
+    "answer": "1. Architectural competence 2. Social and communication skills 3. Motivation for the chosen course",
+    "context": "Die Bewertung der Auswahlgespr\u00e4che nach \u00a7 9a Abs. 3 erfolgt nach folgenden Kriterien: I. Architektonische Kompetenz II. Soziale und kommunikative Kompetenz III. Motivation f\u00fcr den gew\u00e4hlten Studiengang an der HTWG."
+  },
+  {
+    "question": "What are the admission requirements for the Masterstudiengang Informatik at HTWG Konstanz?",
+    "answer": "The admission requirement is a completed university degree in Informatik or a related field with at least a grade of 2.4. Applicants from related fields must have at least 60 ECTS points in Informatik subjects.",
+    "context": "Zugangsvoraussetzung f\u00fcr den Masterstudiengang Informatik ist ein mit mindestens der Note 2,4 abgeschlossenes Hochschulstudium der Informatik, Wirtschaftsinformatik, Automobilinformationstechnik, Gesundheitsinformatik oder einer verwandten Fachrichtung."
+  },
+  {
+    "question": "What are the compulsory modules for semesters A and B in the Master\u2019s program in Informatics, starting from Winter semester 2022/23?",
+    "answer": "Komplexit\u00e4tstheorie, Seminar, Teamprojekt",
+    "context": "Semester A + B\nPFLICHTMODULE\nKomplexit\u00e4tstheorie | Seminar | Teamprojekt"
+  },
+  {
+    "question": "What prerequisites are recommended for the Autonome Roboter module?",
+    "answer": "It is recommended to combine this module with CV/AS02, ML/AS05, and VASY/AS08.",
+    "context": "Sinnvoll zu kombinieren mit Modul:\nCV/AS02, ML/AS05, VASY/AS08"
+  },
+  {
+    "question": "How many ECTS points are awarded for the module 'Natural Language Processing'?",
+    "answer": "5",
+    "context": "ECTS-Punkte\n5"
+  },
+  {
+    "question": "Wie wird die Modulnote berechnet, wenn ein Modul mehrere benotete Modulteilpr\u00fcfungen umfasst?",
+    "answer": "Die Modulnote wird aus dem gewichteten arithmetischen Mittel der Modulteilnoten der benoteten Modulteilpr\u00fcfungen berechnet, wobei die Gewichtung proportional zum Arbeitsaufwand erfolgt.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 16 Bewertung der Modul- bzw. Modulteilpr\u00fcfungen"
+  },
+  {
+    "question": "Welche F\u00e4cher werden bei der Bewertung der Eignung f\u00fcr den Masterstudiengang Mechatronik (MME) herangezogen?",
+    "answer": "Die Einzelnoten folgender F\u00e4cher der Abschlusspr\u00fcfung des grundst\u00e4ndigen Hochschulstudiums, die \u00fcber die Eignung f\u00fcr den gew\u00e4hlten Studiengang besonderen Aufschluss geben, werden herangezogen: Technische Mechanik (Dynamik), Elektrotechnik, Messtechnik, Regelungstechnik, Elektrische Antriebe.",
+    "context": "Seite 29 von 43"
+  },
+  {
+    "question": "What does TSS stand for in the regulations?",
+    "answer": "TSS stands for Theoretisches Auslandsstudiensemester.",
+    "context": "TSS = Theoretisches Auslandsstudiensemester."
+  },
+  {
+    "question": "What language is the 'Security Engineering' module taught in?",
+    "answer": "English, possibly German",
+    "context": "Sprache\nEnglisch, ggf. Deutsch\n"
+  },
+  {
+    "question": "What is the minimum grade a candidate must achieve in all criteria during the selection interview to be considered successful in the Architecture Master's program?",
+    "answer": "4.0",
+    "context": "Ein Bewerber bzw. eine Bewerberin hat erfolgreich an dem Auswahlgespr\u00e4ch teilgenommen, wenn alle Kriterien mindestens mit der Note 4,0 bewertet wurden."
+  },
+  {
+    "question": "How many hours are allocated for self-study in the Seminar module?",
+    "answer": "120 hours",
+    "context": "Selbststudium\n120 h"
+  },
+  {
+    "question": "Which three emphasis tracks can students choose in the Master's program in Computer Science (MSI) at Hochschule Konstanz?",
+    "answer": "Students must choose one of the three specializations: (1) Autonomous Systems (MSI-AS), (2) IT Management (MSI-ITM), or (3) Software Engineering (MSI-SE).",
+    "context": "SPO No. 5 | Version according to Official Journal No. 125 | Senate December 13, 2022, Page 1 of 8, \u00a7 37 Computer Science (MSI), (3) Specializations or fields of study."
+  },
+  {
+    "question": "Kann man Pr\u00fcfungsleistungen aus h\u00f6heren Semestern vorziehen?",
+    "answer": "Im Grundstudium ist dies prinzipiell nicht m\u00f6glich. Im Hauptstudium kann dies auf Antrag und nach R\u00fccksprache mit dem Vorsitzenden des Pr\u00fcfungsausschusses in begr\u00fcndeten Ausnahmef\u00e4llen m\u00f6glich sein.",
+    "context": "Im Grundstudium k\u00f6nnen prinzipiell keine Pr\u00fcfungsleistungen aus dem Hauptstudium vorgezogen werden. Im Hauptstudium k\u00f6nnen dagegen nach R\u00fccksprache mit dem Vorsitzenden des Pr\u00fcfungsausschusses Leistungen aus h\u00f6heren Semestern in begr\u00fcndeten Ausnahmef\u00e4llen und auf Antrag vorgezogen werden."
+  },
+  {
+    "question": "How is the final selection interview note for the Architecture Master's program calculated?",
+    "answer": "The arithmetic mean of the grades from the selection committee members is used, considering only the first decimal place without rounding.",
+    "context": "Aus den Noten der Mitglieder der Auswahlkommission bzw. der Gespr\u00e4chskommissionsmitglieder nach \u00a7 8 und \u00a7 9a Abs. 4 wird der arithmetische Mittelwert gebildet. Dabei wird nur die erste Dezimalstelle hinter dem Komma ber\u00fccksichtigt; alle weiteren Stellen werden ohne Rundung gestrichen."
+  },
+  {
+    "question": "Wie viele ECTS-Punkte erh\u00e4lt man f\u00fcr das Modul ITM04?",
+    "answer": "5",
+    "context": "ECTS-Punkte\n5"
+  },
+  {
+    "question": "Kann man ohne Angabe von Gr\u00fcnden von Pr\u00fcfungen zur\u00fccktreten?",
+    "answer": "Das ist nur bei nicht-terminierten Pr\u00fcfungen m\u00f6glich. Bei terminierten Pr\u00fcfungen ist die Teilnahme zwingend.",
+    "context": "Kann ich Pr\u00fcfungen \"schieben\", also von angemeldeten Pr\u00fcfungen ohne Angabe von Gr\u00fcnden zur\u00fccktreten? Das ist nur bei nicht-terminierten Pr\u00fcfungen m\u00f6glich. Terminierte Pr\u00fcfungen m\u00fcssen zwingend teilgenommen werden."
+  },
+  {
+    "question": "How many ECTS points are awarded for the Data Science module?",
+    "answer": "3",
+    "context": "Modul 07\nData Science\nECTS-Punkte\n3"
+  },
+  {
+    "question": "Wie lange betr\u00e4gt die Regelstudienzeit f\u00fcr die Masterstudieng\u00e4nge der Hochschule Konstanz?",
+    "answer": "Die Regelstudienzeit betr\u00e4gt drei Semester, in den Studieng\u00e4ngen Architektur und Business Information Technology vier Semester und im berufsbegleitenden Studiengang Mechatronik (MME) Automatisierungstechnik f\u00fcnf Semester.",
+    "context": "Paragraph \u00a7 2: Regelstudienzeit, Studienaufbau, Modularisierung und Studiengangsprofil"
+  },
+  {
+    "question": "What is a significant competence acquired from the Data Science module?",
+    "answer": "The ability to understand and use supervised and unsupervised learning methods.",
+    "context": "Lernziele des Moduls\nFachliche Kompetenzen\nDie Studierenden kennen und verstehen die grundlegenden Konzepte und Methoden (wie supervised and unsupervised learning)"
+  },
+  {
+    "question": "What is the module code and number for the Machine Learning module?",
+    "answer": "ML/AS05",
+    "context": "Modul AS05\nMaschinelles Lernen\nModul-Koordination\nStart\nModul-K\u00fcrzel/-Nr.\nECTS-Punkte\nArbeitsaufwand\nProf. Dr. M. Franz\nWS\nML/AS05\n5\n150 h"
+  },
+  {
+    "question": "Welche wesentlichen Inhalte werden im Modul 'Concurrency' vermittelt?",
+    "answer": "Nutzen, Grenzen und Risiken Nebenl\u00e4ufiger Programmierung, Laufzeitbetrachtungen, Thread-Sicherheit von Code, Nebenl\u00e4ufigkeitskonzepte f\u00fcr verschiedene Programmierparadigmen.",
+    "context": "- Nutzen, Grenzen und Risiken nebenl\u00e4ufiger Programmierung\n- Laufzeitbetrachtungen\n- Thread-Sicherheit von Code, Klassen und Programmen"
+  },
+  {
+    "question": "What is one key learning outcome of the Mobile Computing module?",
+    "answer": "Students learn the principles of mobile communication networks and how to use technologies for developing mobile applications.",
+    "context": "Lernziele des Moduls\nDie Veranstaltung Mobile Computing f\u00fchrt in die Thematik mobiler Systeme und des Internet der Dinge ein."
+  },
+  {
+    "question": "What are the specific admission requirements for the part-time Mechatronics Master's program?",
+    "answer": "1. A completed undergraduate degree with a grade of 2.9 or better in fields like Systems Engineering, Mechanical Engineering, Electrical Engineering, Vehicle Engineering, Mechatronics, Precision Engineering, or a related field. 2. English language skills equivalent to B1 level of the Common European Framework of Reference for Languages, with various certificates and proofs being acceptable.",
+    "context": "Hochschule Konstanz \nTechnik, Wirtschaft und Gestaltung \n\nSeite 31 von 43 \n\u00a7 21b Mechatronik (MME) Berufsbegleitendes Studium \n(1) Studiengangspezifische Zugangsvoraussetzungen gem\u00e4\u00df \u00a7 5 Abs. 1 Zugangsvoraussetzungen f\u00fcr den Masterstudiengang Mechatronik sind: 1. Ein mit der Note 2,9 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium gem\u00e4\u00df \u00a7 5 Abs. 1 Nr. 1 in einem Studiengang der Fachrichtungen Systemtechnik, Maschinenbau, Elektrotechnik, Fahrzeugtechnik, Mechatronik, Feinwerktechnik oder einer verwandten Fachrichtung. 2. Englischkenntnisse, \u00e4quivalent zu Niveau-Stufe B1 des Europ\u00e4ischen Referenzrahmens f\u00fcr das Lernen und Lehren von Fremdsprachen. Als \u00e4quivalent zu einem Zertifikat \u00fcber die Niveau-Stufe B1 gelten insbesondere folgende Nachweise: I. das Schulabschlusszeugnis, aus dem der Besuch des Englischunterrichts bis zum Erreichen des mittleren Bildungsabschlusses (10. Klasse) bzw. bis zum Erreichen der Fachhochschulreife hervorgeht oder II. ein Notenspiegel, aus dem die bestandene Pr\u00fcfungsleistung \u00fcber eine Lehrveranstaltung im Rahmen des grundst\u00e4ndigen Studiums hervorgeht, die die englische Sprache zum Inhalt hatte oder III. eine Bescheinigung \u00fcber den mindestens sechsmonatigen Aufenthalt an einer Schule, Hochschule oder anderen Bildungsinstitution mit Englisch als Unterrichtssprache oder IV. eine Bescheinigung \u00fcber den Aufenthalt im englischsprachigen Ausland, der einen Zeitraum von mindestens sechs Monaten bzw. einem Studiensemester umfasst. Die Vorlage anderer geeigneter Nachweise ist m\u00f6glich."
+  },
+  {
+    "question": "What is the goal of the 'Konzepte aktueller Datenbanksysteme' module?",
+    "answer": "Students will understand modern relational and non-relational database systems, their concepts, and functionality. They will be able to program applications for different types of database systems and optimize them for performance.",
+    "context": "Lernziele des\nModuls\nDie Studierenden kennen moderne relationale und nichtrelationale Datenbanksysteme und verstehen deren Konzepte und Funktionsweise. Sie sind in der Lage Anwendungen verschiedene Typen von Datenbanksystemen zu programmieren und hinsichtlich Performance zu optimieren.\n"
+  },
+  {
+    "question": "Was passiert, wenn Sie aus nicht-krankheitsbedingten Gr\u00fcnden an einer Klausur nicht teilnehmen k\u00f6nnen?",
+    "answer": "Sie sollten sofort den Pr\u00fcfungs-ausschussvorsitzenden kontaktieren. Ein unentschuldigtes Fernbleiben gilt als nicht bestanden und im Notenkonto wird der Vermerk U (unentschuldigtes Fehlen) eingetragen.",
+    "context": "Falls Sie aus nicht-krankheitsbedingten au\u00dfergew\u00f6hnlichen Problemen nicht an einer Klausur teilnehmen k\u00f6nnen, kontaktieren Sie bitte umgehend den f\u00fcr Sie zust\u00e4ndigen Pr\u00fcfungsausschussvorsitzenden."
+  },
+  {
+    "question": "Which master\u2019s programs are covered under this statute?",
+    "answer": "Architecture, Communications Design, Civil and Environmental Engineering, Electrical Systems, Business Information Technology, Computer Science, Automotive Systems Engineering, Environmental and Process Engineering, Industrial Engineering, Mechatronics, Industrial Engineering and Management, Corporate Management, International Management Asia-Europe, Legal Management, International Project Engineering",
+    "context": "Diese Satzung gilt f\u00fcr die Auswahlverfahren und die Zulassung in den folgenden Masterstudieng\u00e4ngen: Architektur (MAR), Kommunikationsdesign (MKD), Bau- und Umweltingenieurwesen (MBU), Elektrische Systeme (EIM), Business Information Technology (BIT), Informatik (MSI), Automotive Systems Engineering (ASE), Umwelt- und Verfahrenstechnik (UVT), Wirtschaftsingenieurwesen (MWI), Mechatronik (MME), Industrial Engineering and Management (MIE), Unternehmensf\u00fchrung (BWM), International Management Asia-Europe (MIM), Legal Management (WRM), International Project Engineering (IPE)."
+  },
+  {
+    "question": "What is the ECTS-Punkte value for the 'IT-Consulting' module?",
+    "answer": "5",
+    "context": "ICT\n5\nECTS\nArbeitsaufwand\n150 h"
+  },
+  {
+    "question": "Nach wie vielen Semestern muss das Bachelorstudium sp\u00e4testens abgeschlossen sein?",
+    "answer": "Die Regelstudienzeit betr\u00e4gt 7 Semester, die um h\u00f6chstens 3 Studiensemester \u00fcberschritten werden darf, sodass die Gesamtstudienzeit maximal 10 Semester betr\u00e4gt.",
+    "context": "Nach wie vielen Semestern muss mein gesamtes Bachelorstudium sp\u00e4testens abgeschlossen sein? Die Regelstudienzeit betr\u00e4gt 7 Semester. Diese darf um h\u00f6chstens 3 Studiensemester \u00fcberschritten werden, so dass die Gesamtstudienzeit (inklusive Bachelorarbeit) also bei maximal 10 Semestern liegt."
+  },
+  {
+    "question": "How are extra points awarded for professional experience for the Master's in Electrical Systems?",
+    "answer": "1. Special qualification: 0.1 to 0.3 points 2. Professional activity from twelve months: 0.1 to 0.3 points",
+    "context": "Eine einschl\u00e4gige Praxist\u00e4tigkeit [...] und besondere Vorbildung [...] werden gem\u00e4\u00df folgender Skala ber\u00fccksichtigt: 1. besondere Qualifikation(en) mit einem Notenpunkt zwischen 0,1 und 0,3. 2. Berufst\u00e4tigkeit ab zw\u00f6lf Monate mit einem Notenpunkt zwischen 0,1 und 0,3."
+  },
+  {
+    "question": "Welche Englischkenntnisse werden f\u00fcr den Masterstudiengang Wirtschaftsingenieurwesen (MWI) an der Hochschule Konstanz vorausgesetzt?",
+    "answer": "Englischkenntnisse, \u00e4quivalent zu Niveau-Stufe B1 des Europ\u00e4ischen Referenzrahmens f\u00fcr das Lernen und Lehren von Fremdsprachen. Als \u00e4quivalent zu einem Zertifikat \u00fcber die Niveau-Stufe B1 gelten insbesondere das Schulabschlusszeugnis, ein Notenspiegel \u00fcber eine bestandene Pr\u00fcfungsleistung in englischer Sprache, oder ein mindestens sechsmonatiger Aufenthalt an einer Bildungsinstitution mit Englisch als Unterrichtssprache.",
+    "context": "Seite 26 von 43"
+  },
+  {
+    "question": "What is required to prove German language skills?",
+    "answer": "Passing various exams like the Test Deutsch als Fremdsprache (TestDaF) with at least TDN 4, German language examination for university admission (DSH) with at least DSH-2, or 'Telc Deutsch C1 Hochschule'",
+    "context": "Diese k\u00f6nnen [...] durch die Vorlage eines der folgenden Dokumente erbracht werden: Test Deutsch als Fremdsprache (TestDaF), sofern im Durchschnitt mindestens die Stufe TDN 4 erreicht wurde, Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH), sofern die DSH mit mindestens der Stufe DSH-2 abgeschlossen wurde, Telc Deutsch C1 Hochschule"
+  },
+  {
+    "question": "Wie kann man ein geeignetes Thema f\u00fcr die Bachelorarbeit finden?",
+    "answer": "Im System INdigit finden Sie die Liste der aktuell an der Hochschule f\u00fcr Ihren Studiengang ausgeschriebenen Themen f\u00fcr Ihre Abschlussarbeit. Falls Sie selbst einen Themenvorschlag haben und hierf\u00fcr eine Betreuung suchen, k\u00f6nnen Sie Ihr Gesuch \u00fcber INdigit einstellen oder direkt mit einer Professorin bzw. einem Professor der Fakult\u00e4t Informatik in Verbindung setzen.",
+    "context": "Im System INdigit finden Sie die Liste der aktuell an der Hochschule f\u00fcr Ihren Studiengang ausgeschriebenen Themen f\u00fcr Ihre Abschlussarbeit. Falls Sie selbst einen\nThemenvorschlag haben und hierf\u00fcr eine Betreuung suchen, k\u00f6nnen Sie Ihr Gesuch \u00fcber INdigit einstellen. Alternativ\nk\u00f6nnen Sie sich auch mit einer Professorin bzw. einem Professor der Fakult\u00e4t Informatik direkt in Verbindung setzen und \u00fcber eigene Vorschl\u00e4ge sprechen."
+  },
+  {
+    "question": "Can required language certificates be submitted after the application deadline?",
+    "answer": "Yes, they can be submitted until the start of lectures for the semester",
+    "context": "Sprachnachweise f\u00fcr den gew\u00e4hlten Studiengang, die durch die Bewerberin oder den Bewerber bis zum Bewerbungsschluss nicht vorgelegt werden k\u00f6nnen, k\u00f6nnen bis zum Vorlesungsbeginn des Semesters [...] nachgereicht werden."
+  },
+  {
+    "question": "Wie wird die Teilnote 1 f\u00fcr die Auswahlentscheidung des Masterstudiengangs Informatik (MSI) gebildet?",
+    "answer": "Das arithmetische Mittel der Noten f\u00fcr die Kriterien des Auswahlgespr\u00e4chs bildet die Teilnote 1 f\u00fcr die Auswahlentscheidung.",
+    "context": "Seite 21 von 43"
+  },
+  {
+    "question": "Who are the professors coordinating the Computational Geometry module?",
+    "answer": "Prof. Dr. G. Umlauf",
+    "context": "Modul AS06\nComputational Geometry\nModul-Koordination\nStart\nModul-K\u00fcrzel/-Nr.\nECTS-Punkte\nArbeitsaufwand\nProf. Dr. G. Umlauf\nWS\nCG/AS06\n5\n150 h"
+  },
+  {
+    "question": "What is the workload for the 'Agile Vorgehensmodelle' module?",
+    "answer": "150 h",
+    "context": "Arbeitsaufwand\n150 h\n"
+  },
+  {
+    "question": "What are some examples of projects in the Geometric Modeling module?",
+    "answer": "Examples include quaternion rotation and interpolation, modeling with B\u00e9zier-curves, and intersection of B\u00e9zier curves.",
+    "context": "Application examples and case studies, e.g., quaternion rotation and interpolation, modeling with B\u00e9zier-curves, intersection of B\u00e9zier curves."
+  },
+  {
+    "question": "Welche Kriterien werden zur Bewertung eines Auswahlgespr\u00e4chs f\u00fcr den Masterstudiengang Informatik (MSI) herangezogen?",
+    "answer": "Die Kriterien zur Bewertung eines Auswahlgespr\u00e4chs sind: Grad der Motivation f\u00fcr den gew\u00e4hlten Studiengang, Interesse an der gew\u00e4hlten Studienrichtung, Reflexion der beruflichen Zielsetzung in Wissenschaft und Praxis, kommunikative Kompetenzen, technisches Verst\u00e4ndnis und pers\u00f6nlicher Eindruck einschlie\u00dflich Schl\u00fcssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz.",
+    "context": "Seite 21 von 43"
+  },
+  {
+    "question": "Was sollten Sie tun, wenn Sie am Pr\u00fcfungstag krank sind?",
+    "answer": "Sie ben\u00f6tigen ein \u00e4rztliches Attest, das Sie unverz\u00fcglich im Sekretariat einreichen m\u00fcssen.",
+    "context": "Sollten Sie am Pr\u00fcfungstag krank sein, ben\u00f6tigen Sie ein \u00e4rztliches Attest, das Sie unverz\u00fcglich im Sekretariat einreichen."
+  },
+  {
+    "question": "Was ist der Zweck einer Bachelorarbeit?",
+    "answer": "Die Bachelorarbeit ist eine schriftliche Hausarbeit. Sie soll\nzeigen, dass Sie bef\u00e4higt sind, \"ein Problem aus einem Fachgebiet des gew\u00e4hlten Studiengangs selbst\u00e4ndig nach wissenschaftlichen Methoden\" innerhalb der vorgegebenen Frist von 3 Monaten zu bearbeiten.",
+    "context": "Die Bachelorarbeit ist eine schriftliche Hausarbeit. Sie soll\nzeigen, dass Sie bef\u00e4higt sind, \"ein Problem aus einem Fachgebiet des gew\u00e4hlten Studiengangs selbst\u00e4ndig nach\nwissenschaftlichen Methoden\" innerhalb der vorgegebenen Frist von 3 Monaten zu bearbeiten (vgl. Studien- und Pr\u00fcfungsordnung Bachelor allgemeiner Teil; \u00a730 (1) und (5)) SPO-Ba, allgemeiner Teil."
+  },
+  {
+    "question": "Welche Kriterien werden f\u00fcr die Bewertung eines Auswahlgespr\u00e4chs in den Studienrichtungen Bauingenieurwesen (BI) und Elektro- und Informationstechnik (EI) des Masterstudiengangs Wirtschaftsingenieurwesen (MWI) herangezogen?",
+    "answer": "Die Kriterien sind Grad der Motivation f\u00fcr den gew\u00e4hlten Studiengang und sich daran anschlie\u00dfenden Berufst\u00e4tigkeit, kommunikative Kompetenzen, technisches Verst\u00e4ndnis und pers\u00f6nlicher Eindruck einschlie\u00dflich Schl\u00fcssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz.",
+    "context": "Seite 26 von 43"
+  },
+  {
+    "question": "Who is the coordinator for the 'Konzepte aktueller Datenbanksysteme' module?",
+    "answer": "Prof. Dr. O. Eck",
+    "context": "Modul-Koordination\nProf. Dr. O. Eck\n"
+  },
+  {
+    "question": "Was geschieht, wenn Sie eine Klausur im ersten Anlauf nicht bestanden haben?",
+    "answer": "Sie werden automatisch zum n\u00e4chsten Pr\u00fcfungstermin angemeldet, wo Sie die Klausur erneut schreiben k\u00f6nnen.",
+    "context": "Falls Sie eine Klausur im ersten Anlauf nicht bestanden haben, werden Sie automatisch zum n\u00e4chsten Pr\u00fcfungstermin angemeldet."
+  },
+  {
+    "question": "How is the grade for the final selection decision calculated for applicants?",
+    "answer": "For selection decisions, a ranking list is created based on selection grades, which are determined by subtracting sub-grades 2 and 3 from sub-grade 1.",
+    "context": "Hochschule Konstanz, Technik, Wirtschaft und Gestaltung, Page 42 of 43, (4) Creation of a ranking list for the selection decision after \u00a7 10."
+  },
+  {
+    "question": "Welche Sprache wird f\u00fcr das Modul ITM09 verwendet?",
+    "answer": "Englisch/Deutsch",
+    "context": "Sprache\nEnglisch/Deutsch"
+  },
+  {
+    "question": "What is the contact time for the 'Natural Language Processing' module?",
+    "answer": "45 hours",
+    "context": "Kontaktzeit\n45 h"
+  },
+  {
+    "question": "Was sind die methodischen Kompetenzen, die im Modul 'User Experience Engineering' erworben werden sollen?",
+    "answer": "Theoretische Grundlagen zu Methoden und Techniken im User Centered Design Prozess, User Research, Anforderungsanalyse, Interaction und Visual Design, Evaluation der User Experience.",
+    "context": "Methodische Kompetenzen\nZudem werden theoretische Grundlagen zu Methoden und Techniken im User Centered Design Prozess anhand konkreter Beispiele vermittelt."
+  },
+  {
+    "question": "Welchen Abschlussgrad erlangt man nach erfolgreichem Abschluss des Masterstudiengangs?",
+    "answer": "Es wird der Abschlussgrad Master of Science (abgek\u00fcrzt: M.Sc.) vergeben.",
+    "context": "Paragraph 16: Mastergrad"
+  },
+  {
+    "question": "When was the Zulassungssatzung document last amended?",
+    "answer": "18. Januar 2022",
+    "context": "ZuSMa) (vom 09. Februar 2021, zuletzt ge\u00e4ndert am 18. Januar 2022)"
+  },
+  {
+    "question": "Wie wird die m\u00fcndliche Masterpr\u00fcfung durchgef\u00fchrt?",
+    "answer": "Die m\u00fcndliche Masterpr\u00fcfung wird in Form einer Disputation mit dem Pr\u00fcfungsgremium gem\u00e4\u00df \u00a7 24 SPOMa durchgef\u00fchrt. Die Disputation erstreckt sich \u00fcber das Thema der Masterarbeit und \u00fcber den Gesamtzusammenhang der Masterarbeit mit den Inhalten des Studiengangs.",
+    "context": "Paragraph 15: M\u00fcndliche Masterpr\u00fcfung"
+  },
+  {
+    "question": "What are the general access requirements for a master's program?",
+    "answer": "Completion of an undergraduate program with above-average results and 210 ECTS points, proven fulfillment of additional access criteria, successful participation in the selection process",
+    "context": "Zugangsvoraussetzungen f\u00fcr einen Masterstudiengang sind Ein mit \u00fcberdurchschnittlichem Erfolg abgeschlossenes grundst\u00e4ndiges Hochschulstudium, f\u00fcr das eine Regelstudienzeit von mindestens drei Jahren festgesetzt ist, oder ein vergleichbarer Abschluss, Nachweise, dass weitere Zugangskriterien erf\u00fcllt sind, die erfolgreiche Teilnahme an dem Auswahlverfahren."
+  },
+  {
+    "question": "Wann und wie ist der Antrag auf Anerkennung zu stellen?",
+    "answer": "Innerhalb von drei Monaten nach dem Tag der Immatrikulation an der HTWG, unter Verwendung des elektronisch ausf\u00fcllbaren Formulars 'Antrag auf Anerkennung einer Pr\u00fcfungsleistung'.",
+    "context": "Der Antrag ist innerhalb von drei Monaten nach dem Tag der Immatrikulation an der HTWG zu stellen. Verwenden Sie hierzu das Formular Antrag auf Anerkennung einer Pr\u00fcfungsleistung \u2013 bitte verwenden Sie das elektronisch ausf\u00fcllbare Formular."
+  },
+  {
+    "question": "What are the learning objectives for the 'Agile Vorgehensmodelle' module?",
+    "answer": "Participants will learn and understand the basics, concepts, and methods in agile product development and agile project management. They will iteratively and incrementally develop a software product as part of a project using modern collaborative tools.",
+    "context": "Lernziele des\nModuls\nDie Teilnehmer lernen und verstehen die Grundlagen, Konzepte und Methoden im Bereich agiler\nProduktenwicklung und agilem Projektmanagement. Im Rahmen eines gr\u00f6\u00dferen Projekts arbeiten die\nStudierenden unter Benutzung moderner kollaborativer Werkzeuge zusammen und entwickeln iterativ,\ninkrementell ein Softwareprodukt.\n"
+  },
+  {
+    "question": "What are the learning objectives for the 'Mobile Kommunikation und Kollaboration' module?",
+    "answer": "Students will learn and understand the basics, concepts, and technologies in mobile communication and collaboration in distributed projects. They will work on a larger project using modern collaborative tools and develop current elements of mobile communication and collaboration.",
+    "context": "Lernziele des\nModuls\nDie Teilnehmer lernen und verstehen die Grundlagen, Konzepte, Technologien bzw. Architekturen im\nBereich mobiler Kommunikation und Kollaboration in verteilten Projekten. Im Rahmen eines gr\u00f6\u00dferen\nProjekts arbeiten die Studierenden unter Benutzung moderner kollaborativer Werkzeuge zusammen\nund entwickeln aktuelle Elemente der mobilen Kommunikation und Kollaboration.\n"
+  },
+  {
+    "question": "How many ECTS points are required to complete the Master\u2019s program in Computer Science (MSI)?",
+    "answer": "A total of 90 ECTS points, with 60 ECTS points from required courses in the compulsory and elective area and 30 ECTS points from the master's thesis and colloquium (oral master's examination).",
+    "context": "SPO No. 5 | Version according to Official Journal No. 125 | Senate December 13, 2022, Page 1 of 8, \u00a7 37 Computer Science (MSI), (4) Scope of studies."
+  },
+  {
+    "question": "How many points can be earned for at least two years of professional activity in the selection process for the Architecture Master's program?",
+    "answer": "0.4 grade points",
+    "context": "- F\u00fcr mindestens zwei Jahre T\u00e4tigkeit: 0,4 Notenpunkte."
+  },
+  {
+    "question": "Welche fachlichen Zulassungsvoraussetzungen gibt es f\u00fcr die Modul- und Modulteilpr\u00fcfungen?",
+    "answer": "Es gibt keine Regelungen, die \u00fcber die Festlegungen im Allgemeinen Teil hinausgehen.",
+    "context": "Paragraph 9: Fachliche Zulassungsvoraussetzungen zu den Modul- und Modulteilpr\u00fcfungen"
+  },
+  {
+    "question": "What is covered in the Diskrete Mathematik module?",
+    "answer": "Topics like Logic, Combinatorics, Number Theory and Cryptography, and a glimpse on Quantum Computing.",
+    "context": "Lehrinhalt\n- Logic: Propositional Logic, Predicate Logic, Rules of Inference\n- Combinatorics: Counting, Pigeonhole Principle, Arranging and Selecting\n- Number Theory and Cryptography: Integer Division and Representation, Primes and Greatest Common Divisors, Linear Congruences, Cryptography (in particular RSA and Elliptic Curves)\n- A Glimpse on Quantum Computing"
+  },
+  {
+    "question": "What language is the 'Natural Language Processing Project' taught in?",
+    "answer": "German, potentially English",
+    "context": "Sprache\nDeutsch, ggf. Englisch"
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Grundstudium und Hauptstudium?",
+    "answer": "Das Grundstudium umfasst das 1. und 2. Semester, w\u00e4hrend das Hauptstudium die Semester 3-7 umfasst.",
+    "context": "Das Grundstudium umfasst das 1. und das 2. Semester. Das Hauptstudium umfasst die Semester 3 - 7."
+  },
+  {
+    "question": "Wie kann ich mich von einer Pr\u00fcfung abmelden?",
+    "answer": "Sie k\u00f6nnen sich entweder online im Studierendenportal von einer solchen Pr\u00fcfung abmelden oder mit Hilfe des Formulars R\u00fccktritt von nicht-terminierten Pr\u00fcfungen, das vor dem Pr\u00fcfungstermin im Sekretariat des Pr\u00fcfungsamts abzugeben ist. Bei Klausurpr\u00fcfungen kann der R\u00fccktritt sogar unmittelbar vor Beginn der Klausur direkt bei dem/der Pr\u00fcfer/in erfolgen.",
+    "context": "zur\u00fccktreten? Sie k\u00f6nnen sich entweder online im Studierendenportal von einer solchen Pr\u00fcfung abmelden oder mit Hilfe des Formulars R\u00fccktritt von nicht-terminierten Pr\u00fcfungen, das vor dem Pr\u00fcfungstermin im Sekretariat des Pr\u00fcfungsamts abzugeben ist. Bei Klausurpr\u00fcfungen kann der R\u00fccktritt sogar unmittelbar vor Beginn der Klausur direkt bei dem/der Pr\u00fcfer/in erfolgen. Das Online-Abmeldeverfahren steht nur innerhalb eines vorgegebenen Zeitfensters w\u00e4hrend des Semesters zur Verf\u00fcgung. Beachten Sie die Infos des Zentralen Pr\u00fcfungsamts zur Pr\u00fcfungsan- und -abmeldung unter \"Allgemeine Infos zum Ablauf der Pr\u00fcfungsanmeldung\" / Link \"Infos zur Pr\u00fcfungsanmeldung\". Im Notenkonto ist ein genehmigter R\u00fccktritt durch den Vermerk G oder RT erkennbar. Der Versuchsz\u00e4hler wird nicht erh\u00f6ht. Nach dem R\u00fccktritt ist die Pr\u00fcfung terminiert, d.h. Sie werden automatisch zum n\u00e4chstm\u00f6glichen Pr\u00fcfungstermin (in der Regel im Folgesemester, es sei denn dabei handele es sich um das Praxissemester) wiederangemeldet."
+  },
+  {
+    "question": "What is a recommended literature for the Data Analysis module?",
+    "answer": "Richard McElreath. Statistical Rethinking A Bayesian Course with Examples in R and Stan 2nd Edition (2020). CRC Press",
+    "context": "Literatur/Medien\n- Richard McElreath. Statistical Rethinking A Bayesian Course with Examples in R and Stan 2nd Edition (2020). CRC Press"
+  },
+  {
+    "question": "Who forms the selection committee?",
+    "answer": "The faculty council of the respective faculty",
+    "context": "Der Fakult\u00e4tsrat der Fakult\u00e4t, welcher der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission."
+  },
+  {
+    "question": "Wer kann die Bachelorarbeit betreuen und benoten?",
+    "answer": "Die/Der 1. Pr\u00fcfer/in muss ein/e Professor/in der Fakult\u00e4t Informatik sein. Die/Der 2. Pr\u00fcfer/in kann ein/e Professor/in oder ein/e Lehrbeauftragte/r (auch aus einer anderen Fakult\u00e4t) sein. Bei einer externen Bachelorarbeit \u00fcbernimmt ein/e Mitarbeiter/in des Unternehmens diese Rolle.",
+    "context": "Die/Der 1. Pr\u00fcfer/in muss ein/e Professor/in der Fakult\u00e4t Informatik sein. Die/Der 2. Pr\u00fcfer/in kann ein/e Professor/in oder ein/e Lehrbeauftragte/r (auch aus einer anderen Fakult\u00e4t) sein. Bei einer externen Bachelorarbeit \u00fcbernimmt ein/e Mitarbeiter/in in der Firma, in der die Bachelorarbeit durchgef\u00fchrt wird, diese Rolle."
+  },
+  {
+    "question": "Wie ist das Studium in den Masterstudieng\u00e4ngen der Hochschule Konstanz aufgebaut?",
+    "answer": "Das Studium ist modular aufgebaut. Ein Modul bezeichnet eine Studieneinheit bestehend aus einer oder mehreren Lehrveranstaltungen, die methodisch aufeinander aufbauen oder inhaltlich zusammengeh\u00f6ren.",
+    "context": "Paragraph \u00a7 2: Regelstudienzeit, Studienaufbau, Modularisierung und Studiengangsprofil"
+  },
+  {
+    "question": "What topics are taught in the 'Numerische Mathematik' module?",
+    "answer": "Rounding Errors, Condition and Stability, Approximate Calculation of Zeros of Functions, Numerical Treatment of Linear Systems of Equations, Interpolation and Approximation",
+    "context": "Numerische Mathematik\nProf. Dr. G. Umlauf\nV\n2\n3\no\n- Rundungsfehler\n- Kondition und Stabilit\u00e4t\n- n\u00e4hereungsweise Berechnung von Nullstellen von\nFunktionen\n- numerische Behandlung von linearen Gleichungssystemen\n(quadratisch, unter- und \u00fcberbestimmt)\n- Interpolation und Approximation (auch mehrdimensional)"
+  },
+  {
+    "question": "What are the two main study orientations within the Master's in Civil and Environmental Engineering?",
+    "answer": "1. Civil Engineering 2. Environmental Engineering",
+    "context": "Der Masterstudiengang Bau- und Umweltingenieurwesen gliedert sich in die Studienrichtungen Bauingenieurwesen und Umweltingenieurwesen. Mit dem Antrag auf Zulassung zum Studium muss eine der beiden Studienrichtungen verbindlich gew\u00e4hlt werden."
+  },
+  {
+    "question": "Welche Pr\u00fcfungsleistungen gibt es im Modul 'User Experience Engineering'?",
+    "answer": "Es gibt benotete Pr\u00fcfungen (K90).",
+    "context": "Benotete Pr\u00fcfung\nUnbenotete\nPr\u00fcfung\nUnbenoteter\nLeistungsnachweis\nModulpr\u00fcfung (MP)\nK90"
+  },
+  {
+    "question": "Wie meldet man die Bachelorarbeit an?",
+    "answer": "Hierzu m\u00fcssen Sie einen digitalen Antrag auf Ausgabe der Abschlussarbeit \u00fcber das System INdigit stellen. Erst wenn Ihr Antrag von der bzw. dem Vorsitzenden des Pr\u00fcfungsausschusses genehmigt wurde, d\u00fcrfen Sie mit der Bachelorarbeit beginnen.",
+    "context": "Hierzu m\u00fcssen Sie einen digitalen Antrag auf Ausgabe derAbschlussarbeit \u00fcber das System INdigit stellen. Erst wenn Ihr Antrag von der bzw. dem Vorsitzenden des Pr\u00fcfungsausschusses genehmigt wurde, d\u00fcrfen Sie mit der Bachelorarbeit beginnen."
+  },
+  {
+    "question": "When did the admission regulation for Master's programs at Hochschule Konstanz come into effect?",
+    "answer": "The admission regulation came into effect the day after its announcement and applies for the first time for the winter semester 2021/22.",
+    "context": "Hochschule Konstanz, Technik, Wirtschaft und Gestaltung, Page 43 of 43, \u00a7 27 Effectiveness."
+  },
+  {
+    "question": "In welchen F\u00e4llen muss ich eine Anmeldung meiner Pr\u00fcfungen vornehmen?",
+    "answer": "Zu den Pflichtpr\u00fcfungen des Semesters, in dem Sie aktuell eingestuft sind, und zu allen terminierten Pr\u00fcfungen werden Sie automatisch angemeldet und brauchen daher nichts weiter zu tun. Wenn Sie jedoch an Pr\u00fcfungen zu Wahlpflichtf\u00e4chern, F\u00e4chern des Studium Generale, Kursen des Fremdsprachenangebots der HTWG oder Zusatzf\u00e4chern, die Sie freiwillig belegen m\u00f6chten, teilnehmen wollen, m\u00fcssen Sie sich explizit beim Zentralen Pr\u00fcfungsamt anmelden.",
+    "context": "In welchen F\u00e4llen muss ich eine Anmeldung meiner Pr\u00fcfungen vornehmen? Zu den Pflichtpr\u00fcfungen des Semesters, in dem Sie aktuell eingestuft sind, und zu allen terminierten Pr\u00fcfungen werden Sie automatisch angemeldet und brauchen daher nichts weiter zu tun. Wenn Sie jedoch an Pr\u00fcfungen zu Wahlpflichtf\u00e4chern, F\u00e4chern des Studium Generale, Kursen des Fremdsprachenangebots der HTWG oder Zusatzf\u00e4chern, die Sie freiwillig belegen m\u00f6chten, teilnehmen wollen, m\u00fcssen Sie sich explizit beim Zentralen Pr\u00fcfungsamt anmelden. In den Studieng\u00e4ngen Wirtschaftsinformatik und Angewandte Informatik gilt dies aber auch f\u00fcr die Pflichtmodule der von Ihnen gew\u00e4hlten Vertiefungsrichtung."
+  },
+  {
+    "question": "Wie ist der Antrag auf eine 2. Wiederholung zu stellen?",
+    "answer": "Der Antrag ist formlos und an den Pr\u00fcfungsausschuss zu richten und innerhalb der per Aushang bekanntgemachten Frist einzureichen.",
+    "context": "Der Antrag ist formlos und an den Pr\u00fcfungsausschuss zu richten und innerhalb der per Aushang bekanntgemachten Frist (i.A. innerhalb von 14 Tagen nach Freischaltung der aktuellen Online-Notenansicht) einzureichen."
+  },
+  {
+    "question": "What are some of the topics covered in the Computational Geometry module?",
+    "answer": "Convex hulls in 2d and 3d, Line intersections, Space partition data structures, point locations, range queries, Polygon triangulation, Voronoi and Delaunay techniques, 2d motion planning, Point cloud triangulation",
+    "context": "Lehrinhalt\nComputational Geometry\nProf. Dr. G. Umlauf\nV\n2\n3"
+  },
+  {
+    "question": "Who is the coordinator for the 'Cloud Application Development' module?",
+    "answer": "Prof. Dr. M. J. Eiglsperger",
+    "context": "Modul-Koordination\nProf. Dr. M. J. Eiglsperger\n"
+  },
+  {
+    "question": "Was geschieht, wenn die Masterpr\u00fcfung endg\u00fcltig nicht bestanden wird?",
+    "answer": "Wenn die Masterpr\u00fcfung endg\u00fcltig nicht bestanden wird, wird auf Antrag eine Bescheinigung ausgestellt, die die erbrachten Pr\u00fcfungen und deren Noten sowie die noch nicht erbrachten Pr\u00fcfungen enth\u00e4lt und erkennen l\u00e4sst, dass die Masterpr\u00fcfung endg\u00fcltig nicht bestanden ist.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 29 Endg\u00fcltiges Nichtbestehen der Masterpr\u00fcfung"
+  },
+  {
+    "question": "Was ist das Ziel des Masterstudiengangs im Modul SE08?",
+    "answer": "Das Ziel ist es, die Studierenden auf m\u00f6gliche F\u00fchrungsaufgaben in der Industrie vorzubereiten, einschlie\u00dflich der M\u00f6glichkeit, ein eigenes Unternehmen zu gr\u00fcnden.",
+    "context": "Ein Ziel des Masterstudienganges ist es, die Studierenden auf m\u00f6gliche F\u00fchrungsaufgaben in der Industrie vorzubereiten; dazu z\u00e4hlt ausdr\u00fccklich auch die M\u00f6glichkeit ein eigenes Unternehmen zu gr\u00fcnden."
+  },
+  {
+    "question": "What statistical topics are covered in the 'Stochastik' module?",
+    "answer": "Descriptive Statistics, Probability Theory, Inductive Statistics, Stochastic Processes",
+    "context": "Stochastik\nProf. Dr. B. Staehle\nV\n2\n3\no\n- Deskriptive Statistik: Graphische Darstellungen und\nBerechnung von Kenngr\u00f6\u00dfen ein- und zweidimensionaler\nDaten, Korrelation und Regression\n- Wahrscheinlichkeitsrechnung: (bedingte)\nWahrscheinlichkeiten, diskrete und stetige\nZufallsvariablen und Zufallsvektoren, bekannte\nVerteilungen, Absch\u00e4tzen von Wahrscheinlichkeiten\n- Induktive Statistik: Punkt- und Intervallsch\u00e4tzungen\n- Stochastische Prozesse: Modellbildung, Markovprozesse,\nWarteschlangen und Blockierwahrscheinlichkeiten"
+  },
+  {
+    "question": "K\u00f6nnen im Rahmen der Lehrveranstaltungen Exkursionen angeboten werden?",
+    "answer": "Ja, im Rahmen der Lehrveranstaltungen k\u00f6nnen Exkursionen angeboten werden.",
+    "context": "Paragraph 13: Exkursionen"
+  },
+  {
+    "question": "What is one component of the 'Natural Language Processing Project' module?",
+    "answer": "Implementing functions for preprocessing tasks and to transform text into features.",
+    "context": "Natural Language Processing Project\n- Implement functions for preprocessing tasks, and to transform text into features"
+  },
+  {
+    "question": "What is the prerequisite minimum grade for the Bachelor's degree to qualify for the Master's in Civil and Environmental Engineering?",
+    "answer": "2.5",
+    "context": "Zugangsvoraussetzung f\u00fcr den Masterstudiengang Bau- und Umweltingenieurwesen ist ein mit mindestens der Note 2,5 abgeschlossenes Hochschulstudium gem\u00e4\u00df \u00a7 5 Abs. 1 Nr. 1 in einem Studiengang der Fachrichtung Bauingenieurwesen oder Umwelttechnik & Ressourcenmanagement / Umweltingenieurwesen oder einer jeweils verwandten Fachrichtung."
+  },
+  {
+    "question": "What does the module handbook contain information about?",
+    "answer": "It contains information on scope, learning forms, content, literature, type of examination, workload, ECTS points, prerequisites, learning outcomes, and module coordinators of the modules of the Master\u2019s program in Informatics.",
+    "context": "Das Modulhandbuch enth\u00e4lt Informationen zum Umfang, der Lernform, den Inhalten, der Literatur, der\nPr\u00fcfungsart, dem Arbeitsaufwand, den ECTS-Leistungspunkten, den Voraussetzungen, dem Lernergebnis und den Modulverantwortlichen der Module des Masterstudiengangs Informatik (MSI)."
+  },
+  {
+    "question": "What skills will students acquire in the 'IT-Consulting' module?",
+    "answer": "Students will acquire management skills, social & team skills, and the competence for knowledge transfer through concrete case studies.",
+    "context": "Die Studierenden erwerben au\u00dferdem F\u00e4higkeiten zur Durchf\u00fchrung und Gestaltung von Meetings und Workshops mithilfe von Moderationstechniken und Slidewriting. Sie erwerben durch das Modul Management Skills, Social & Team Skills sowie die Kompetenz zum Wissenstransfer durch konkrete Fallstudien."
+  },
+  {
+    "question": "What is the title of the university syllabus document?",
+    "answer": "Zulassungssatzung f\u00fcr die Masterstudieng\u00e4nge (ZuSMa)",
+    "context": "Hochschule Konstanz Technik, Wirtschaft und Gestaltung Seite 1 von 43 Zulassungssatzung f\u00fcr die Masterstudieng\u00e4nge (ZuSMa) (vom 09. Februar 2021, zuletzt ge\u00e4ndert am 18. Januar 2022)"
+  },
+  {
+    "question": "What happens if the applicant does not meet the entry requirements after the application evaluation?",
+    "answer": "The applicant will be excluded from the selection process",
+    "context": "Vom Vergabeverfahren ausgeschlossen ist, wer [...] die Zugangsvoraussetzungen gem\u00e4\u00df Besonderem Teil nicht erf\u00fcllt."
+  },
+  {
+    "question": "Wann muss die Bachelorarbeit sp\u00e4testens angemeldet werden?",
+    "answer": "In der Regel meldet man seine Bachelorarbeit sp\u00e4testens dann an, wenn alle sonstigen Pr\u00fcfungsleistungen des Studiengangs erbracht sind. Die Abgabe der Bachelorarbeit muss sp\u00e4testens zum Ende des 10. Studiensemesters erfolgen.",
+    "context": "In der Regel meldet man seine Bachelorarbeit sp\u00e4testens dann an, wenn alle sonstigen Pr\u00fcfungsleistungen des Studiengangs erbracht sind. Achten Sie aber auch auf die H\u00f6chststudiendauer: Damit diese nicht \u00fcberschritten wird, muss die Abgabe der Bachelorarbeit sp\u00e4testens zum Ende Ihres 10. Studiensemesters erfolgen."
+  },
+  {
+    "question": "Welche Regelung gilt f\u00fcr Modulpr\u00fcfungen bei den Modulen 5 und 6?",
+    "answer": "F\u00fcr Module, bei denen im Pr\u00fcfungsplan (Absatz 8 a, b, c) der Leistungsnachweis bzw. die Pr\u00fcfungsleistung in der Zeile des Modulnamens eingetragen ist, gilt folgende Regelung: Die Modulpr\u00fcfung umfasst s\u00e4mtliche Lehrveranstaltungen des Moduls. Das Ergebnis einer benoteten Modulpr\u00fcfung flie\u00dft mit dem Gewicht der dem Modul im Pr\u00fcfungsplan zugeordneten ECTS-Punktzahl in die Berechnung der Gesamtnote der Masterpr\u00fcfung ein.",
+    "context": "Paragraph 11a: Modulpr\u00fcfungen (Regelung f\u00fcr die Module 5 und 6)"
+  },
+  {
+    "question": "What is the teaching language for the 'Konzepte aktueller Datenbanksysteme' module?",
+    "answer": "Deutsch",
+    "context": "Sprache\nDeutsch\n"
+  },
+  {
+    "question": "Wie viele ECTS-Punkte hat das Wahlpflichtmodul im Modulhandbuch des Studiengangs Informatik?",
+    "answer": "Das Wahlpflichtmodul hat 10 ECTS-Punkte.",
+    "context": "ECTS-Punkte\nArbeitsaufwand\n10\n300 h"
+  },
+  {
+    "question": "Wo finde ich den f\u00fcr mich g\u00fcltigen Katalog der Wahlpflichtf\u00e4cher?",
+    "answer": "Den Wahlpflichtkatalog Ihres Studiengangs (und ggf. Ihrer Vertiefungsrichtung) finden Sie auf der Studiengangswebseite im Reiter \"Dokumente\". Die Kataloge werden immer zu Semesterbeginn aktualisiert und ver\u00f6ffentlicht.",
+    "context": "Wo finde ich den f\u00fcr mich g\u00fcltigen Katalog der Wahlpflichtf\u00e4cher? Den Wahlpflichtkatalog Ihres Studiengangs (und ggf. Ihrer Vertiefungsrichtung) finden Sie auf der Studiengangswebseite im Reiter \"Dokumente\". Die Kataloge werden immer zu Semesterbeginn aktualisiert und ver\u00f6ffentlicht. Ein Teil der Wahlpflichtf\u00e4cher kann auch dem Studium-Generale-Angebot oder dem Katalog der Fremdsprachen-Kurse der HTWG entnommen werden."
+  },
+  {
+    "question": "Nach wie vielen Semestern muss das Grundstudium sp\u00e4testens abgeschlossen sein?",
+    "answer": "Das Grundstudium muss nach 4 Semestern abgeschlossen sein.",
+    "context": "Nach wie vielen Semestern muss das Grundstudium sp\u00e4testens abgeschlossen sein? Das Grundstudium muss nach 4 Semestern abgeschlossen sein."
+  },
+  {
+    "question": "Welche Zusatzleistungen k\u00f6nnen im Bachelorzeugnis aufgef\u00fchrt werden?",
+    "answer": "Dar\u00fcber hinausgehende Pr\u00fcfungsleistungen k\u00f6nnen auf Wunsch als Zusatzveranstaltungen (mit Note, aber ohne ECTS-Punkte) im Bachelorzeugnis aufgef\u00fchrt werden.",
+    "context": "Dar\u00fcber hinausgehende Pr\u00fcfungsleistungen k\u00f6nnen auf\nWunsch als Zusatzveranstaltungen (mit Note, aber ohne\nECTS-Punkte) im Bachelorzeugnis aufgef\u00fchrt werden."
+  },
+  {
+    "question": "Was soll die Masterarbeit nachweisen?",
+    "answer": "Die Masterarbeit soll nachweisen, dass der/die Studierende innerhalb einer vorgegebenen Frist ein Problem aus einem Fachgebiet des Studiengangs MSI selbst\u00e4ndig nach wissenschaftlichen Methoden bearbeiten kann.",
+    "context": "Paragraph 14: Masterarbeit"
+  },
+  {
+    "question": "Who is the coordinator for the 'Mobile Kommunikation und Kollaboration' module?",
+    "answer": "Prof. Dr. R. Mueller",
+    "context": "Modul-Koordination\nProf. Dr. R. Mueller\n"
+  },
+  {
+    "question": "Which departments are included in the Hochschule Konstanz?",
+    "answer": "Architecture and Design, Civil Engineering, Electrical Engineering and Information Technology, Computer Science, Mechanical Engineering, and Economic, Cultural and Legal Sciences.",
+    "context": "Die 19 Bachelor- und 14 Masterstudieng\u00e4nge z\u00e4hlen knapp 5.000 Studierende an den Fakult\u00e4ten Architektur und Gestaltung, Bauingenieurwesen, Elektrotechnik und Informationstechnik, Informatik, Maschinenbau sowie Wirtschafts-, Kultur- und Rechtswissenschaften."
+  },
+  {
+    "question": "Was beschreibt ein ECTS-Punkt im Rahmen der Masterstudieng\u00e4nge der Hochschule Konstanz?",
+    "answer": "Ein ECTS-Punkt beschreibt den mittleren zeitlichen Arbeitsaufwand, der erforderlich ist, um ein Modul erfolgreich zu absolvieren.",
+    "context": "Paragraph \u00a7 4: ECTS-Punkte und Lernumfang"
+  },
+  {
+    "question": "What are the learning forms included in the Innovative Methoden zur Gestaltung von Gesch\u00e4ftsprozessen module?",
+    "answer": "Vorlesung, \u00dcbung, Selbststudium, Hausarbeit",
+    "context": "Lehr- und Lernformen\nS Vorlesung\nS \u00dcbung\nS Selbststudium\nS Hausarbeit"
+  },
+  {
+    "question": "What arguments are given for pursuing a Masterstudium in Informatik at HTWG Konstanz?",
+    "answer": "1. Excellent job prospects in all industries. 2. Practice and research in future-oriented technologies. 3. Various study directions and a broad range of subjects. 4. Excellent support ratio due to small groups. 5. Excellent conditions for realizing your own innovative ideas.",
+    "context": "5 Argumente f\u00fcr das Masterstudium Informatik an der HTWG Konstanz: 1 erstklassige Berufsaussichten in allen Branchen. 2 Praxis und Forschung in zukunftsorientierten Technologien. 3 verschiedene Studienrichtungen und breites F\u00e4cherspektrum. 4 hervorragendes Betreuungsverh\u00e4ltnis durch kleine Gruppen. 5 exzellente Voraussetzung, eigene innovative Ideen zu verwirklichen."
+  },
+  {
+    "question": "Was geschieht, wenn ich einer Pr\u00fcfung fernbleibe, ohne zuvor den R\u00fccktritt erkl\u00e4rt oder ein Attest eingereicht zu haben?",
+    "answer": "In diesem Falle gilt die Pr\u00fcfung als nicht bestanden (Note 5,0). Im Notenkonto wird der Vermerk U (unentschuldigtes Fehlen) eingetragen, und der Versuchsz\u00e4hler wird f\u00fcr die n\u00e4chste Anmeldung dieser Pr\u00fcfung um 1 erh\u00f6ht.",
+    "context": "Was geschieht, wenn ich einer Pr\u00fcfung fernbleibe, ohne zuvor den R\u00fccktritt erkl\u00e4rt oder ein Attest eingereicht zu haben? In diesem Falle gilt die Pr\u00fcfung als nicht bestanden (Note 5,0). Im Notenkonto wird der Vermerk U (unentschuldigtes Fehlen) eingetragen, und der Versuchsz\u00e4hler wird f\u00fcr die n\u00e4chste Anmeldung dieser Pr\u00fcfung um 1 erh\u00f6ht. Genauso werden Hausarbeiten, die nicht fristgerecht eingereicht wurden, behandelt \u2013 es sei denn, es liegt ein genehmigter R\u00fccktritt vor, der lange vor dem von dem/der Pr\u00fcfer/in geforderten Abgabetermin erkl\u00e4rt wurde."
+  },
+  {
+    "question": "How many ECTS points are awarded for the Seminar module?",
+    "answer": "5",
+    "context": "ECTS-Punkte\n5"
+  },
+  {
+    "question": "What kind of study forms are included in the modules Handbook of HTWG Konstanz?",
+    "answer": "Lecture, Exercise (with supervision), Laboratory Exercise, Workshop, Seminar, Internship, Excursion, Integrated practical study semester, Test Exercises, Oral Examination, Presentation, Project.",
+    "context": "SWS\n=\nSemesterwochenstunden\nECTS\n=\nEuropean Credit Transfer System\nPM\n=\nPflichtmodul\nWPM\n=\nWahlpflichtmodul\nGS\n=\nGrundstudium\nHS\n=\nHauptstudium\nV\n=\nVorlesung\n\u00dc\n=\n\u00dcbung (mit Betreuung)\nL\u00dc\n=\nLabor\u00fcbung\nW\n=\nWorkshop, Seminar\nP\n=\nPraktikum\nE\n=\nExkursion\nPSS\n=\nIntegriertes praktisches Studiensemester\nKx\n=\nKlausur (x = Dauer in Minuten)\nMx\n=\nM\u00fcndliche Pr\u00fcfung (x = Dauer in Minuten)\nR\n=\nReferat\nSP\n=\nsonstige schriftliche oder praktische Arbeit\nAB\n=\nAusarbeitungen/Berichte\nLP\n=\nLabor-/Programmierarbeiten\nPR\n=\nPr\u00e4sentation\nTE\n=\nTestat\nPJ\n=\nProjekt"
+  },
+  {
+    "question": "What are the English language requirements for the Master in Industrial Engineering and Management?",
+    "answer": "English language skills equivalent to the B1 level of the Common European Framework of Reference for Languages, with various certificates and proofs being accepted.",
+    "context": "Hochschule Konstanz \nTechnik, Wirtschaft und Gestaltung \n\nSeite 33 von 43\n\u00a7 22 Industrial Engineering and Management (MIE) \n(1) Studiengangspezifische Zugangsvoraussetzungen gem\u00e4\u00df \u00a7 5 Abs. 1 2. Englischkenntnisse, \u00e4quivalent zu Niveau-Stufe B1 des Europ\u00e4ischen Referenzrahmens f\u00fcr das Lernen und Lehren von Fremdsprachen. Als \u00e4quivalent zu einem Zertifikat \u00fcber die Niveau-Stufe B1 gelten insbesondere folgende Nachweise: - das Schulabschlusszeugnis, aus dem der Besuch des Englischunterrichts bis zum Erreichen des mittleren Bildungsabschlusses (10. Klasse) bzw. bis zum Erreichen der Fachhochschulreife hervorgeht oder - ein Notenspiegel, aus dem die bestandene Pr\u00fcfungsleistung \u00fcber eine Lehrveranstaltung im Rahmen des grundst\u00e4ndigen Studiums hervorgeht, die die englische Sprache zum Inhalt hatte oder - eine Bescheinigung \u00fcber den mindestens sechsmonatigen Aufenthalt an einer Schule, Hochschule oder anderen Bildungsinstitution mit Englisch als Unterrichtssprache oder - eine Bescheinigung \u00fcber den Aufenthalt im englischsprachigen Ausland, der einen Zeitraum von mindestens sechs Monaten bzw. einem Studiensemester umfasst."
+  },
+  {
+    "question": "Wie viele ECTS-Punkte m\u00fcssen aus benoteten Lehrveranstaltungen im Rahmen der Pflicht- und Wahlpflichtmodule belegt werden?",
+    "answer": "Es m\u00fcssen benotete Lehrveranstaltungen im Umfang von mindestens 35 ECTS-Punkten belegt werden.",
+    "context": "Paragraph 12: Pflicht- und Wahlpflichtmodule"
+  },
+  {
+    "question": "Wann wurde das Modul ITM05 zuletzt aktualisiert?",
+    "answer": "19.09.2022",
+    "context": "Zuletzt aktualisiert\n19.09.2022"
+  },
+  {
+    "question": "Seit wann gilt die Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz (SPOMa) und wann wurde sie zuletzt ge\u00e4ndert?",
+    "answer": "Die Studien- und Pr\u00fcfungsordnung gilt seit dem 30. September 2004 und wurde zuletzt am 17. Januar 2023 ge\u00e4ndert.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz Technik, Wirtschaft und Gestaltung f\u00fcr die Masterstudieng\u00e4nge (SPOMa)"
+  },
+  {
+    "question": "What is the focus of the Vernetzung autonomer Systeme module?",
+    "answer": "Kennenlernen verschiedener Technologien zur drahtlosen Vernetzung autonomer Systeme; Erwerb der F\u00e4higkeit, die Eignung von Technologien f\u00fcr ein Anwendungsszenario absch\u00e4tzen und geeignete Technologien ausw\u00e4hlen zu k\u00f6nnen; Praktische Erfahrungen im Umgang mit drahtlosen Netzen.",
+    "context": "Lernziele des\nModuls\nFachliche Kompetenzen\nKennenlernen verschiedener Technologien zur drahtlosen Vernetzung autonomer Systeme; Erwerb der F\u00e4higkeit, die Eignung von Technologien f\u00fcr ein Anwendungsszenario absch\u00e4tzen und geeignete Technologien ausw\u00e4hlen zu k\u00f6nnen; Praktische Erfahrungen im Umgang mit drahtlosen Netzen."
+  },
+  {
+    "question": "What skills will students acquire in the Real-Time Operating Systems module?",
+    "answer": "Die Student*innen beherrschen theoretische und praktische Konzepte und Methoden g\u00e4ngiger Realzeit Betriebssysteme. Sie sind in der Lage geeignete Methoden zur L\u00f6sung spezifischer Aufgabenstellungen im Realzeit Bereich anzuwenden. Sie verf\u00fcgen \u00fcber praktische Laborerfahrung im Umgang mit Systemschnittstellen und Programmierumgebungen von Realzeit Betriebssystemen.",
+    "context": "Lernziele des\nModuls\nFachliche Kompetenzen\nDie Student*innen beherrschen theoretische und praktische Konzepte und Methoden g\u00e4ngiger Realzeit Betriebssysteme. Sie sind in der Lage geeignete Methoden zur L\u00f6sung spezifischer Aufgabenstellungen im Realzeit Bereich anzuwenden. Sie verf\u00fcgen \u00fcber praktische Laborerfahrung im Umgang mit Systemschnittstellen und Programmierumgebungen von Realzeit Betriebssystemen."
+  },
+  {
+    "question": "What are the required ECTS points in specific subject areas for an Informatics degree to qualify for the Master's in Business Information Technology?",
+    "answer": "At least 100 ECTS points, including: a. Grundlagen der Informatik, b. Programmierung, c. Algorithmen und Datenstrukturen, d. Datenbanken",
+    "context": "Bei einem Studienabschluss in Informatik m\u00fcssen mindestens 100 ECTS-Punkte in Informatik-F\u00e4chern nachgewiesen werden. Darin m\u00fcssen enthalten sein: a. Grundlagen der Informatik, b. Programmierung, c. Algorithmen und Datenstrukturen und d. Datenbanken."
+  },
+  {
+    "question": "Was m\u00fcssen Sie im 2. Pr\u00fcfungszeitraum tun?",
+    "answer": "Sie m\u00fcssen alle Klausuren, die Sie im 1. Pr\u00fcfungszeitraum nicht bestanden oder noch nicht geschrieben haben, erneut schreiben.",
+    "context": "Im 2. Pr\u00fcfungszeitraum m\u00fcssen Sie alle Klausuren des ersten Semesters schreiben, die Sie noch nicht bestanden haben."
+  },
+  {
+    "question": "Welche Kriterien werden f\u00fcr die Auswahl der Bewerber zu den Auswahlgespr\u00e4chen herangezogen?",
+    "answer": "Die Kriterien f\u00fcr die Auswahl der Bewerber zu den Auswahlgespr\u00e4chen sind nach den Leistungen, die mit der Abschlusspr\u00fcfung des grundst\u00e4ndigen Studiums nachgewiesen sind, und einer einschl\u00e4gigen Praxist\u00e4tigkeit. Diese Kriterien werden getrennt nach Studienrichtungen ausgewertet.",
+    "context": "Seite 22 von 43"
+  },
+  {
+    "question": "What are students expected to do in the Teamprojekt module?",
+    "answer": "Students are expected to work in teams to solve a practical project related to computer science, typically software development, over two semesters.",
+    "context": "Lehrinhalt\nIm Team (3 - 7 Studierende) wird ein praxisnahes Projekt aus dem Bereich der Informatik \u2013 typischerweise der Softwareentwicklung \u2013 \u00fcber 2 Semester durchgef\u00fchrt."
+  },
+  {
+    "question": "K\u00f6nnen Studien- und Pr\u00fcfungsleistungen von einer anderen Hochschule anerkannt werden?",
+    "answer": "Ja, auf Antrag hin ist dies m\u00f6glich.",
+    "context": "K\u00f6nnen Studien- und Pr\u00fcfungsleistungen, die ich bereits an einer anderen deutschen Hochschule oder in einem anderen Studiengang der HTWG erbracht habe, anerkannt werden? Ja, das ist auf Antrag hin m\u00f6glich."
+  },
+  {
+    "question": "What is SWS an abbreviation for in the Masterstudieng\u00e4nge regulations?",
+    "answer": "SWS stands for Semesterwochenstunden.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa)\n20 von 21 B: Besonderer Teil I. Abschnitt Allgemeine Regelungen \u00a7 32 Abk\u00fcrzungen, Bezeichnungen, gemeinsame  Regelungen In den Studien- und Pr\u00fcfungspl\u00e4nen der Studieng\u00e4nge werden Abk\u00fcrzungen, Bezeichnungen und solche Regelungen einheitlich verwendet, wie sie in den folgenden Abs\u00e4tzen beschrieben sind. Allgemeine Abk\u00fcrzungen: Sem = Semester SWS = Semesterwochenstunden ECTS = European Credit Transfer System."
+  },
+  {
+    "question": "How can one contact Hochschule Konstanz via telephone?",
+    "answer": "+49 7531 206-0",
+    "context": "Telefon +49 7531 206-0"
+  },
+  {
+    "question": "What is the prerequisite grade for the Bachelor's degree to qualify for the Master's in Business Information Technology?",
+    "answer": "2.4 or better",
+    "context": "Zugangsvoraussetzung f\u00fcr den Masterstudiengang Business Information Technology ist ein mit der Note 2,4 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium der Informatik oder der Betriebswirtschaftslehre oder in einem zur Informatik oder Betriebswirtschaftslehre verwandten Studiengang. Davon ausgeschlossen ist der Studiengang Wirtschaftsinformatik oder ein inhaltlich vergleichbarer Studiengang."
+  },
+  {
+    "question": "Welche Lehr- und Lernformen gibt es im Wahlpflichtmodul?",
+    "answer": "Vorlesung, \u00dcbung, Selbststudium, Workshop/Seminar, Projekt, Labor.",
+    "context": "Lehr- und Lernformen\n  S Vorlesung  S \u00dcbung  S Selbststudium  \n Workshop/Seminar  \n Projekt  S Labor"
+  },
+  {
+    "question": "In which language are the courses and exams usually conducted in the Master's program in Computer Science (MSI)?",
+    "answer": "The teaching and examination language is generally German. Courses can be held in English, and in such cases, exams can also be conducted in English.",
+    "context": "SPO No. 5 | Version according to Official Journal No. 125 | Senate December 13, 2022, Page 1 of 8, \u00a7 37 Computer Science (MSI), (6) Teaching and examination languages."
+  },
+  {
+    "question": "What must be done if a candidate cannot attend the interview due to serious reasons?",
+    "answer": "The candidate should provide valid evidence such as a medical certificate for illness and may be rescheduled",
+    "context": "5Erscheint eine Bewerberin oder ein Bewerber ohne Nachweis eines wichtigen Grundes nicht zum Gespr\u00e4ch, wird das Gespr\u00e4ch als nicht bestanden bewertet; bei Krankheit ist ein \u00e4rztliches Attest vorzulegen. Liegt ein wichtiger Grund f\u00fcr die Nichtteilnahme vor, ist die Bewerberin oder der Bewerber zu einem sp\u00e4teren Gespr\u00e4chstermin erneut einzuladen."
+  },
+  {
+    "question": "What does the 'Assessmentsemester' aim to achieve for first semester students?",
+    "answer": "It aims to ease students' entry into university studies and help them evaluate if the chosen study program aligns with their expectations and inclinations.",
+    "context": "Warum nennt man das erste Semester auch\n'Assessmentsemester'?\nEs soll Ihnen den Einstieg ins Studium\n erleichtern und Ihnen helfen, fr\u00fchzeitig einzusch\u00e4tzen, ob\nder gew\u00e4hlte Studiengang Ihren Vorstellungen und\n Neigungen auch wirklich entspricht."
+  },
+  {
+    "question": "Welche ECTS-Punkte und Arbeitsaufwand hat das Modul 'Optik und bildgebende optische Systeme'?",
+    "answer": "Es hat 6 ECTS-Punkte und einen Arbeitsaufwand von 180 Stunden.",
+    "context": "Modul-K\u00fcrzel/-Nr.\nECTS-Punkte\nArbeitsaufwand\nBOS_MME\n6\n180 h"
+  },
+  {
+    "question": "Welche Kenntnisse und F\u00e4higkeiten werden im Modul SE08 vermittelt?",
+    "answer": "Kenntnisse \u00fcber Unternehmensgr\u00fcndung, Entwicklung von IoT-Anwendungen, Nutzung der IoT-Anwendungsplattform WWW, und Denk- und Arbeitsweise junger Unternehmen.",
+    "context": "Die Studierenden lernen Konzepte und Methoden des Internets der Dinge kennen. Teils vertiefen sie ihr Wissen im Bereich des Software Engineering."
+  },
+  {
+    "question": "What are the main learning objectives of the 'Reactive Systems' module?",
+    "answer": "The aim of the module is to learn techniques for developing reactive systems. Reactive systems must demonstrate resilience, elasticity, short response times, and handle concurrency or parallelism well.",
+    "context": "Lernziele des\nModuls\nZiel des Moduls ist die Erlernung von Techniken zur Entwicklung von reaktiven Systemen. Reaktive\nSysteme sollen die Eigenschaften Widerstandsf\u00e4higkeit und\nElastizit\u00e4t aufweisen, kurze Antwortzeiten gew\u00e4hrleisten und gut mit Nebenl\u00e4ufigkeit oder Parallelit\u00e4t\numgehen k\u00f6nnen.\n"
+  },
+  {
+    "question": "What may happen if the admission is granted based on false information?",
+    "answer": "The university can withdraw the admission",
+    "context": "Beruht die Zulassung durch die Hochschule auf falschen Angaben, nimmt die Hochschule sie zur\u00fcck."
+  },
+  {
+    "question": "Unter welchen Bedingungen wird die Masterarbeit als nicht bestanden bewertet?",
+    "answer": "Die Masterarbeit gilt als nicht bestanden (5,0), wenn sie nicht innerhalb der vorgegebenen Bearbeitungszeit erbracht wird.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 23 Masterarbeit"
+  },
+  {
+    "question": "Was passiert, wenn Sie mehr als zwei Pr\u00fcfungsleistungen aus dem Grundstudium offen haben?",
+    "answer": "Sie bleiben in der Regel im Grundstudium und werden automatisch in das 2. Semester zur\u00fcckgestuft.",
+    "context": "Wenn Sie mehr als 2 Pr\u00fcfungsleistungen des Grundstudiums offen haben, bleiben Sie in der Regel im Grundstudium und werden in den ersten Wochen des neuen Semesters vom 3. in das 2. Semester zur\u00fcckgestuft."
+  },
+  {
+    "question": "How long is the duration for the Diskrete Mathematik module?",
+    "answer": "1 Semester",
+    "context": "Dauer\n1 Semester"
+  },
+  {
+    "question": "Welche Bedingungen m\u00fcssen erf\u00fcllt sein, damit Studienzeiten und Pr\u00fcfungsleistungen aus anderen Hochschulen anerkannt werden?",
+    "answer": "Studienzeiten und Pr\u00fcfungsleistungen, die in fr\u00fcheren Masterstudieng\u00e4ngen oder vergleichbaren Studieng\u00e4ngen an anderen staatlichen oder staatlich anerkannten Hochschulen der Bundesrepublik Deutschland erbracht wurden, werden anerkannt, sofern hinsichtlich der erworbenen Kompetenzen kein wesentlicher Unterschied zu den Studienzeiten, Leistungen oder Abschl\u00fcssen besteht, die ersetzt werden sollen.",
+    "context": "Studien- und Pr\u00fcfungsordnung der Hochschule Konstanz f\u00fcr die Masterstudieng\u00e4nge (SPOMa) \u00a7 21 Anerkennung und Anrechnung auf Studium und Pr\u00fcfung"
+  },
+  {
+    "question": "What is the procedure for HTWG students to join a Uni Lehrveranstaltung?",
+    "answer": "HTWG students interested in a Uni Lehrveranstaltung need to contact the Uni Dozent at the beginning of the semester, then contact the HTWG PA for recognition and sign up for the exam at HTWG ZPA.",
+    "context": "HTWG-Studierende/r kontaktiert zu Semesterbeginn die/den Uni-Dozentin/en der betreffenden LV und kl\u00e4rt die Teilnahme incl. Anmeldung zur Pr\u00fcfung und Pr\u00fcfungsabnahme. HTWG-Studierende/r kontaktiert zu Semesterbeginn die/den zust\u00e4ndige/n HTWG- Pr\u00fcfungsausschussvorsitzende/n (PA) wegen Anerkennung des Leistungsnachweises mit Unterschrift. HTWG-Studierende/r meldet w\u00e4hrend des Pr\u00fcfungsanmeldezeitraums die Pr\u00fcfungsleistung im Zentralen Pr\u00fcfungsamt (ZPA) der HTWG mit Unterschrift der/des PA-Vorsitzenden an."
+  },
+  {
+    "question": "What is the deadline for submitting an application for the summer semester?",
+    "answer": "1. Dezember des Vorjahres",
+    "context": "Der Antrag auf Zulassung f\u00fcr das erste Fachsemester muss 1. f\u00fcr das Sommersemester bis zum 1. Dezember des Vorjahres"
+  },
+  {
+    "question": "What are the criteria for the selection interview for the Master's program in International Management Asia-Europe?",
+    "answer": "1. The degree of motivation for the chosen program and the typical subsequent professional activity. 2. Communicative and intercultural competencies. 3. Economic and regional understanding, analytical skills. 4. Work experience. 5. Personal impression, especially coherence of argumentation, self-presentation, expression, and resilience.",
+    "context": "Hochschule Konstanz \nTechnik, Wirtschaft und Gestaltung \n\nSeite 37 von 43\n\u00a7 24 International Management Asia-Europe (MIM)\n(2) Auswahlkriterien nach \u00a7 9 Abs. 2\n1. Ergebnis eines Auswahlgespr\u00e4chs\nDie Bewertung der Auswahlgespr\u00e4che nach \u00a7 9a Abs. 3 erfolgt nach folgenden Kriterien: I. Grad der Motivation f\u00fcr den gew\u00e4hlten Studiengang und sich typischerweise daran anschlie\u00dfenden Berufst\u00e4tigkeit, II. Kommunikative und interkulturelle Kompetenzen, III. Wirtschaftswissenschaftliches und regionalspezifisches Verst\u00e4ndnis, analytische F\u00e4higkeiten, IV. Berufspraktische Erfahrungen und V. Pers\u00f6nlicher Eindruck, insbesondere Schl\u00fcssigkeit der Argumentation, Selbstdarstellung, Ausdrucksweise und Resilienz."
+  },
+  {
+    "question": "Welche Module sind sinnvoll mit dem Modul ITM08 zu kombinieren?",
+    "answer": "TEAM/10, ITSA/SE05",
+    "context": "Sinnvoll zu kombinieren mit Modul: TEAM/10, ITSA/SE05"
+  },
+  {
+    "question": "What is the minimum grade required for admission into the Master's program in Business Administration and Management?",
+    "answer": "A minimum grade of 2.5 is required for admission.",
+    "context": "Hochschule Konstanz \nTechnik, Wirtschaft und Gestaltung \n\nSeite 35 von 43\n\u00a7 23 Unternehmensf\u00fchrung (BWM)\n(1) Studiengangspezifische Zugangsvoraussetzungen gem\u00e4\u00df \u00a7 5 Abs. 1\nZugangsvoraussetzung f\u00fcr den Masterstudiengang Unternehmensf\u00fchrung ist ein mit der Mindestnote 2,5 abgeschlossenes Erststudium."
+  },
+  {
+    "question": "When is the handbook for the Master of Science in Informatics at HTWG Konstanz applicable from?",
+    "answer": "Winter semester 2022/23",
+    "context": "Modulhandbuch\nf\u00fcr den Studiengang\nInformatik (MSI)\n Master of Science\nHTWG Konstanz\nNach SPO Nr. 5\n( Version nach Amtsblatt Nr. 96 | Senat 10.12.2019 )\nStand: 23.05.2022\nG\u00fcltig ab Wintersemester 2022/23"
+  },
+  {
+    "question": "Was sind die Zugangsvoraussetzungen f\u00fcr den Masterstudiengang Mechatronik (MME) an der Hochschule Konstanz?",
+    "answer": "Zugangsvoraussetzungen f\u00fcr den Masterstudiengang Mechatronik sind ein mit der Note 2,9 oder besser abgeschlossenes grundst\u00e4ndiges Hochschulstudium in einem Studiengang der Fachrichtungen Maschinenbau, Elektrotechnik, Fahrzeugtechnik, Mechatronik, Feinwerktechnik oder einer verwandten Fachrichtung sowie Englischkenntnisse \u00e4quivalent zu Niveau-Stufe B1 des Europ\u00e4ischen Referenzrahmens.",
+    "context": "Seite 29 von 43"
+  },
+  {
+    "question": "What is the regular study duration for the Master of Science in Informatik program at HTWG Konstanz?",
+    "answer": "The regular study duration is 3 semesters.",
+    "context": "Regelstudienzeit 3 Semester Studienbeginn WS Wintersemester SS Sommersemester Studienpl\u00e4tze 15 pro Semester"
+  },
+  {
+    "question": "What semester does the 'Reactive Systems' module start?",
+    "answer": "WS",
+    "context": "Start\nWS\n"
+  },
+  {
+    "question": "Was passiert, wenn Sie die 2. Wiederholung (3. Versuch) nicht bestehen?",
+    "answer": "F\u00fcr Bachelor-Studierende gibt es noch eine letzte Chance: die m\u00fcndliche Erg\u00e4nzungspr\u00fcfung.",
+    "context": "Was geschieht, wenn ich bei einer benoteten Pr\u00fcfung auch die 2. Wiederholung (also den 3. Versuch) nicht bestanden habe? In diesem Falle gibt es f\u00fcr Bachelor-Studierende noch eine letzte Chance, das Studium fortzusetzen: die m\u00fcndliche Erg\u00e4nzungspr\u00fcfung."
+  },
+  {
+    "question": "What is the module coordination for 'Natural Language Processing'?",
+    "answer": "Prof. Dr. O. D\u00fcrr",
+    "context": "Modul-Koordination\nProf. Dr. O. D\u00fcrr"
+  },
+  {
+    "question": "What subjects are covered under the module 'Komplexit\u00e4tstheorie'?",
+    "answer": "Turing Machines, Computability, Complexity Classes, NP-Completeness",
+    "context": "Komplexit\u00e4tstheorie\nProf. Dr. S. Meyer\nV\n2\n3\no\n- Turingmaschinen\n- Berechenbarkeit\n- Komplexit\u00e4tsklassen\n- NP-Vollst\u00e4ndigkeit"
+  }
+]

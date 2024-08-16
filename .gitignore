@@ -15,3 +15,12 @@ output*
 
 
 *.bin
+
+
+node_modules
+
+cache-*.arrow
+
+*.log
+
+wandb
