@@ -18,9 +18,12 @@ from sentence_transformers import SentenceTransformer
 from chromadb.utils import embedding_functions
 import re
 
+CHUNK_SIZES_OVERLAPS = [[1024, 128], [2048, 256], [4096, 256]]
+DISTANCES = ["cosine", "l2"]
 VERSION = "v3"
 DB_DIR = f"/home/tpllmws23/Chatbot-LLama-Pruefungsamt/Chatbot-Jan/databases/{VERSION}"
-embedding_list = [
+COLLECTION_NAME = "Pruefungsamt"
+EMBEDDING_MODELS = [
     "sentence-transformers/all-MiniLM-L6-v2",
     "sentence-transformers/all-mpnet-base-v2",
 #    "sentence-transformers/multi-qa-mpnet-base-dot-v1",
@@ -29,6 +32,7 @@ embedding_list = [
     "mixedbread-ai/mxbai-embed-large-v1",
 #    "T-Systems-onsite/german-roberta-sentence-transformer-v2"
 ]
+
 
 
 def get_pdfs_in_folder(folder_path):
@@ -142,20 +146,6 @@ def store_into_database(documents: list[Document], database_path: str, collectio
         embedding = model.encode(doc.page_content, convert_to_tensor=True).tolist()
         collection.add(str(uuid.uuid4()), embedding, doc.metadata, doc.page_content)
 
-    
-def index_data():
-    documents = get_text_from_pdfs_in_folder("/home/tpllmws23/Chatbot-LLama-Pruefungsamt/main_data")
-    documents = split_documents(documents)
-    model_name = "mixedbread-ai/mxbai-embed-large-v1"
-    db_path = os.path.join(DB_DIR, model_name)
-    store_into_database(documents, db_path, "Pruefungsamt", model_name)
-
-def query_data(path, model_name):
-    sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=model_name)
-    client = chromadb.PersistentClient(db_path)
-    collection = client.get_collection("Pruefungsamt", embedding_function=sentence_transformer_ef)
-    query = collection.query(query_texts=["Ausländer"])
-    print(query)
 
 if __name__ == "__main__":
     documents = get_text_from_pdfs_in_folder("/home/tpllmws23/Chatbot-LLama-Pruefungsamt/main_data_filtered")
@@ -167,13 +157,12 @@ if __name__ == "__main__":
     #     loader = PyPDFLoader(path.join(dir, file))
     #     documents += loader.load()
 
-    for embedding_model in embedding_list:
-        for chunk_size, chunk_overlap in [[1024, 128], [2048, 256], [4096, 256]]:
-            for distance in ["cosine", "l2"]:
+    for embedding_model in EMBEDDING_MODELS:
+        for chunk_size, chunk_overlap in CHUNK_SIZES_OVERLAPS:
+            for distance in DISTANCES:
                 db_path = os.path.join(DB_DIR, embedding_model)
                 db_path = db_path + f"_{chunk_size}_{chunk_overlap}_{distance}_no_edit"
-                #query_data(db_path, embedding_model)
 
                 documents2 = split_documents(documents, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-                store_into_database(documents2, db_path, "Pruefungsamt", embedding_model, distance)
+                store_into_database(documents2, db_path, COLLECTION_NAME, embedding_model, distance)
                 print(f"Finished indexing {embedding_model} with chunk size {chunk_size} and overlap {chunk_overlap} and distance {distance}")

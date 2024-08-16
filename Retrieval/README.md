@@ -14,7 +14,10 @@ Aktuell wird für jedes Modell mehrere Datenbanken mit verschiedenen Einstellung
 - distance function: ["cosine", "l2"]
 Je nach Anwendungszweck kann es sinnvoll sein diese Parameter zu ändern. Bei Änderung sollte aber darauf geachtet werden, dass die [custom-rag-loader-library](../libs/custom_rag_loader/) aktuell gehalten wird. Diese haben wir zum laden der Datenbanken, und LLMs verwendet.
 
-Alle Daten werden in einer ChromaDB unter dem [databases](./databases/) Verzeichnis gespeichert. Die ChromaDB kann direkt über deren API, als auch über LanChain oder LlamaIndex angesprochen werden. Somit hat man viel flexibilität.
+Alle Daten werden in einer ChromaDB unter dem [databases/](./databases/) Verzeichnis gespeichert. 
+> Die Datenbanken müssen nach dem clonen zuerst erstellt werden, da die Dateien zu viel Speicherplatz in git belegen würden  `python3 database_creator.py`
+
+Die ChromaDB kann direkt über deren API, als auch über LanChain oder LlamaIndex angesprochen werden. Somit hat man viel flexibilität.
 
 
 ## Datenbank testen
