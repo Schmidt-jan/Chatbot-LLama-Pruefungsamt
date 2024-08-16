@@ -1,0 +1,9 @@
+[submodule "Chatbot-Kaddi"]
+	path = Chatbot-Kaddi
+	url = https://github.com/Schmidt-jan/Chatbot-Kaddi.git
+[submodule "Chatbot-Benni"]
+	path = Chatbot-Benni
+	url = https://github.com/Schmidt-jan/Chatbot-Benni.git
+[submodule "Chatbot-Joel"]
+	path = Chatbot-Joel
+	url = https://github.com/Schmidt-jan/Chatbot-Joel.git

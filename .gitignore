@@ -1,2 +1,14 @@
 # Large language models
 *.gguf
+
+# database files
+*.sqlite3
+
+# promptfoo pycache
+
+__pycache__
+
+
+# automated promptfoo output
+
+output*
