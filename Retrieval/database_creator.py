@@ -1,22 +1,15 @@
-from operator import index
-from os import path
-from typing import Sequence
 from uuid import uuid4
 from PyPDF2 import PdfReader
 import chromadb
-import langchain_community
-import langchain_community.document_loaders
 from langchain_community.document_loaders.pdf import PyPDFLoader
 from langchain_core.documents import Document
 from numpy import ndarray
 from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import uuid
-from chromadb.api.types import EmbeddingFunction, Documents, Embedding
 import os
 from sentence_transformers import SentenceTransformer
 from chromadb.utils import embedding_functions
-import re
 
 VERSION = "v3"
 DB_DIR = f"/home/tpllmws23/Chatbot-LLama-Pruefungsamt/Chatbot-Jan/databases/{VERSION}"

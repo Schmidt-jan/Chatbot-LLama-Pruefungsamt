@@ -1,6 +1,5 @@
 from enum import Enum
 
-from sympy import per
 from helper.capture_output import CaptureOutput
 from helper.class_extender import LlamaCppOutputExtender
 from helper.llamacpp_timings import LlamaCppTimings

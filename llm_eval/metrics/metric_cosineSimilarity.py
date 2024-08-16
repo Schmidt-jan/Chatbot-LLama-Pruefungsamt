@@ -1,4 +1,3 @@
-import random
 import metric_helper as mH
 import metrics as M
 

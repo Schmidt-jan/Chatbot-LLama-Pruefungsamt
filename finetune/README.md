@@ -2,7 +2,7 @@
 
 - Finetuning was done on quantized models using QLoRA to save resources
 - All of the datasets are comparably small, but work quite well as LoRA does not necessarily require a big dataset
-
+- we finetuned in all cases the [Mistral7B](https://huggingface.co/mistralai/Mistral-7B-v0.3) model
 
 
 Finetuning was done with the [Huggingface](https://huggingface.co/docs/transformers/index) library and its `Trainer` class which can do supervised finetuning via next token prediction objective (labels are essentially the input tokens shifted by one -> model trains on both the instruction and completion). The class does not do that by itself, it needs to be done by hand before.
@@ -93,3 +93,10 @@ We discovered that Instruction Finetuning a LLM on a Dataset with QAC-Triplets h
 
 
 ![](!../../../.github/assets/finetune-results-over-time.png)
+
+
+
+Both fintuned models are available on Huggingface:
+
+- Finetuned on Datset with noise: [mistral-rag-instruct-v1](https://huggingface.co/BenjaminBruenau/mistral-rag-instruct-v1)
+- Finetuned on validated and cleaned dataset: [mistral-rag-instruct-v2](https://huggingface.co/BenjaminBruenau/mistral-rag-instruct-v2)
