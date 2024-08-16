@@ -9,4 +9,4 @@
 	url = https://github.com/Schmidt-jan/Chatbot-Joel.git
 [submodule "Chatbot-Jan"]
 	path = Chatbot-Jan
-	url = ./Chatbot-Jan
+	url = https://github.com/Schmidt-jan/Chatbot-Jan.git
