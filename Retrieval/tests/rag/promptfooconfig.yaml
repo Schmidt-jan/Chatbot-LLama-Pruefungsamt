@@ -1,0 +1,533 @@
+prompts: 
+  - "{{question}}"
+
+providers: 
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":1,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":1,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":1,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":2,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":2,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":2,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":3,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":3,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":3,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":5,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":5,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":5,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":10,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":10,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":10,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":100,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":100,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":100,"search_metric":"similarity","chunk_size":1024,"chunk_overlap":128}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 1024
+      chunk_overlap: 128
+
+  
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":1,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":1,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":1,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":2,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":2,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":2,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":3,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":3,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":3,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":5,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":5,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":5,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":10,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":10,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":10,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":100,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":100,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":100,"search_metric":"similarity","chunk_size":2048,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 2048
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":1,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":1,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":1,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 1
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":2,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":2,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":2,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 2
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":3,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":3,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":3,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 3
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":5,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":5,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":5,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 5
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":10,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":10,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":10,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 10
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-MiniLM-L6-v2","knn":100,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-MiniLM-L6-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+  
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/all-mpnet-base-v2","knn":100,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/all-mpnet-base-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+  - id: python:retriever/retrieve_docs.py
+    label: '{"retriever":"sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2","knn":100,"search_metric":"similarity","chunk_size":4096,"chunk_overlap":256}'
+    config:
+      retriever: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+      knn: 100
+      search_metric: 'similarity'
+      chunk_size: 4096
+      chunk_overlap: 256
+
+
+
+tests: 
+  - tests.yaml
+        
+
+outputPath: '../_output/output.json'
