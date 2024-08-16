@@ -1,6 +1,6 @@
 # Supervised Fine Tuning
 
-- using huggingface trl `SFT Trainer`
+- using huggingface trl `SFTTrainer`
 
 - with a dataset consisting of messages or the following instruction format there is no need to preprocess it (e.g. tokenization, padding to same length, inserting special tokens e.g. INST for mistral)
 - will under the hood apply the default chat template of the model

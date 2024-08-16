@@ -3,7 +3,6 @@ from transformers import AutoTokenizer, AutoModel
 from scipy.spatial.distance import cosine
 from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer
-import nltk
 from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 from nltk.metrics.distance import edit_distance

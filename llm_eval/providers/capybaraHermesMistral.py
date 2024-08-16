@@ -1,16 +1,7 @@
-import json
 from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
 from helper.call_llm import USE_DB, call_llm, monitor_power
 
 from langchain.prompts import ChatPromptTemplate
-
-
-from torch import cosine_similarity
-from transformers import AutoTokenizer, AutoModel
-from scipy.spatial.distance import cosine
-
-import psutil
-import time
 from contextlib import contextmanager
 
 

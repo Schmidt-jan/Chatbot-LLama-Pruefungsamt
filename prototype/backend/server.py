@@ -1,5 +1,4 @@
 import uvicorn
-import asyncio
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, Response
@@ -7,15 +6,14 @@ import re
 import json
 import fitz  # PyMuPDF
 from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 
-# Importiere die notwendigen Module und lade das Modell und die Datenbank
+
 from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
 from langchain.prompts import ChatPromptTemplate
 from openai import Client
 
 openai_client = Client()
-# Läd das Modell und die Datenbank einmalig
+
 llm, db = load_llm_rag_model(
     RagConfig(
         model=SupportedModels.Mistral,
@@ -57,15 +55,14 @@ def format_docs(docs):
 
 def simple_rag_chain(question: str):
     global last_pages, last_link
-    # Suche nach relevanten Dokumenten in der Datenbank
     docs = db.search(question, 'similarity', k=3)
-    # Formatiere die Dokumente für den Prompt
+
     formatted_docs, pages, link = format_docs(docs)
     last_pages = pages
     last_link = link
-    # Erstelle den finalen Prompt mit Kontext und Frage
+
     final_prompt = prompt.format(context=formatted_docs, question=question)
-    # Hole die Antwort vom Sprachmodell
+
     for chunk in llm.stream(final_prompt):
         yield chunk
 
@@ -78,10 +75,14 @@ def simple_rag_chain_openai(question: str):
     final_prompt = prompt.format(context=formatted_docs, question=question)
     response = openai_client.completions.create(model="gpt-3.5-turbo-instruct", prompt=final_prompt, temperature=0, max_tokens=1000, stream=True)
     for chunk in response:
-        #print(chunk)
         current_content = chunk.choices[0].text
         yield current_content
 
+
+'''
+this is very complicated and error prone, it works but can probably be replaced by getting the metadata of the context document
+chunks / saving the page numbers in that metadata
+'''
 def find_page(file_path, search_text):
     # Öffne die PDF-Datei
     pdf_document = fitz.open(file_path)

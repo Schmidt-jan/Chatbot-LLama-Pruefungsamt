@@ -5,7 +5,7 @@ Step 2: Extract the necessary details from the context. The context mentions thr
 
 Step 3: Formulate the answer based on the extracted information. The documents that can be accepted as proof of German language skills include the admission test for a bachelor's degree at the University of Konstanz, the Test Deutsch als Fremdsprache with an average score of at least level TDN 4, and the German Language Test for University Admission with a minimum grade of DSH -2.
 
-<ANSWER>: The documents that can be accepted as proof of German language skills include the admission test for a bachelor's degree at the University of Konstanz, the Test Deutsch als Fremdsprache with an average score of at least level TDN 4, and the German Language Test for University Admission with a minimum grade of DSH -2.  I'm sorry, but there seems to be an error in your input. Please provide a valid context or question in German.  The context provided does not contain enough information to generate a step-by-step reasoning process. Please provide a more detailed context or question in German. 
+<ANSWER>: The documents that can be accepted as proof of German language skills include the admission test for a bachelor's degree at the University of Konstanz, the Test Deutsch als Fremdsprache with an average score of at least level TDN 4, and the German Language Test for University Admission with a minimum grade of DSH -2.
 ```
 
 

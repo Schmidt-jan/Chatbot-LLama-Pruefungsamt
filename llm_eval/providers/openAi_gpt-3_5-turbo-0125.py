@@ -1,6 +1,5 @@
 from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_db, DbSupportedChunkSizes, DbSupportedChunkOverlap
-from langchain.prompts import ChatPromptTemplate
-from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
+from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, DbSupportedChunkSizes, DbSupportedChunkOverlap
 from helper.call_llm import USE_DB
 from openai import OpenAI
 

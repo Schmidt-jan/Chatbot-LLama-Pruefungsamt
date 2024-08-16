@@ -1,8 +1,5 @@
-import os
-import random
 import re
 import metric_helper as mH
-import metrics as M
 from openai import OpenAI
 
 def generate_prompt(gen_answer: str, ref_answer: str):
