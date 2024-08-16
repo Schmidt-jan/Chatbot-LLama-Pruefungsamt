@@ -1,0 +1,13 @@
+prompts: 
+  - "{{question}}"
+
+providers: 
+  - python:providers/mistral.py
+  - python:providers/llama3.py
+  - python:providers/capybaraHermesMistral.py
+  - python:providers/discolm.py
+
+tests:
+  - input/tests.yaml
+
+outputPath: 'output/output.json'

@@ -7,3 +7,6 @@
 [submodule "Chatbot-Joel"]
 	path = Chatbot-Joel
 	url = https://github.com/Schmidt-jan/Chatbot-Joel.git
+[submodule "Chatbot-Jan"]
+	path = Chatbot-Jan
+	url = ./Chatbot-Jan
