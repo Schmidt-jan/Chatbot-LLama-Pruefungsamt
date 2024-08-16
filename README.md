@@ -1,5 +1,4 @@
 # Chatbot-LLama-Pruefungsamt
-![_c5aac732-7c20-46f2-93ac-5c152cdfc89c](https://github.com/Schmidt-jan/Chatbot-LLama-Pruefungsamt/assets/73313922/01ddc0ca-5e5a-4782-8124-d9c1da357372)
 
 In diesem Repository sind die Skripte und Ergebnisse des Teamprojekts 'Ein Chatbot für das Prüfungsamt'.
 
@@ -20,7 +19,6 @@ Für die Evaluierung des Retrieval Augmented Generation Ansatzes sind die folgen
 
 ## Finetuning
 Alles zu dem Finetuning ist in dem Ordner [finetune](./finetune/) zu finden.
-=======
 
 
 ![](.github/assets/chatbot-logo.jpeg)
@@ -67,4 +65,3 @@ source ~/environments/<env-name>/bin/activate
 
 - we hardcoded (sorry) the model paths and model_file_names in our [custom_rag_loader](libs/custom_rag_loader/custom_rag_loader.py)
 - they need to be adjusted [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L14-15) and [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L103-128)
->>>>>>> b8917894d429676546750d86a6be9b0f97c84e41
