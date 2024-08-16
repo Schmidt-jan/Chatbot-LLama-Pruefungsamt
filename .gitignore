@@ -12,3 +12,6 @@ __pycache__
 # automated promptfoo output
 
 output*
+
+
+*.bin

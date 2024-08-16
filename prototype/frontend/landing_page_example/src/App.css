@@ -1,0 +1,166 @@
+/* Gesamter App-Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Oberes Viertel der Seite mit Hintergrundfarbe #D9E5EC */
+.upper-quarter {
+  background-color: #D9E5EC;
+  padding: 20px;
+}
+
+
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.tabs span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Anmelde-Icon */
+.login-icon {
+  width: 25px; /* Passe die Breite nach Bedarf an */
+  height: auto; /* Behalte das Seitenverhältnis bei */
+}
+
+/* Überschrift und Unterschrift */
+.header h1 {
+  margin-top: 20px;
+  display: inline;
+}
+
+/* Hauptinhalt */
+.main-content {
+  padding: 20px;
+}
+
+/* Beispielabschnitte */
+section {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.rcb-bot-avatar {
+  border-radius: 5% !important;
+}
+
+div.rcb-chat-header div:nth-child(2) { 
+  display: none; /* Hide Tan Jin Link*/
+}
+
+.rcb-close-chat-icon {
+  background-image: url("../public/close.svg") !important;
+}
+
+/* CSS-Stile für den runden Rahmen */
+.chat-icon-wrapper {
+  display: flex; /* Flexbox verwenden */
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center; /* Vertikal zentrieren */
+  width: 40px; /* Breite und Höhe des Rahmens */
+  height: 40px;
+  border-radius: 50%; /* Runder Rahmen */
+  background-color: #f0f0f0; /* Hintergrundfarbe des Rahmens */
+  padding: 10px; /* Optional: Abstand zwischen dem Symbol und dem Rahmen */
+}
+
+/* CSS-Stile für das Symbol */
+.chat-icon {
+  width: 24px; /* Größe des Symbols anpassen */
+  height: 24px;
+}
+
+
+/* App.css */
+
+.logo {
+  width: 300px; /* Passe die Breite nach Bedarf an */
+  height: auto; /* Behalte das Seitenverhältnis bei */
+}
+
+
+
+/* App.css */
+
+/* CSS-Stile für das Chat-Fenster */
+.chat-window {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #f0f0f0; /* Grauer Hintergrund */
+  border-radius: 10px; /* Gerundete Ecken */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Schatten für 3D-Effekt */
+  z-index: 999; /* Stelle sicher, dass das Chatfenster über anderen Inhalten liegt */
+}
+
+/* CSS-Stile für das Textfeld */
+.chat-window textarea {
+  width: 100%;
+  height: 300px;
+  border: none;
+  outline: none;
+  resize: none; /* Deaktiviere das Ändern der Größe */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* CSS-Stile für die Schaltfläche */
+.chat-window button {
+  background-color: #007bff; /* Blaue Farbe */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.chat-window button:hover {
+  background-color: #0056b3; /* Dunklere Blaue Farbe beim Hovern */
+}
+/* App.css */
+.toggle-button {
+  background-color: #491d8d; /* Dunkler Hintergrund für den Button */
+  color: white; /* Weißer Text */
+  border: none; /* Keine Umrandung */
+  border-radius: 8px; /* Abgerundete Ecken */
+  padding: 10px 20px; /* Innenabstand */
+  font-size: 16px; /* Schriftgröße */
+  margin-left: 15px;
+  cursor: pointer; /* Cursor als Hand */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Sanfte Übergänge für Farbe und Skalierung */
+  display: flex; /* Flexbox für zentrierten Text */
+  align-items: center; /* Zentrieren der Items vertikal */
+  justify-content: center; /* Zentrieren der Items horizontal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schatten für Tiefe */
+}
+
+.toggle-button:hover {
+  background-color: #5e2a9f; /* Hellerer Hintergrund beim Hover */
+}
+
+.toggle-button:active {
+  transform: scale(0.98); /* Kleine Verkleinerung beim Klicken */
+}
+
+.toggle-button:focus {
+  outline: none; /* Entfernen der Standard-Fokusumrandung */
+}
