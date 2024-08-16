@@ -44,4 +44,4 @@ source ~/environments/<env-name>/bin/activate
 ### Adding Models
 
 - we hardcoded (sorry) the model paths and model_file_names in our [custom_rag_loader](libs/custom_rag_loader/custom_rag_loader.py)
-- they need to be adjusted [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L14) and [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L103)
+- they need to be adjusted [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L14-15) and [here](libs/custom_rag_loader/custom_rag_loader.py?plain=1#L103-128)
