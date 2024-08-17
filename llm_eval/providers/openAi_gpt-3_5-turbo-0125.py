@@ -28,7 +28,7 @@ def format_docs(docs):
 
 def call_chatGPT_model(prompt):
 
-    client = OpenAI(api_key='sk-proj-tDUa47lrOTXdnyfL6FTcT3BlbkFJOdMnlJI3t7F4aTz9zw8I')
+    client = OpenAI()
     completion = client.chat.completions.create(model="gpt-3.5-turbo-0125", messages=[{
         "role": "system",
         "content": prompt
