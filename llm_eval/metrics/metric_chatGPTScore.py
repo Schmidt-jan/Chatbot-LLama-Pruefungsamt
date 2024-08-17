@@ -28,7 +28,7 @@ def delete_repeating_pattern(text):
 
 def call_chatGPT_model(gen_answer, ref_answer):
 
-    client = OpenAI(api_key='sk-proj-tDUa47lrOTXdnyfL6FTcT3BlbkFJOdMnlJI3t7F4aTz9zw8I')
+    client = OpenAI()
     completion = client.chat.completions.create(model="gpt-3.5-turbo", messages=[{
         "role": "system",
         "content": generate_prompt(delete_repeating_pattern(gen_answer), delete_repeating_pattern(ref_answer))
