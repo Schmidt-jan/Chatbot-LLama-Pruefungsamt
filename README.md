@@ -7,7 +7,6 @@
 This repository contains the code and results of the team project ‘A Chatbot for the Examination Office’ at the HTWG Konstanz.
 
 
-- [Retrieval](./Retrieval/)
 
 The [final presentation](./final-report/presentation.pptx) and a short [summary](./final-report/summary.pdf) can be found in the [final-report](./final-report/) directory.
 
@@ -21,6 +20,8 @@ The [final presentation](./final-report/presentation.pptx) and a short [summary]
     * ### [✨ Finetuning](./finetune/README.md)
     * ### [🏃 Prototype](./prototype/README.md)
 
+
+The submodules/subrepositories Chatbot-[Name] can be ignored as they were just a way to organize working on code on the same server under the same user.
 
 ## Structure
 
