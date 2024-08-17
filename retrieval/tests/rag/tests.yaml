@@ -1,0 +1,232 @@
+- vars:
+    question: "Welche Dokumente können als Nachweis für deutsche Sprachkenntnisse akzeptiert werden?"
+    expected_response_data: {"keywords": ["Zugangsberechtigung des Studienkollegs", "TestDaF", "TDN 4", "DSH-2", "Telc Deutsch C1"], "page": [3, 4], "answer": "Als Nachweis f\u00fcr deutsche Sprachkenntnisse k\u00f6nnen folgende Dokumente akzeptiert werden: (1) Feststellungspr\u00fcfung f\u00fcr ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachpr\u00fcfung f\u00fcr den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) \u201eTelc Deutsch C1 Hochschule\u201c oder eine \u00e4quivalente Sprachpr\u00fcfung gem\u00e4\u00df der Rahmenordnung \u00fcber Deutsche Sprachpr\u00fcfungen f\u00fcr das Studium an deutschen Hochschulen (RO-DT)."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Gibt es Ausnahmen, bei denen Bewerberinnen und Bewerber auf den Nachweis einer deutschen Sprachprüfung verzichten können?"
+    expected_response_data: {"keywords": ["begr\u00fcndeten Einzelfall", "deutsche Staatsangeh\u00f6rigkeit"], "page": [5], "answer": "Ja, auf den Nachweis einer deutschen Sprachpr\u00fcfung kann bei Bewerberinnen und Bewerbern im besonders begr\u00fcndeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangeh\u00f6rigkeit besitzen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Bis zu welchem Zeitpunkt können Sprachnachweise für den gewählten Studiengang nachgereicht werden, wenn sie bis zum Bewerbungsschluss nicht vorgelegt werden können?"
+    expected_response_data: {"keywords": ["Bewerbungsschluss nicht vorgelegt", "Antrag auf Zulassung", "gem\u00e4\u00df \u00a7 6 Abs. 5"], "page": [5], "answer": "Sprachnachweise f\u00fcr den gew\u00e4hlten Studiengang, die bis zum Bewerbungsschluss nicht vorgelegt werden k\u00f6nnen, k\u00f6nnen bis zum Vorlesungsbeginn des Semesters gem\u00e4\u00df dem Terminplan der Hochschule Konstanz, f\u00fcr das der Antrag auf Zulassung gestellt wurde, nachgereicht werden. Die Zulassung erfolgt in diesem Fall gem\u00e4\u00df \u00a7 6 Abs. 5 unter Vorbehalt."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Bis wann müssen die Anträge auf Zulassung für das Sommersemester und das Wintersemester bei der Hochschule Konstanz eingereicht werden? "
+    expected_response_data: {"keywords": ["1. Dezember des Vorjahres", "1. Juni des Jahres"], "page": [3], "answer": "Die Antr\u00e4ge auf Zulassung f\u00fcr das Sommersemester m\u00fcssen bis zum 1. Dezember des Vorjahres eingereicht werden, w\u00e4hrend die Antr\u00e4ge f\u00fcr das Wintersemester bis zum 1. Juni des Jahres bei der Hochschule Konstanz eingegangen sein m\u00fcssen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche Unterlagen müssen dem Antrag auf Zulassung beigefügt werden? "
+    expected_response_data: {"keywords": ["Nachweis \u00fcber einen Hochschulabschluss", "Zeugnisse oder aussagekr\u00e4ftige Urkunden", "Gleichwertigkeit der Vorbildung", "Lebenslauf", "Nachweise"], "page": [3, 4], "answer": "Dem Antrag auf Zulassung m\u00fcssen folgende Unterlagen beigef\u00fcgt werden: (1) Nachweis \u00fcber einen Hochschulabschluss oder einen gleichwertigen Abschluss, (2) Zeugnisse oder Urkunden zum Nachweis der Zugangsvoraussetzungen und Auswahlkriterien f\u00fcr den gew\u00e4hlten Studiengang, (3) Bescheinigung \u00fcber die Feststellung der Gleichwertigkeit der ausl\u00e4ndischen Vorbildung (falls zutreffend), (4) Lebenslauf, (5) Begr\u00fcndung und Nachweise f\u00fcr eine Zulassung im Rahmen der Auswahl nach H\u00e4rtegesichtspunkten, (6) Erkl\u00e4rung und Nachweis \u00fcber die Erl\u00f6schung des Pr\u00fcfungsanspruchs an einer Hochschule derselben Hochschulart (falls zutreffend), und (7) weitere Nachweise gem\u00e4\u00df den Anforderungen der Hochschule."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie erfolgt die Teilnahme am Auswahlverfahren für die Zulassung zu einem Masterstudiengang? "
+    expected_response_data: {"keywords": ["Auswahlverfahren mit einer Durchschnittsnote", "\u00a7 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet."], "page": [4], "answer": "Die Bewerberinnen und Bewerber nehmen am Auswahlverfahren mit einer Durchschnittsnote teil, die auf Grund der Noten der bisher erbrachten Pr\u00fcfungsleistungen unter Ber\u00fccksichtigung der f\u00fcr die Abschlussnote vorgesehenen Gewichtungen ermittelt wird. Das Ergebnis des Abschlusses bleibt nach \u00a7 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wer wird vom Vergabeverfahren ausgeschlossen? "
+    expected_response_data: {"keywords": ["nicht form- oder fristgem\u00e4\u00df gestellt", "Teil (\u00a7 12 - 26) nicht erf\u00fcllt"], "page": [6], "answer": "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgem\u00e4\u00df gestellt hat oder die Zugangsvoraussetzungen gem\u00e4\u00df Besonderem Teil (\u00a7 12 - 26) nicht erf\u00fcllt. Des Weiteren ist f\u00fcr das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Was passiert nach Abschluss des Auswahlverfahrens? "
+    expected_response_data: {"keywords": ["Zulassungs- und Ablehnungsbescheide erteilt", "Zulassungs- und Ablehnungsbescheide erteilt", "Frist zur Annahme des Studienplatzes"], "page": [6], "answer": "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Was geschieht, wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird? "
+    expected_response_data: {"keywords": ["keine Nachfrist", "erlischt die Zulassung", "Immatrikulation nicht mehr m\u00f6glich"], "page": [6], "answer": "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gew\u00e4hrt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr m\u00f6glich."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wer nimmt am Auswahlverfahren teil?"
+    expected_response_data: {"keywords": ["frist- und formgerecht", "\u00a7 59 Absatz 1 LHG i. V. m. \u00a7 5 erf\u00fcllt"], "page": [7], "answer": "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gem\u00e4\u00df \u00a7 59 Absatz 1 LHG in Verbindung mit \u00a7 5 erf\u00fcllt."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche Unterlagen müssen dem Antrag auf Zulassung beigefügt werden? "
+    expected_response_data: {"keywords": ["\u00a7 10 eine Rangliste"], "page": [7], "answer": "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verf\u00fcgung stehenden Studienpl\u00e4tze \u00fcbersteigt, erstellt die Auswahlkommission gem\u00e4\u00df \u00a7 10 eine Rangliste."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie wird die Auswahlkommission zusammengesetzt? "
+    expected_response_data: {"keywords": ["mindestens zwei Mitgliedern", "Gruppe der Professorinnen und Professoren"], "page": [7], "answer": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakult\u00e4tsrat der Fakult\u00e4t, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakult\u00e4t, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angeh\u00f6ren muss. Der Fakult\u00e4tsrat bestimmt zus\u00e4tzlich mindestens zwei stellvertretende Mitglieder aus der Fakult\u00e4t."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche Auswahlkriterien werden neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses für die Bildung der Ranglisten berücksichtigt? "
+    expected_response_data: {"keywords": ["Leistungen", "Englischkenntnisse", "Berufst\u00e4tigkeit und Qualifikationen", "Berufsausbildung", "Studieneignungstest", "Verfahrens gem\u00e4\u00df \u00a7 9a", "Motivationsschreiben", "schriftliche Abhandlung"], "page": [7, 8], "answer": "Neben dem Ergebnis des fachlich einschl\u00e4gigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien ber\u00fccksichtigt:\na. Leistungen, die in dem Studium erbracht wurden, das Voraussetzung f\u00fcr den Zugang zu dem Masterstudiengang ist,\nb. Englischkenntnisse,\nc. Berufst\u00e4tigkeit und Qualifikationen,\nd. das Ergebnis eines fachspezifischen Studieneignungstests,\ne. das Ergebnis des Auswahlgespr\u00e4chs/anderen m\u00fcndlichen Verfahrens gem\u00e4\u00df \u00a7 9a,\nf. ein Motivationsschreiben,\ng. eine schriftliche Abhandlung (Essay)."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche Kriterien werden im Auswahlgespräch bewertet? "
+    expected_response_data: {"keywords": ["Motivation", "anschlie\u00dfenden Berufst\u00e4tigkeit", "Pers\u00f6nlicher Eindruck", "Schl\u00fcssigkeit", "Selbstdarstellung"], "page": [19, 20], "answer": "Im Auswahlgespr\u00e4ch wird die Eignung f\u00fcr den gew\u00e4hlten Studiengang und sich typischerweise anschlie\u00dfende Berufst\u00e4tigkeiten bewertet. Dabei k\u00f6nnen unter anderem folgende Kriterien herangezogen werden:\na. Grad der Motivation f\u00fcr den gew\u00e4hlten Studiengang und sich typischerweise daran anschlie\u00dfende Berufst\u00e4tigkeiten,\nb. Kommunikative/soziale Kompetenzen/technisches Verst\u00e4ndnis,\nc. Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tats\u00e4chlichen Inhalten des Studiengangs und sich typischerweise anschlie\u00dfender Berufst\u00e4tigkeiten,\nd. Pers\u00f6nlicher Eindruck, insbesondere Schl\u00fcssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie wird die Teilnahme am Auswahlgespräch organisiert? "
+    expected_response_data: {"keywords": ["15-min\u00fctigen Auswahlgespr\u00e4ch", "elektronischer  Kommunikation  sp\u00e4testens  sieben  Tage", "postalischer  Kommunikation  sp\u00e4testens  14  Tage"], "page": [8], "answer": "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-min\u00fctigen Auswahlgespr\u00e4ch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig \u00fcber die Modalit\u00e4ten des Auswahlgespr\u00e4chs informiert. Der genaue Termin und die Modalit\u00e4ten werden bei elektronischer Kommunikation sp\u00e4testens sieben Tage und bei postalischer Kommunikation sp\u00e4testens 14 Tage vor dem Gespr\u00e4ch durch die Hochschule bekannt gegeben."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie werden die nach Abzug der Vorabquoten zu vergebenden Studienplätze vergeben? "
+    expected_response_data: {"keywords": ["Rangliste", "Auswahlkriterien"], "page": [9], "answer": "Die nach Abzug der Vorabquoten (H\u00e4rtefallquote und Ortsbindung) zu vergebenden Studienpl\u00e4tze werden nach Bildung einer Rangliste aufgrund der im Besonderen Teil dieser Satzung genannten Auswahlkriterien vergeben."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie wird die Rangliste für die Vergabe der Studienplätze erstellt? "
+    expected_response_data: {"keywords": ["Grundlage der Auswahlnote", "beginnend bei dem niedrigsten Wert", "6 Abs. 4 Satz 4 Alternative 1 HZG"], "page": [9], "answer": "Die Erstellung der Rangliste erfolgt auf Grundlage der Auswahlnote. Die Rangfolge bestimmt sich nach der Auswahlnote entsprechend Absatz 2; beginnend bei dem niedrigsten Wert."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wer wird im Rahmen der Vorabquote für die Auswahl nach Ortsbindung im öffentlichen Interesse berücksichtigt? "
+    expected_response_data: {"keywords": ["\u00a7 6 Abs. 1 Satz 2 Nummer 4 HZG i.  V. m. \u00a7 33 Absatz 3 Satz 2 HZVO", "Vorabquote", "Olympia", "Vereinbarkeit von wissenschaftlichem Studium", "Studienort gebunden sind"], "page": [9], "answer": "Im Rahmen der Vorabquote f\u00fcr die Auswahl nach Ortsbindung im \u00f6ffentlichen Interesse werden Studienbewerberinnen und Studienbewerber ber\u00fccksichtigt, die einem auf Bundesebene gebildeten Olympia-, Perspektiv-, Erg\u00e4nzungs- oder Teamsportkader oder Nachwuchskader 1 des Deutschen Olympischen Sportbundes angeh\u00f6ren oder aufgrund einer Kooperationsvereinbarung, die die Vereinbarkeit von wissenschaftlichem Studium an der Hochschule Konstanz und regionalem Leistungssport sicherstellen soll, einem besonders zu f\u00f6rdernden Personenkreis angeh\u00f6ren und aus diesem Grund an den Studienort gebunden sind."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Was sind die Zugangsvoraussetzungen für den Masterstudiengang Informatik?"
+    expected_response_data: {"keywords": ["2,4 abgeschlossenes Hochschulstudium der Informatik", "verwandten Fachrichtung m\u00fcssen mindestens 60 ECTS", ""], "page": [21], "answer": "Die Zugangsvoraussetzung f\u00fcr den Masterstudiengang Informatik ist ein mit mindestens der Note 2,4 abgeschlossenes Hochschulstudium der Informatik, Wirtschaftsinformatik, Automobilinformationstechnik, Gesundheitsinformatik oder einer verwandten Fachrichtung. Bei einer verwandten Fachrichtung m\u00fcssen mindestens 60 ECTS-Punkte in F\u00e4chern der Informatik nachgewiesen werden. Mit dem Antrag auf Zulassung zum Studium muss eine der drei Studienrichtungen verbindlich gew\u00e4hlt werden: Autonome Systeme (MSI-AS), IT-Management (MSI-ITM) oder Software-Engineering (MSI-SE). Auf die einzelnen Studienrichtungen entfallen in der Regel jeweils ein Drittel der zur Verf\u00fcgung stehenden Studienpl\u00e4tze."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche Auswahlkriterien werden nach § 9 Abs. 2 berücksichtigt?"
+    expected_response_data: {"keywords": ["Ergebnis eines Auswahlgespr\u00e4chs", "Leistungen", "Abs. 1 i. V. m. \u00a7 5 Abs. 1 Nr. 1 nachgewiesen sind", "Ergebnis eines fachspezifischen Studienf\u00e4higkeitstests", "Berufst\u00e4tigkeit und Qualifikationen"], "page": [21, 22], "answer": "Nach \u00a7 9 Abs. 2 werden folgende Auswahlkriterien ber\u00fccksichtigt:\n\nErgebnis eines Auswahlgespr\u00e4chs: Die Bewertung der Auswahlgespr\u00e4che erfolgt nach den Kriterien Grad der Motivation f\u00fcr den gew\u00e4hlten Studiengang und sich typischerweise daran anschlie\u00dfenden Berufst\u00e4tigkeit, Interesse an der gew\u00e4hlten Studienrichtung und Reflexion der beruflichen Zielsetzung in Wissenschaft und Praxis, Kommunikative Kompetenzen, Technisches Verst\u00e4ndnis und Pers\u00f6nlicher Eindruck, insbesondere Schl\u00fcssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz.\nLeistungen, die mit der Abschlusspr\u00fcfung des grundst\u00e4ndigen Studiums nachgewiesen sind: Die Durchschnittsnote der Abschlusspr\u00fcfung bildet die Teilnote 2 f\u00fcr die Auswahlentscheidung. Abweichend von Satz 1 bildet in den F\u00e4llen des \u00a7 3 Abs. 2 Nr. 1 Satz 2 die Durchschnittsnote nach \u00a7 3 Abs. 2 Nr. 1 Satz 3 die Teilnote 2. Bei ausl\u00e4ndischen Bildungsnachweisen ist die Durchschnittsnote nach deutscher Deutung zu ber\u00fccksichtigen.\nErgebnis eines fachspezifischen Studienf\u00e4higkeitstests: Nicht zutreffend."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie wird die Teilnehmerzahl für die Auswahlgespräche begrenzt?"
+    expected_response_data: {"keywords": ["Abs. 1 erf\u00fcllen", "Auswahlgespr\u00e4chen", "Rangliste nach einer Vorauswahlnote"], "page": [22], "answer": "Die Teilnehmerzahl f\u00fcr die Auswahlgespr\u00e4che wird begrenzt, indem zun\u00e4chst eine Vorauswahl nach bestimmten Kriterien getroffen wird. Dazu wird je Studienrichtung eine Rangliste erstellt, basierend auf einer Vorauswahlnote, die durch Abzug einer Teilnote von einer anderen ermittelt wird. Die Anzahl der eingeladenen Bewerber betr\u00e4gt das Dreifache der verf\u00fcgbaren Studienpl\u00e4tze f\u00fcr die jeweilige Studienrichtung."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie wird die Rangliste für die Auswahlentscheidung erstellt?"
+    expected_response_data: {"keywords": ["Vorauswahlnote gem\u00e4\u00df Abs. 3 zu 50 vom Hundert", "Teilnote 1 gem\u00e4\u00df Abs. 2 Nr. 1 zu 50 vom Hundert"], "page": [22], "answer": "F\u00fcr die Auswahlentscheidung wird eine Rangliste f\u00fcr jede Studienrichtung erstellt. Dabei flie\u00dft die Vorauswahlnote gem\u00e4\u00df bestimmter Kriterien zu 50 Prozent und die Teilnote des erfolgreich abgeschlossenen Auswahlgespr\u00e4chs zu weiteren 50 Prozent in die Bewertung ein."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Gibt es eine Ausländerquote für die Auswahlverfahren?"
+    expected_response_data: {"keywords": ["Nicht zutreffend"], "page": [22], "answer": "Nein, es gibt keine Ausl\u00e4nderquote f\u00fcr die Auswahlverfahren gem\u00e4\u00df Anlage 8 der Hochschulzulassungsverordnung."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Welche sind die Ziele des Masterstudiengangs Informatik?"
+    expected_response_data: {"keywords": ["Informatikkenntnisse", "Probleml\u00f6sung", "Methodenkompetenz"], "page": [1], "answer": "Die Ziele des Studiums sind sowohl die Vermittlung vertiefender theoretischer als auch anwendungsbezogener Informatikkenntnisse sowie die F\u00f6rderung von Probleml\u00f6sungs- und Methodenkompetenz und Schl\u00fcsselqualifikationen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie ist der Studienaufbau des Masterstudiengangs Informatik gestaltet?"
+    expected_response_data: {"keywords": ["drei Semester", "Lehrveranstaltungen von Pflichtmodulen", "Wahl pflichtmodule (WPM)", "Masterarbeit", "Masterpr\u00fcfung"], "page": [1], "answer": "Das Studium umfasst drei Semester, kann im Sommer- oder Wintersemester begonnen werden und beinhaltet Pflichtmodule, die in beliebiger Reihenfolge belegt werden k\u00f6nnen, sowie Wahlpflichtmodule, die im Jahresrhythmus angeboten werden. Das dritte Semester beinhaltet die Masterarbeit und die m\u00fcndliche Masterpr\u00fcfung."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Was muss bei der Zulassung zum Studium des Masterstudiengangs Informatik verbindlich gewählt werden?"
+    expected_response_data: {"keywords": ["eine der drei Vertiefungsrichtungen"], "page": [1], "answer": "Bei der Zulassung zum Studium muss eine der drei Vertiefungsrichtungen gew\u00e4hlt werden: Autonome Systeme (MSI-AS), IT-Management (MSI-ITM) oder Software-Engineering (MSI-SE)."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Gibt es spezifische fachliche Zulassungsvoraussetzungen zu den Modul- und Modulteilprüfungen?"
+    expected_response_data: {"keywords": ["keine Regelungen"], "page": [8], "answer": "Nein, es gibt keine Regelungen, die \u00fcber die Festlegungen im Allgemeinen Teil hinausgehen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Werden die Modul- und Modulteilprüfungen zu bestimmten Terminen durchgeführt?"
+    expected_response_data: {"keywords": ["keine terminierten"], "page": [8], "answer": "Nein, es gibt keine terminierten Modul- oder Modulteilpr\u00fcfungen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+
+- vars:
+    question: "Wie werden die Modulprüfungen bewertet?"
+    expected_response_data: {"keywords": ["\u00a7 26 Abs. 2 Satz 4 SPOMa", "ECTS-Punktzahl"], "page": [8], "answer": "Die Gewichtung der benoteten Modulteilpr\u00fcfungen bei der Berechnung der Modulnoten erfolgt proportional zur Anzahl der ECTS-Punkte der zugeh\u00f6rigen Lehrveranstaltungen."}
+  assert:
+    - type: python
+      value: file://metrics/keywords_score.py
+      threshold: 0.75
+

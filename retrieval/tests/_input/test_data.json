@@ -1,0 +1,693 @@
+{
+    "metrics": [
+        "metrics/metric_cosineSimilarity.py",
+        "metrics/metric_jaccardSimilarity.py",
+        "metrics/metric_rouge1.py",
+        "metrics/metric_rouge2.py",
+        "metrics/metric_rougeL.py",
+        "metrics/metric_editDistance.py",
+        "metrics/metric_chatGPTScore.py"
+    ],
+    "tests": [
+        {
+            "id": 1,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Welche Dokumente können als Nachweis für deutsche Sprachkenntnisse akzeptiert werden?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wie wird geprüft, ob jemand Deutsch kann?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Welche Dokumente braucht man, um zu zeigen, dass man Deutsch kann?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.8
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT).",
+                    "correctness": 1.0,
+                    "keywords":["Zugangsberechtigung des Studienkollegs", "TestDaF", "TDN 4", "DSH-2", "Telc Deutsch C1"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [3,4]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Gibt es Ausnahmen, bei denen Bewerberinnen und Bewerber auf den Nachweis einer deutschen Sprachprüfung verzichten können?",
+                    "quality": {
+                        "specificity": 0.4,
+                        "relevance": 0.85
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Gibt's Ausnahmen für Deutschprüfungen?",
+                    "quality": {
+                        "specificity": 0.35,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Könnt ich die Prüfung für Deutsch auch irgendwie skippen?",
+                    "quality": {
+                        "specificity": 0.3,
+                        "relevance": 0.65
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen.",
+                    "correctness": 1.0,
+                    "keywords":["begründeten Einzelfall", "deutsche Staatsangehörigkeit"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [5]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Bis zu welchem Zeitpunkt können Sprachnachweise für den gewählten Studiengang nachgereicht werden, wenn sie bis zum Bewerbungsschluss nicht vorgelegt werden können?",
+                    "quality": {
+                        "specificity": 0.55,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wann kann man seine Deutschprüfung nachreichen, wenn man sie beim Bewerbungsschluss nicht hat?",
+                    "quality": {
+                        "specificity": 0.65,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Bis wann muss ich den Deutschtest nachreichen, wenn ich ihn beim Anfang nicht hab?",
+                    "quality": {
+                        "specificity": 0.75,
+                        "relevance": 0.7
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Sprachnachweise für den gewählten Studiengang, die bis zum Bewerbungsschluss nicht vorgelegt werden können, können bis zum Vorlesungsbeginn des Semesters gemäß dem Terminplan der Hochschule Konstanz, für das der Antrag auf Zulassung gestellt wurde, nachgereicht werden. Die Zulassung erfolgt in diesem Fall gemäß § 6 Abs. 5 unter Vorbehalt.",
+                    "correctness": 1.0,
+                    "keywords":["Bewerbungsschluss", "Antrag auf Zulassung", "§ 6 Abs. 5"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [5]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Bis wann müssen die Anträge auf Zulassung für das Sommersemester und das Wintersemester bei der Hochschule Konstanz eingereicht werden? ",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.85
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Bis wann muss man die Anträge fürs Sommersemester und Wintersemester abgeben?",
+                    "quality": {
+                        "specificity": 0.75,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Bis wann soll ich den Antrag fürs Sommersemester und Wintersemester abgeben?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.75
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Die Anträge auf Zulassung für das Sommersemester müssen bis zum 1. Dezember des Vorjahres eingereicht werden, während die Anträge für das Wintersemester bis zum 1. Juni des Jahres bei der Hochschule Konstanz eingegangen sein müssen.",
+                    "correctness": 1.0,
+                    "keywords":["1. Dezember des Vorjahres", "1. Juni des Jahres"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [3]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Welche Unterlagen müssen dem Antrag auf Zulassung beigefügt werden?",
+                    "quality": {
+                        "specificity": 0.95,
+                        "relevance": 1.0
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Welche Papiere muss ich meinem Zulassungsantrag beifügen?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 1.0
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Welche Papiere muss ich mit dem Antrag mitgeben?",
+                    "quality": {
+                        "specificity": 0.75,
+                        "relevance": 0.9
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Dem Antrag auf Zulassung müssen folgende Unterlagen beigefügt werden: (1) Nachweis über einen Hochschulabschluss oder einen gleichwertigen Abschluss, (2) Zeugnisse oder Urkunden zum Nachweis der Zugangsvoraussetzungen und Auswahlkriterien für den gewählten Studiengang, (3) Bescheinigung über die Feststellung der Gleichwertigkeit der ausländischen Vorbildung (falls zutreffend), (4) Lebenslauf, (5) Begründung und Nachweise für eine Zulassung im Rahmen der Auswahl nach Härtegesichtspunkten, (6) Erklärung und Nachweis über die Erlöschung des Prüfungsanspruchs an einer Hochschule derselben Hochschulart (falls zutreffend), und (7) weitere Nachweise gemäß den Anforderungen der Hochschule.",
+                    "correctness": 1.0,
+                    "keywords":["Nachweis über einen Hochschulabschluss", "Zeugnisse oder Urkunden", "Gleichwertigkeit der ausländischen Vorbildung", "Lebenslauf", "Nachweise"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [3,4]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Wie erfolgt die Teilnahme am Auswahlverfahren für die Zulassung zu einem Masterstudiengang?",
+                    "quality": {
+                        "specificity": 1.0,
+                        "relevance": 1.0
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wie kann man beim Masterstudium mitmachen?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Wie kann man sich für'n Master bewerben?",
+                    "quality": {
+                        "specificity": 0.5,
+                        "relevance": 0.8
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Die Bewerberinnen und Bewerber nehmen am Auswahlverfahren mit einer Durchschnittsnote teil, die auf Grund der Noten der bisher erbrachten Prüfungsleistungen unter Berücksichtigung der für die Abschlussnote vorgesehenen Gewichtungen ermittelt wird. Das Ergebnis des Abschlusses bleibt nach § 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr. unbeachtet.",
+                    "correctness": 1.0,
+                    "keywords":["Durchschnittsnote", "§ 33 Abs. 2 S. 2 2. Halbsatz HZVO Abs. 1 Nr."],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [4]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Wer wird vom Vergabeverfahren ausgeschlossen?",
+                    "quality": {
+                        "specificity": 1.0,
+                        "relevance": 1.0
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wer fliegt beim Bewerbungsprozess raus?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Wer wird nicht beim Bewerben zugelassen?",
+                    "quality": {
+                        "specificity": 1.0,
+                        "relevance": 1.0
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist.",
+                    "correctness": 1.0,
+                    "keywords":["nicht form- oder fristgemäß gestellt", "Besonderer Teil", "§ 12 - 26", "eingeschrieben"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [6]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Was passiert nach Abschluss des Auswahlverfahrens?",
+                    "quality": {
+                        "specificity": 1.0,
+                        "relevance": 1.0
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Was passiert nachdem die Auswahl vorbei ist?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Was kommt nach dem Bewerbungsauswahlprozess?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes.",
+                    "correctness": 1.0,
+                    "keywords":["Zulassungs- und Ablehnungsbescheide", "postalisch", "Frist zur Annahme"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [6]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Was geschieht, wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird? ",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Was ist, wenn man die Frist für die Studienplatzannahme verpasst?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Was passiert, wenn ich den Studienplatz nicht rechtzeitig annehme?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich.",
+                    "correctness": 1.0,
+                    "keywords":["keine Nachfrist","erlischt die Zulassung", "Immatrikulation nicht mehr möglich"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [6]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Wer nimmt am Auswahlverfahren teil?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wer darf am Auswahlprozess teilnehmen?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Wer darf überhaupt beim Bewerbungsauswahlprozess mitmachen?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt.",
+                    "correctness": 1.0,
+                    "keywords":["frist- und formgerecht", "Zugangsvoraussetzungen", "§ 59 Absatz 1 LHG", "§ 5"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [7]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Was passiert, wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der verfügbaren Studienplätze übersteigt?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Was passiert, wenn es mehr Bewerbungen als Studienplätze gibt?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Was ist, wenn's mehr Bewerber als Plätze gibt?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste.",
+                    "correctness": 1.0,
+                    "keywords":["geeigneten Bewerbungen", "Gesamtzahl der zur Verfügung stehenden Studienplätze", "Rangliste", "§ 10"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [7]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Wie wird die Auswahlkommission zusammengesetzt?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wer entscheidet darüber, wer in die Auswahlkommission aufgenommen wird?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Wer trifft die Auswahl der Mitglieder für die Auswahlkommission?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                },
+                {
+                    "id": 4,
+                    "text": "Welche Kriterien werden bei der Auswahl von Mitgliedern für die Auswahlkommission berücksichtigt?",
+                    "quality": {
+                        "specificity": 0.5,
+                        "relevance": 0.6
+                    }
+                },
+                {
+                    "id": 5,
+                    "text": "Warum ist die Zusammensetzung der Auswahlkommission wichtig für den Studienzugang?",
+                    "quality": {
+                        "specificity": 0.3,
+                        "relevance": 0.4
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät.",
+                    "correctness": 1.0,
+                    "keywords":["Fakultätsrat", "mindestens zwei Mitgliedern", "Professorinnen und Professoren", "stellvertretende Mitglieder"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [7]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Welche Auswahlkriterien werden neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses für die Bildung der Ranglisten berücksichtigt?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Was muss ich neben meinen Noten noch für den Masterstudienplatz einreichen?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Was muss ich noch einreichen außer meinen Noten für den Masterplatz?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                },
+                {
+                    "id": 4,
+                    "text": "Warum sind Zusatzkriterien neben den Noten wichtig für die Masterstudiengangszulassung?",
+                    "quality": {
+                        "specificity": 0.5,
+                        "relevance": 0.6
+                    }
+                },
+                {
+                    "id": 5,
+                    "text": "Was sind die Vorteile eines fachspezifischen Studieneignungstests für die Masterstudiengangszulassung?",
+                    "quality": {
+                        "specificity": 0.3,
+                        "relevance": 0.4
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay).",
+                    "correctness": 1.0,
+                    "keywords":["fachlich einschlägigen Hochschulabschlusses", "Englischkenntnisse", "Berufstätigkeit", "fachspezifischen Studieneignungstests", "Motivationsschreiben", "schriftliche Abhandlung"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [7, 8]
+                    }
+                }
+            ]
+        },        
+        {
+            "id": 14,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Welche Kriterien werden im Auswahlgespräch bewertet?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wie sieht ein Auswahlgespräch aus?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Was ist ein Auswahlgespräch und wie läuft es ab?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                },
+                {
+                    "id": 4,
+                    "text": "Warum sind Auswahlgespräche für die Studienplatzvergabe wichtig?",
+                    "quality": {
+                        "specificity": 0.5,
+                        "relevance": 0.6
+                    }
+                },
+                {
+                    "id": 5,
+                    "text": "Was ist der Unterschied zwischen einem Auswahlgespräch und einer schriftlichen Prüfung?",
+                    "quality": {
+                        "specificity": 0.3,
+                        "relevance": 0.4
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Im Auswahlgespräch wird die Eignung für den gewählten Studiengang und sich typischerweise anschließende Berufstätigkeiten bewertet. Dabei können unter anderem folgende Kriterien herangezogen werden: a) Grad der Motivation für den gewählten Studiengang und sich typischerweise daran anschließende Berufstätigkeiten, b) Kommunikative/soziale Kompetenzen/technisches Verständnis, c) Deckungsgrad zwischen den Erwartungen der Bewerberin oder des Bewerbers und den tatsächlichen Inhalten des Studiengangs und sich typischerweise anschließender Berufstätigkeiten, d) Persönlicher Eindruck, insbesondere Schlüssigkeit der Argumentation, Selbstdarstellung und Ausdrucksweise sowie Stressresistenz.",
+                    "correctness": 1.0,
+                    "keywords":["Eignung für den gewählten Studiengang", "Motivation", "Kommunikative/soziale Kompetenzen", "technisches Verständnis", "Deckungsgrad", "Persönlicher Eindruck"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [19,20]
+                    }
+                }
+            ]
+        },        
+        {
+            "id": 15,
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Wie wird die Teilnahme am Auswahlgespräch organisiert?",
+                    "quality": {
+                        "specificity": 0.8,
+                        "relevance": 0.9
+                    }
+                },
+                {
+                    "id": 2,
+                    "text": "Wie organisiert man das Auswahlgespräch?",
+                    "quality": {
+                        "specificity": 0.7,
+                        "relevance": 0.8
+                    }
+                },
+                {
+                    "id": 3,
+                    "text": "Wie wird das Auswahlgespräch geplant?",
+                    "quality": {
+                        "specificity": 0.6,
+                        "relevance": 0.7
+                    }
+                },
+                {
+                    "id": 4,
+                    "text": "Was ist der Zweck eines Auswahlgesprächs?",
+                    "quality": {
+                        "specificity": 0.5,
+                        "relevance": 0.6
+                    }
+                },
+                {
+                    "id": 5,
+                    "text": "Warum sind Auswahlgespräche wichtig für die Studienplatzvergabe?",
+                    "quality": {
+                        "specificity": 0.3,
+                        "relevance": 0.4
+                    }
+                }
+            ],
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Die nach dem Ergebnis der Vorauswahlkriterien rangbesten Bewerberinnen und Bewerber werden zu einem mindestens 15-minütigen Auswahlgespräch eingeladen. Die Bewerberinnen und Bewerber werden rechtzeitig über die Modalitäten des Auswahlgesprächs informiert. Der genaue Termin und die Modalitäten werden bei elektronischer Kommunikation spätestens sieben Tage und bei postalischer Kommunikation spätestens 14 Tage vor dem Gespräch durch die Hochschule bekannt gegeben.",
+                    "correctness": 1.0,
+                    "keywords":["Vorauswahlkriterien", "15-minütigen Auswahlgespräch", "Modalitäten", "elektronischer Kommunikation", "postalischer Kommunikation"],
+                    "cite": {
+                        "document": "119_ZuSMa_Senat_18012022.pdf",
+                        "page": [8]
+                    }
+                }
+            ]
+        }
+                                                                                               
+    ]
+}

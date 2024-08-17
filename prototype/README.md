@@ -5,9 +5,9 @@
 
 ## Installation
 
-1. You will need `llama-cpp-python` and our local rag lib installed (see [here](../README.md#installation) for details)
-2. `pip install -r requirements.txt`
-3. `cd frontend && npm install`
+1. You will need `llama-cpp-python` and our local rag lib installed aswell as the main [requirements](../requirements.txt) (see [here](../README.md#installation) for details)
+2. Install prototype specific requirements `pip install -r requirements.txt`
+3. Install Node (v20.11.1) and run `cd frontend && npm install`
 
 
 ## Start Prototype

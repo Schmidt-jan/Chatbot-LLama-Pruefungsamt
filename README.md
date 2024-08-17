@@ -1,32 +1,47 @@
 # Chatbot-LLama-Pruefungsamt
 
-In diesem Repository sind die Skripte und Ergebnisse des Teamprojekts 'Ein Chatbot für das Prüfungsamt'.
-
-Die [Abschlusspräsentation](./Abschlussbericht/praesentation.pptx) und die eine kurze [Zusammenfassung]() sind in dem Ordner [Abschlussbericht/](./Abschlussbericht/) zu finden.
-
-## Datenbasis
-Als Datenbasis wurden die Dokumente [Zulassungssatzung für die Masterstudiengänge (ZuSMa)](./main_data_filtered/119_ZuSMa_Senat_18012022.pdf) und [SPO Nr. 5 - Studiengang Informatik (MSI)](./main_data_filtered/SPO_MSI_SPONr5_Senat_10122019.pdf) verwendet.
-
-## Libraries
-In dem Ordner [libs](./libs/) sind einige Libraries enthalten welche wir erstellt haben.   
-Die Bibliothek [custom_rag_loader](./libs/custom_rag_loader/) haben wir dazu verwendet um die Datenbank sowie die LLMs zu laden.
-
-## Evaluierung - Retrieval Augmented Generation (RAG)
-Für die Evaluierung des Retrieval Augmented Generation Ansatzes sind die folgenden Ordner wichtig:
-- [Retrieval](./Retrieval/) - Alles was mit dem Erstellen der Datenbasis und deren Tests zu tun hat
-- [Evaluierung des RAGs]()
-- [prototype](./prototype/) - Ein Prototyp eines einfachen Chatbots
-
-## Finetuning
-Alles zu dem Finetuning ist in dem Ordner [finetune](./finetune/) zu finden.
-
 
 ![](.github/assets/chatbot-logo.jpeg)
 
 
+This repository contains the code and results of the team project ‘A Chatbot for the Examination Office’ at the HTWG Konstanz.
+
+
+- [Retrieval](./Retrieval/)
+
+The [final presentation](./final-report/presentation.pptx) and a short [summary](./final-report/summary.pdf) can be found in the [final-report](./final-report/) directory.
+
+
+
+  * ### [Structure](#structure)
+  * ### [Installation](#installation)
+  * ### Additional README's
+    * ### [🔎 Retrieval](./retrieval/README.md)
+    * ### [📊 Evaluation](./llm_eval/README.md)
+    * ### [✨ Finetuning](./finetune/README.md)
+    * ### [🏃 Prototype](./prototype/README.md)
+
+
+## Structure
+
+### Retrieval Augmented Generation (RAG) and Evaluation
+The following folders are important for running and evaluating the Retrieval Augmented Generation approach:
+- [Retrieval](./retrieval/) - creation of the database from the documents and its tests
+- [Custom RAG Loader](./libs/custom_rag_loader) - our small local library build on top of [Langchain](https://github.com/langchain-ai/langchain)
+- [Evaluation of the RAG](./llm_eval/)
+- [Prototype](./prototype/) - A prototype/demo of a simple chatbot
+
+#### Data basis
+The documents [Zulassungssatzung für die Masterstudiengänge (ZuSMa)](./main_data_filtered/119_ZuSMa_Senat_18012022.pdf) and [SPO Nr. 5 - Studiengang Informatik (MSI)](./main_data_filtered/SPO_MSI_SPONr5_Senat_10122019.pdf) were used as the data basis and ingested in our vector database.
+
+### Finetuning
+
+
+We finetuned [Mistral7B](https://huggingface.co/mistralai/Mistral-7B-v0.3) using several approaches and datasets. More information and Notebooks can be found in the [finetune](./finetune/) subdirectory.
 
 ## Installation
 
+As most of the libraries used in the context of Large Language Models are mostly undergoing rapid development with a lot of API changes we recommend installing the dependencies with the version specified in the respective `requirements.txt`.
 
 ### Prerequisites
 
