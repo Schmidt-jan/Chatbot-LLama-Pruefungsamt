@@ -14,3 +14,9 @@
 
 1. Start backend (running on Port `8000`): `python3 backend/server.py`
 2. Start frontend (running on Port `3000`): `cd frontend && npm start`
+
+
+
+<div style="display: flex; justify-content: center; margin-top: 5em">
+<img alt="logo" style="" src="../.github/assets/prompt-injection.png" />
+</div>
