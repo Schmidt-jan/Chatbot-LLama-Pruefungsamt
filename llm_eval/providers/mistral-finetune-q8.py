@@ -1,4 +1,3 @@
-import json
 from typing import List
 from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
 from helper.call_llm import USE_DB, call_llm
@@ -6,17 +5,12 @@ from helper.call_llm import USE_DB, call_llm
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 
-from torch import cosine_similarity
-from transformers import AutoTokenizer, AutoModel
-from scipy.spatial.distance import cosine
-
-
 
 template = """[INST]You are a smart helpful assistant for the HTWG Konstanz. Answer the following question based only on the provided context. Always return the source of an information and it is mandatory to answer in GERMAN:
 
- Context: {context}
+Context: {context}
 
-Question: {question} [/INST]"""
+Question: {question}[/INST]"""
 
 prompt = ChatPromptTemplate.from_template(template)
 

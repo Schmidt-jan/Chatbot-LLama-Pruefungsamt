@@ -1,0 +1,198 @@
+[
+    {
+        "input": "What qualifications or experiences are considered when evaluating a candidate's suitability for a program, besides academic achievements?", 
+        "output": " According to the document, a candidate's suitability for a program at the Hochschule Konstanz is not only evaluated based on academic achievements but also on their qualifications or experiences that demonstrate equivalent competencies, even if they were obtained outside of the Hochschule Konstanz. This includes studying at state or state-recognized foreign universities, participating in state or state-recognized distance learning programs, or other relevant experiences. The document also mentions that the Zentraler Prüfungsausschuss has the responsibility to coordinate the uniform application of the Studien- und Prüfungsordnung, handle study program-overlapping examination issues, and make decisions regarding the recognition of academic achievements, among other tasks."
+    },
+    {
+        "input": "What is the duration of the Masterarbeit module in terms of contact hours, self-study hours, and semester duration?", 
+        "output": "The Masterarbeit module is not defined in terms of contact hours in the provided context. Instead, it is described as a self-study project that demonstrates the ability to independently research and solve a problem within a given field of study using scientific methods. The duration of this project is regulated by a specific deadline, but no specific number of hours is mentioned.However, we do know that one ECTS point corresponds to 30 hours of work (including contact hours and self-study hours). Since the Masterarbeit module is part of a semester's workload, which is typically worth 30 ECTS points, it can be inferred that the Masterarbeit module would typically require approximately 900 hours of work (30 ECTS points x 30 hours per ECTS point). This would equate to around 300 hours of contact hours and 600 hours of self-study hours, assuming an even distribution of contact hours and self-study hours throughout the semester. However, this distribution may vary depending on the specific requirements of the Masterarbeit project and the teaching methods used by the supervising professor or other personnel.It's important to note that this calculation is an estimation, as the actual distribution of contact hours and self-study hours may vary depending on the specific requirements of the Masterarbeit project and the teaching methods used by the supervising professor or other personnel. Additionally, the Masterarbeit module may be completed in less than one semester if the student completes their work earlier, or it may take longer if the student requires more time. The exact duration of the Masterarbeit module will depend on the individual student's progress and the specific requirements of their project."
+    },
+    {
+        "input": "How many semesters does it typically take for students in which Master study programs to complete their studies? Please specify the programs mentioned in the text.", 
+        "output": "The SPOMa specifies that the typical Regelstudienzeit (regular study period) for students in the following Master study programs at the Hochschule Konstanz is:\n- Three semesters for Architektur, Informatik, Automotive Systems Engineering, Umwelt - und Verfahrenstechnik, Wirtschaftsingenieurwesen, Mechatronik (Automatisierungs-technik), Industrial Engineering and Management, Unternehmensführung, International Management Asia-Europe, Business Informations Technology, Legal Management, and International Project Engineering.\n- Four semesters for Business Information Technology.\n- Five semesters for Mechatronik (MME) - Automatisierungs-technik in the berufsbegleitenden Studiengang."
+    },
+    {
+        "input": "In the SPOMa, what are Exkursionen and how are they integrated into the study plans?", 
+        "output": "According to the context information, Exkursionen are excursions that are part of the SPOMa (Master studies at the University of Konstanz) program. The integration of excursions into study plans is regulated in their respective parts."
+    },
+    {
+        "input": "Based on the document, which of the following statements can be made about the flexibility of the sequence and type of lectures and examinations in a Master's program?", 
+        "output": "The document indicates that lectures and examinations (including Modul- or Modulteilprüfungen, Masterarbeit, and Mündliche Masterprüfung) in a Master's program at the Hochschule Konstanz can be conducted entirely or partially in a foreign language, as regulated in the Besonderen Teil (Section 6, Lehr- und Prüfungssprachen). This flexibility suggests that the sequence and type of lectures and examinations in a Master's program at this university can be varied to some extent, depending on the specific program and the preferences of students or faculty. However, the document does not provide explicit details about the extent or conditions of this flexibility, so further information would be needed to make a more definitive statement."
+    },
+    {
+        "input": "Which modules does the Prüfungsplan for MSI-AS include, and how many ECTS points are associated with each module?", 
+        "output": "The Prüfungsplan for MSI-AS includes the following modules with their respective ECTS points:\n1. Komplexitätstheorie - 3 ECTS points\n2. Algorithmentechnik - 3 ECTS points\n3. Numerische Mathematik - 3 ECTS points\n4. Stochastik - 3 ECTS points\n5. Seminar - 5 ECTS points (Seminar A or Seminar B)\n6. Team-Projekt - 8 ECTS points\n7, 8, 9, 10, 11 - Wahlpflichtmodul Autonome Systeme (different numbers) - 5 ECTS points each (Wahlpflichtmodul Autonome Systeme 1, 2, 3, 4, 5)\n12. Wahlpflichtmodul - 10 ECTS points (Wahlpflichtmodul 10)\nMasterarbeit - 27 ECTS points\nMündliche Masterprüfung - 3 ECTS points\nThe total number of ECTS points for the entire study program is 90."
+    },
+    {
+        "input": "What are the required prerequisites for taking the Strategic IT-Management 2 module in the Master of Science Informatik program at Hochschule Konstanz?", 
+        "output": "To take the Strategic IT-Management 2 module in the Master of Science Informatik program at Hochschule Konstanz, there are no explicitly stated prerequisites mentioned in the context information. However, it is recommended that students have completed the Strategic IT-Management 1 module (Building the IT-Leadership System) as it is listed as being sinnvoll (meaningful or useful) to combine with this module. Additionally, students should have a solid understanding of IT concepts and business strategies to effectively engage with the module's content."
+    },
+    {
+        "input": "Which handlungsfelder (strategic role of IT, architecture management, sourcing, IT-organization, personal) are covered in the Strategic IT-Management 2 module?", 
+        "output": "The Strategic IT-Management 2 module covers the following handlungsfelder: Strategic Role of IT, Architecture Management, Sourcing, IT-Organization, and Personal."
+    },
+    {
+        "input": "What is the name of the university hosting the Master Informatik (MSI) and Business Information Technology (BIT) event?",
+        "output": "Hochschule Konstanz (HTWG Konstanz)"
+    },
+    {
+        "input": "What is the deadline for applying to the Master's programs offered by the Fakultät Informatik at HTWG Konstanz for the Wintersemester?",
+        "output": "According to the context information, the deadline for applying to Master's programs offered by Fakultät Informatik at HTWG Konstanz for the Wintersemester is June 1 of the respective year. However, it's important to note that this information might not be up-to-date, as the context document is from January 2022, and it's recommended to check the official website or contact the university for the most current application deadlines."
+    },
+    {
+        "input": "If a student has completed the first step of the application process for a Master's program at HTWG Konstanz but does not have all required documents at the time of application, what should they do next?",
+        "output": "The student should contact the respective studienreferat (study office) for their desired Master's program, Sarah Kunkel for MSI orBIT, via email at skunkel@htwg-konstanz.de, to discuss their situation and receive guidance on submitting the missing documents at a later time. The student should also regularly check the websites of MSI and BIT under the 'Dokumente' section for important documents related to their application process."
+    },
+    {
+        "input": "What are influences the selection decision for the Master Informatik?",
+        "output": "The arithmetic mean of grades forms the first part of the selection decision, referred to as Part 1. The second part of the selection decision, referred to as Part 2, consists of achievements that have been proven with the final exam of the undergraduate program according to Section 1, with the exception of Section 3, Abs. 2, Nr. 1, Satz 2, where the average grade according to Section 3, Abs. 2, Nr. 1, Satz 3, takes precedence. In cases of foreign educational certificates, the average grade should be considered according to German interpretation. There is no mention of a specific skills test in point 3. The fourth part of the selection decision includes professional experience and qualifications. The Hochschule Konstanz webpage provides more details, specifically in sections 12-26. The selection for higher semesters follows Section 7 HZG in conjunction with Section 32 HZVO. Section 9a outlines the selection interview process. The top-ranked applicants, as determined by the preceding criteria, are invited for a 15-minute interview. The number of invitees is at least three times the number of available study places. Up to three applicants can be invited for each interview. The applicants are informed of the interview details in a timely manner, either electronically or via postal mail, at least seven days and fourteen days, respectively, before the interview. The interview evaluates the suitability for the chosen study program and related professions. Criteria for evaluation may include motivation, communication skills, compatibility between applicant expectations and program content, personal impression, clarity of argumentation, self-presentation, and stress resistance. The specific criteria and interview evaluation are detailed in sections 12-26."
+    },
+    {
+        "input": "What do applicants need to provide for a Masters degree prgram in",
+        "output": "According to the context, in order to apply for a Master's degree program in Informatik at Hochschule Konstanz, applicants need to provide certain documents for evaluation, including their English language proficiency, professional experience, qualifications, results of a specific aptitude test, results of an interview or other oral assessment, a motivation letter, and a written essay. The specific requirements and weighting of each criterion may vary depending on the program, so applicants should refer to the special regulations for their specific degree program (§§ 12-26). Additionally, for higher semesters, applicants are selected based on the results of the previous selection criteria (§ 7 HZG in conjunction with § 32 HZVO). The selection process includes an interview or other oral assessment (§ 9a), during which the applicant's suitability for the chosen program and related professions is evaluated using criteria such as motivation, communication skills, technical understanding, alignment of expectations, personal impression, clarity of argumentation, self-presentation, and stress resistance."
+    },
+    {
+    "input": "Welche Dokumente können als Nachweis für deutsche Sprachkenntnisse akzeptiert werden?",
+    "output": "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
+    },
+    {
+    "input": "Wie wird geprüft, ob jemand Deutsch kann?",
+    "output": "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
+    },
+    {
+    "input": "Welche Dokumente braucht man, um zu zeigen, dass man Deutsch kann?",
+    "output": "Als Nachweis für deutsche Sprachkenntnisse können folgende Dokumente akzeptiert werden: (1) Feststellungsprüfung für ein Bachelorstudium durch Vorlage der Zugangsberechtigung des Studienkollegs an der Hochschule Konstanz, (2) Test Deutsch als Fremdsprache (TestDaF) mit mindestens der Stufe TDN 4, (3) Deutsche Sprachprüfung für den Hochschulzugang (DSH) mit mindestens der Stufe DSH-2, (4) „Telc Deutsch C1 Hochschule“ oder eine äquivalente Sprachprüfung gemäß der Rahmenordnung über Deutsche Sprachprüfungen für das Studium an deutschen Hochschulen (RO-DT)."
+    },
+    {
+    "input": "Gibt es Ausnahmen, bei denen Bewerberinnen und Bewerber auf den Nachweis einer deutschen Sprachprüfung verzichten können?",
+    "output": "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
+    },
+    {
+    "input": "Gibt's Ausnahmen für Deutschprüfungen?",
+    "output": "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
+    },
+    {
+    "input": "Könnt ich die Prüfung für Deutsch auch irgendwie skippen?",
+    "output": "Ja, auf den Nachweis einer deutschen Sprachprüfung kann bei Bewerberinnen und Bewerbern im besonders begründeten Einzelfall verzichtet werden, insbesondere wenn sie die deutsche Staatsangehörigkeit besitzen."
+    },
+    {
+        "input": "Wer fliegt beim Bewerbungsprozess raus?",
+        "output": "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."
+      },
+      {
+        "input": "Wer wird nicht beim Bewerben zugelassen?",
+        "output": "Vom Vergabeverfahren ausgeschlossen wird, wer entweder den Antrag auf Zulassung nicht form- oder fristgemäß gestellt hat oder die Zugangsvoraussetzungen gemäß Besonderem Teil (§ 12 - 26) nicht erfüllt. Des Weiteren ist für das erste Semester vom Vergabeverfahren ausgeschlossen, wer bereits in dem betreffenden Studiengang an einer Hochschule im Geltungsbereich des Grundgesetzes eingeschrieben ist."
+      },
+      {
+        "input": "Was passiert nach Abschluss des Auswahlverfahrens?",
+        "output": "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
+      },
+      {
+        "input": "Was passiert nachdem die Auswahl vorbei ist?",
+        "output": "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
+      },
+      {
+        "input": "Was kommt nach dem Bewerbungsauswahlprozess?",
+        "output": "Nach Abschluss des Auswahlverfahrens werden Zulassungs- und Ablehnungsbescheide erteilt. Diese werden postalisch von der Hochschule Konstanz versandt und enthalten eine Frist zur Annahme des Studienplatzes."
+      },
+      {
+        "input": "Was geschieht, wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird? ",
+        "output": "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
+      },
+      {
+        "input": "Was ist, wenn man die Frist für die Studienplatzannahme verpasst?",
+        "output": "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
+      },
+      {
+        "input": "Was passiert, wenn ich den Studienplatz nicht rechtzeitig annehme?",
+        "output": "Wenn die Frist zur Annahme des Studienplatzes nicht eingehalten wird und keine Nachfrist gewährt wird, erlischt die Zulassung, und eine Immatrikulation ist nicht mehr möglich."
+      },
+      {
+        "input": "Wer nimmt am Auswahlverfahren teil?",
+        "output": "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
+      },
+      {
+        "input": "Wer darf am Auswahlprozess teilnehmen?",
+        "output": "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
+      },
+      {
+        "input": "Wer darf überhaupt beim Bewerbungsauswahlprozess mitmachen?",
+        "output": "Am Auswahlverfahren nimmt nur teil, wer sich frist- und formgerecht um einen Studienplatz beworben hat und die Zugangsvoraussetzungen gemäß § 59 Absatz 1 LHG in Verbindung mit § 5 erfüllt."
+      },
+      {
+        "input": "Was passiert, wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der verfügbaren Studienplätze übersteigt?",
+        "output": "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
+      },
+      {
+        "input": "Was passiert, wenn es mehr Bewerbungen als Studienplätze gibt?",
+        "output": "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
+      },
+      {
+        "input": "Was ist, wenn's mehr Bewerber als Plätze gibt?",
+        "output": "Wenn die Zahl der geeigneten Bewerbungen die Gesamtzahl der zur Verfügung stehenden Studienplätze übersteigt, erstellt die Auswahlkommission gemäß § 10 eine Rangliste."
+      },
+      {
+        "input": "Wie wird die Auswahlkommission zusammengesetzt?",
+        "output": "Die Auswahlkommission wird durch den Vorsitzenden des zuständigen Prüfungsausschusses bestellt und besteht aus mindestens drei Mitgliedern."
+      },
+      {
+        "input": "Wer entscheidet über die Auswahl?",
+        "output": "Die Auswahlkommission entscheidet über die Auswahl."
+      },
+      {
+        "input": "Wer trifft die Entscheidung über die Bewerberauswahl?",
+        "output": "Die Auswahlkommission entscheidet über die Auswahl."
+      },
+      {
+        "input": "Wer hat das letzte Wort bei der Bewerberauswahl?",
+        "output": "Die Auswahlkommission entscheidet über die Auswahl."
+      },
+      {
+        "input": "Wer entscheidet darüber, wer in die Auswahlkommission aufgenommen wird?",
+        "output": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
+      },
+      {
+        "input": "Wer trifft die Auswahl der Mitglieder für die Auswahlkommission?",
+        "output": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
+      },
+      {
+        "input": "Welche Kriterien werden bei der Auswahl von Mitgliedern für die Auswahlkommission berücksichtigt?",
+        "output": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
+      },
+      {
+        "input": "Warum ist die Zusammensetzung der Auswahlkommission wichtig für den Studienzugang?",
+        "output": "Zur Vorbereitung der Auswahlentscheidung wird eine Auswahlkommission eingesetzt. Der Fakultätsrat der Fakultät, der der betreffende Studiengang zugeordnet ist, bestellt die Auswahlkommission. Die Auswahlkommission besteht aus mindestens zwei Mitgliedern aus der Fakultät, wobei mindestens eines der Mitglieder der Gruppe der Professorinnen und Professoren angehören muss. Der Fakultätsrat bestimmt zusätzlich mindestens zwei stellvertretende Mitglieder aus der Fakultät."
+      },
+      {
+        "input": "Welche Auswahlkriterien werden neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses für die Bildung der Ranglisten berücksichtigt?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Was muss ich neben meinen Noten noch für den Masterstudienplatz einreichen?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Was muss ich noch einreichen außer meinen Noten für den Masterplatz?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Warum sind Zusatzkriterien neben den Noten wichtig für die Masterstudiengangszulassung?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Was sind die Vorteile eines fachspezifischen Studieneignungstests für die Masterstudiengangszulassung?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Was ist ein Motivationsschreiben?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Was beinhaltet ein Motivationsschreiben?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      },
+      {
+        "input": "Welche Informationen müssen im Motivationsschreiben enthalten sein?",
+        "output": "Neben dem Ergebnis des fachlich einschlägigen Hochschulabschlusses werden mindestens eines der folgenden Auswahlkriterien berücksichtigt: a) Leistungen, die in dem Studium erbracht wurden, das Voraussetzung für den Zugang zu dem Masterstudiengang ist, b) Englischkenntnisse, c) Berufstätigkeit und Qualifikationen, d) das Ergebnis eines fachspezifischen Studieneignungstests,e) das Ergebnis des Auswahlgesprächs/anderen mündlichen Verfahrens gemäß § 9a,f) ein Motivationsschreiben, g) eine schriftliche Abhandlung (Essay)."
+      }
+]

@@ -7,3 +7,20 @@
 # promptfoo pycache
 
 __pycache__
+
+
+# automated promptfoo output
+
+output*
+
+
+*.bin
+
+
+node_modules
+
+cache-*.arrow
+
+*.log
+
+wandb

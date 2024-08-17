@@ -1,4 +1,0 @@
-Starting
-Model: mistralai/Mixtral-8x7B-Instruct-v0.1, Context: 1024, Chunk: 128, Overlap: 0
-Generating DB
-Failed to generate DB: Failed to get embeddings from sequence pooling type is not set

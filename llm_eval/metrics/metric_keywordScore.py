@@ -1,4 +1,3 @@
-import random
 import metric_helper as mH
 import metrics as M
 
@@ -8,7 +7,7 @@ def get_assert(output, context):
 
     m = M.Metrics()
 
-    print("OUTPUTJUNGE!!!:", output["keywords"])
+    #print("OUTPUTJUNGE!!!:", output["keywords"])
 
     score = m.calc_keyword_score(output["output"], output["keywords"])    
 

@@ -1,14 +1,8 @@
-import json
 from custom_rag_loader import DbSupportedEmbeddingModels, RagConfig, SupportedModels, load_llm_rag_model, DbSupportedChunkSizes, DbSupportedChunkOverlap
-from helper.call_llm import USE_DB, call_llm
+from helper.call_llm import USE_DB, call_llm, monitor_power
 
 from langchain.prompts import ChatPromptTemplate
-
-
-from torch import cosine_similarity
-from transformers import AutoTokenizer, AutoModel
-from scipy.spatial.distance import cosine
-
+from contextlib import contextmanager
 
 
 template = """Answer the following question based only on the provided context. Always return the source of an information and it is mandatory to answer in GERMAN:
@@ -55,19 +49,18 @@ def simple_rag_chain(question: str, answer:str, use_db = USE_DB.TRUE):
 
     return docs, llm.invoke(final_prompt)
 
+
+
+
+
+
 def call_api(prompt, options, context):
 
-    return call_llm('capybarahermes-2.5-mistral-7b.Q8_0', simple_rag_chain, prompt, options, context)
+    model = 'capybarahermes-2.5-mistral-7b.Q8_0'
 
+    with monitor_power(model):
+        result = call_llm(model, simple_rag_chain, prompt, options, context)
+    return result
 
-"""
-def simple_rag_chain(question: str, answer:str):
-    #docs = retriever.get_relevant_documents(question)
-    #formatted_docs = format_docs(docs)
+    #return call_llm('capybarahermes-2.5-mistral-7b.Q8_0', simple_rag_chain, prompt, options, context)
 
-    final_prompt = prompt.format(context=answer, question= question)
-
-    print(final_prompt)
-
-    return llm.invoke(final_prompt)
-"""

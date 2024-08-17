@@ -1,6 +1,3 @@
-from calendar import c
-import json
-from operator import call
 from typing import List, Union
 import custom_rag_loader as crl
 from langchain_core.documents import Document
@@ -9,7 +6,6 @@ from langchain.vectorstores.chroma import Chroma
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from rag_test_output import RagTestOutput
 from chromadb.utils import embedding_functions
-from regex import E
 
 class MyEmbeddingFunction(Embeddings):
     def __init__(self, model_name):

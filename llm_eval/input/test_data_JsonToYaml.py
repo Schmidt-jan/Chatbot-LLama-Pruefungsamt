@@ -1,6 +1,5 @@
 import json
 import os
-import yaml
 
 def convert_json_to_yaml(json_file, yaml_file):
     with open(json_file, 'r') as f:

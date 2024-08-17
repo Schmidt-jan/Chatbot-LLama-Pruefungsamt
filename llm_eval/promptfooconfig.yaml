@@ -1,23 +1,31 @@
+
 prompts: 
   - "{{question}}"
 
 providers:
+  - python:providers/openAi_gpt-3_5-turbo-0125.py
+  - python:providers/capybaraHermesMistral.py
   - python:providers/mistral.py
   - python:providers/llama3.py
-  - python:providers/capybaraHermesMistral.py
   - python:providers/discolm.py
   - python:providers/mistral-finetune-q4.py
   - python:providers/mistral-finetune-q8.py
-
+  - python:providers/mistral-finetune-huggingface-old.py
+  - python:providers/mistral-finetune-huggingface-new.py
 
 tests:
   - input/tests.yaml
 
-outputPath: 'output/output3.json'
-
-
+#outputPath: 'output/promptfoo/output_xy.json'
 # screen -S promptfoo
 #promptfoo eval -j 1 --verbose --no-cache
 # detach: CTRL+A D
 # reattach: screen -x or screen -r [pid] or screen -x [name]
 # close screen session: screen -XS <session-id> quit
+
+#  - python:providers/mistral.py
+#  - python:providers/llama3.py
+#  - python:providers/capybaraHermesMistral.py
+#  - python:providers/discolm.py
+#  - python:providers/mistral-finetune-q4.py
+#  - python:providers/mistral-finetune-q8.py
